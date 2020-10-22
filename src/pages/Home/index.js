@@ -11,6 +11,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Footer from '../../components/Footer';
+import MainNavbar from '../../components/MainNavbar';
 
 class Home extends React.Component {
    
@@ -48,24 +49,13 @@ class Home extends React.Component {
         
         return (
             <div className="page-container">
-                <Navbar sticky="top" expand="lg" className="justify-content-center">
-                    <Nav.Link 
-                        onClick={this.handleStory}
-                        className={this.state.isStory ? 'active' : null}
-                    >
-                        <i class="fas fa-align-justify"></i>
-                    </Nav.Link>
-                    <Nav.Link 
-                        onClick={this.handleTile}
-                        className={this.state.isTile ? 'active' : null}
-                    >
-                        <i class="fas fa-th-large"></i>
-                    </Nav.Link>
-                </Navbar>
+
+                <MainNavbar 
+                    onClick={()=> this.handleTile()}
+                />
 
                 {/* Page Content */}
-                {isStory ? <Story /> : null}
-                {isTile ? <Tile /> : null}
+                {isStory ? <Story /> : <Tile />}
                 
                 <Footer />
 

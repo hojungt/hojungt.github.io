@@ -6,13 +6,20 @@ import Card from "react-bootstrap/Card";
 
 class Tile extends React.Component {
 
-    render () {
+    handleCardClick = (param) => (event) => {
+        this.props.onSelectCard(param);
+        event.preventDefault();
+        console.log("card clicked");
+    }
+
+    render() {
         return (
             <div className="container" id="container-tile">
+                <h1>Rachael Tseng's Portfolio</h1>
                 <div className="row">
                     <div className="col-lg-4">
                         <h1>Web Application</h1>
-                        <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '18rem' }} onClick={this.handleCardClick("groundcycle")}>
                             <Card.Img variant="top" src="images/rachael_tseng_01.png" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>

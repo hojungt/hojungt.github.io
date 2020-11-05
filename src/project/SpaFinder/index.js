@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Questgiver() {
+export default function SpaFinder() {
 
     return (
         <p />

@@ -1,20 +1,49 @@
 // React
 import React from "react";
 
+// Components
+import Tab from '../../components/Tab';
+
 class Story extends React.Component {
 
-    render () {
+    handleTabClick = (param) => (event) => {
+        this.props.onSelectTab(param);
+        event.preventDefault();
+        console.log("tab clicked");
+    }
+
+    render() {
         return (
             <div className="container" id="container-story">
                 <div className="row justify-content-center">
                     <div className="col-lg-10 col-sm-10">
                         <p className="story">
-                            Hello, I am 
-                            <a className="resume" href="/"> Rachael Tseng</a>, a Front-end Web Developer. 
-                            <br />I believe good design can change lives. Practicing with my best, I am
-                            <a className="resume" href="/"> versatile</a>, open to 
-                            <a className="project-arch" href="/"> radical ideas</a>, and always challenging myself to solve the 
-                            <a className="project-code" href="/"> greater problems</a>.
+                            Hello, I am&nbsp;
+                            <Tab 
+                                name="Rachael Tseng" 
+                                onClick={this.handleTabClick("profile")} 
+                                className="resume"
+                            />
+                            , a Front-end Web Developer.
+                            <br />I believe good design can change lives. Practicing with my best, I am&nbsp;
+                            <Tab 
+                                name="versatile" 
+                                onClick={this.handleTabClick("skills")} 
+                                className="resume"
+                            />
+                            , open to&nbsp;
+                            <Tab 
+                                name="radical ideas" 
+                                onClick={this.handleTabClick("thesis")} 
+                                className="project-arch"
+                            />
+                            , and always challenging myself to solve&nbsp;
+                            <Tab 
+                                name="the greater problem" 
+                                onClick={this.handleTabClick("groundcycle")} 
+                                className="project-code"
+                            />
+                            .
                         </p>
                         <p className="story">
                             I have rich experience in

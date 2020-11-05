@@ -28,7 +28,7 @@ class Story extends React.Component {
                             <a className="project-other" href="/"> digital photography</a>.
                         </p>
                         <p className="story">
-                            <a className="resume">Let's work together!</a>
+                            <a className="resume" href="/">Let's work together!</a>
                         </p>
                     </div>
                 </div>

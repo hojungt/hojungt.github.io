@@ -3,7 +3,9 @@ import React from 'react';
 export default function SomethingBorrowed() {
 
     return (
-        <p />
+        <p>
+            Something Borrowed
+        </p>
     )
 
 }

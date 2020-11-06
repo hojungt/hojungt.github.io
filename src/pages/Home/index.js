@@ -28,22 +28,39 @@ class Home extends React.Component {
         // initial state for content switch
         super(props);
         this.state = {
-            pageView: "story",
+            navView: "story",
+            pageView: "",
+            contentDisplay: false,
         };
         // bind
         this.handlePageChange = this.handlePageChange.bind(this);
     }
 
+    handleNavChange = (event) => {
+        this.setState({
+            navView: event,
+            pageView: "",
+            contentDisplay: false,
+        })
+    }
+
     handlePageChange = (event) => {
         this.setState({
             pageView: event,
+            contentDisplay: true,
         })
+    }
+
+    navSwitch() {
+        switch (this.state.navView) {
+            case 'story': return <Story onSelectTab={this.handlePageChange}/>;
+            case 'tile': return <Tile onSelectCard={this.handlePageChange}/>;
+            default: return <Story />;
+        }
     }
 
     renderSwitch() {
         switch (this.state.pageView) {
-            case 'story': return <Story onSelectTab={this.handlePageChange}/>;
-            case 'tile': return <Tile onSelectCard={this.handlePageChange}/>;
             case 'aoa': return <AoA />;
             case 'drawing': return <Drawing />;
             case 'greenwich': return <Greenwich />;
@@ -56,15 +73,21 @@ class Home extends React.Component {
             case 'profile': return <Profile />;
             case 'skills': return <Skills />;
             case 'contact': return <Contact />;
-            default: return <Story />;
+            default: return ;
         }
     }
 
     render() {
+
+        const isContentDisplay = this.state.contentDisplay;
         return (
             <div className="container-page">
-                <MainNavbar onSelectPage={this.handlePageChange}/>
-                { this.renderSwitch() }
+                <MainNavbar onSelectPage={this.handleNavChange}/>
+
+                { isContentDisplay ? this.renderSwitch() : this.navSwitch() }
+
+                { console.log(this.state.navView) }
+                { console.log(this.state.pageView)}
                 <Footer />
             </div>
         );

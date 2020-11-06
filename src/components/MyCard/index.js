@@ -1,5 +1,6 @@
 import React from "react";
 
+// not used
 function MyCard(props) {
     return (
         <img 

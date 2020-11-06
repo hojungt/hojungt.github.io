@@ -34,7 +34,7 @@ class Story extends React.Component {
                             <Tab 
                                 name="radical ideas" 
                                 onClick={this.handleTabClick("thesis")} 
-                                className="project-arch"
+                                className="project-other"
                             />
                             , and always challenging myself to solve&nbsp;
                             <Tab 

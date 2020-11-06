@@ -1,5 +1,13 @@
 [
     {
+        "id": 3,
+        "name": "thesis",
+        "image": "aoa.png",
+        "title": "Chicken Memorial",
+        "text": "some test text3"
+    },
+    
+    {
         "id": 0,
         "name": "drawing",
         "image": "aoa.png",

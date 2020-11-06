@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function Tab(props) {
-
     return (
         <a 
             href="/" 
@@ -10,5 +9,4 @@ export default function Tab(props) {
             {props.name}
         </a>
     )
-
 }

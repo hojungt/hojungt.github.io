@@ -7,7 +7,7 @@ class MainNavbar extends React.Component {
     handleNavClick = (param) => (event) => {
         this.props.onSelectPage(param);
         event.preventDefault();
-        console.log("clicked");
+        console.log("nav clicked");
     }
 
     render() {

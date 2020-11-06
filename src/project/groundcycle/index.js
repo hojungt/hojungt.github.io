@@ -16,9 +16,9 @@ function Groundcycle() {
                     <p>Wireframe: Axure XP</p>
                     <p>Language: React MongoDB Express Node</p>
                     <div>
-                        <a className="footer" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt"><i class="far fa-file-code"></i> original code</a>
-                        <a className="footer" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt"><i class="fas fa-globe"></i> website</a>
-                        <a className="footer" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt"><i class="fab fa-instagram"></i> instagram</a>
+                        <a className="footer" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt"><i className="far fa-file-code"></i> original code</a>
+                        <a className="footer" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt"><i className="fas fa-globe"></i> website</a>
+                        <a className="footer" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt"><i className="fab fa-instagram"></i> instagram</a>
                     </div>
                 </div>
             </div>

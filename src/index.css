@@ -171,6 +171,14 @@ footer {
   text-align: center;
 }
 
+.card {
+  width: 18rem;
+}
+
+.card-img {
+  opacity: 50%;
+}
+
 /* .card-header {
 
 }

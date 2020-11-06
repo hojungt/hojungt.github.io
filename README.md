@@ -1,3 +1,3 @@
 # Portfolio
 
-Please click [here](https://hojungt.github.io/react-portfolio/) to visit my portfolio.
+Please click [here](https://hojungt.github.io/) to visit my portfolio.

@@ -6,6 +6,7 @@ import Tile from '../Tile';
 import Story from '../../pages/Story';
 
 import AoA from '../../project/AoA';
+import Drawing from '../../project/Drawing';
 import Greenwich from '../../project/Greenwich';
 import Groundcycle from '../../project/Groundcycle';
 import Questgiver from '../../project/Questgiver';
@@ -13,6 +14,7 @@ import SomethingBorrowed from '../../project/SomethingBorrowed';
 import SpaFinder from '../../project/SomethingBorrowed';
 import Thesis from '../../project/Thesis';
 import Contact from '../../resume/Contact';
+import Photography from '../../project/Photography';
 import Profile from '../../resume/Profile';
 import Skills from '../../resume/Skills';
 
@@ -43,12 +45,14 @@ class Home extends React.Component {
             case 'story': return <Story onSelectTab={this.handlePageChange}/>;
             case 'tile': return <Tile onSelectCard={this.handlePageChange}/>;
             case 'aoa': return <AoA />;
+            case 'drawing': return <Drawing />;
             case 'greenwich': return <Greenwich />;
             case 'groundcycle': return <Groundcycle />;
             case 'questgiver': return <Questgiver />;
             case 'something-borrowed': return <SomethingBorrowed />;
             case 'spafinder': return <SpaFinder />;
             case 'thesis': return <Thesis />;
+            case 'photography': return <Photography />;
             case 'profile': return <Profile />;
             case 'skills': return <Skills />;
             case 'contact': return <Contact />;

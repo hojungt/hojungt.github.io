@@ -1,0 +1,33 @@
+[
+    {
+        "id": 0,
+        "name": "greenwich",
+        "image": "aoa.png",
+        "title": "125 Greenwich Street",
+        "text": "some test text0"
+    },
+
+    {
+        "id": 1,
+        "name": "aoa",
+        "image": "aoa.png",
+        "title": "531 Avenue of the Americas",
+        "text": "some test text1"
+    },
+
+    {
+        "id": 2,
+        "name": "spafinder",
+        "image": "aoa.png",
+        "title": "SpaFinder",
+        "text": "some test text2"
+    },
+
+    {
+        "id": 3,
+        "name": "thesis",
+        "image": "aoa.png",
+        "title": "Chicken Memorial",
+        "text": "some test text3"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "id": 0,
+        "name": "groundcycle",
+        "image": "aoa.png",
+        "title": "Groundcycle",
+        "text": "some test text0"
+    },
+
+    {
+        "id": 1,
+        "name": "something-borrowed",
+        "image": "aoa.png",
+        "title": "Something Borrowed Something Lent",
+        "text": "some test text1"
+    },
+
+    {
+        "id": 2,
+        "name": "questgiver",
+        "image": "aoa.png",
+        "title": "Questgiver!",
+        "text": "some test text2"
+    }
+]

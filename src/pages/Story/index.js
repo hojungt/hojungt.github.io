@@ -24,8 +24,7 @@ class Story extends React.Component {
                                 onClick={this.handleTabClick("profile")} 
                                 className="resume"
                             />
-                            , a Front-end Web Developer.
-                            <br />I believe good design can change lives. Practicing with my best, I am&nbsp;
+                            , a Front-end Web Developer. <br />I believe good design can change lives. Practicing with my best, I am&nbsp;
                             <Tab 
                                 name="versatile" 
                                 onClick={this.handleTabClick("skills")} 
@@ -46,18 +45,51 @@ class Story extends React.Component {
                             .
                         </p>
                         <p className="story">
-                            I have rich experience in
-                            <a className="project-arch" href="/"> architecture</a> and 
-                            <a className="project-arch" href="/"> interior design</a>, and I have worked with professionals across many disciplinaries. 
-                            I am now pursuing an expertise in 
-                            <a className="project-arch" href="/"> Front-end Design</a> and 
-                            <a className="resume" href="/"> User Experience</a>. Aside from work, I enjoy 
-                            <a className="project-other" href="/"> drawing</a>, 
-                            <a className="project-code" href="/"> gaming</a>, and 
-                            <a className="project-other" href="/"> digital photography</a>.
+                            I have rich experience in&nbsp;
+                            <Tab 
+                                name="architecture" 
+                                onClick={this.handleTabClick("greenwich")} 
+                                className="project-arch"
+                            />
+                            &nbsp;and&nbsp;
+                            <Tab 
+                                name="interior design" 
+                                onClick={this.handleTabClick("aoa")} 
+                                className="project-arch"
+                            />
+                            , and I have worked with professionals across many disciplinaries. 
+                            I am now pursuing an expertise in&nbsp;
+                            <Tab 
+                                name="Front-end Design and User Experience" 
+                                onClick={this.handleTabClick("skills")} 
+                                className="resume"
+                            />
+                            . Aside from work, I enjoy&nbsp;
+                            <Tab 
+                                name="drawing" 
+                                onClick={this.handleTabClick("drawing")} 
+                                className="project-other"
+                            />
+                            ,&nbsp;
+                            <Tab 
+                                name="gaming" 
+                                onClick={this.handleTabClick("questgiver")} 
+                                className="project-code"
+                            />
+                            , and&nbsp;
+                            <Tab 
+                                name="photography" 
+                                onClick={this.handleTabClick("photography")} 
+                                className="project-other"
+                            />
+                            .
                         </p>
                         <p className="story">
-                            <a className="resume" href="/">Let's work together!</a>
+                            <Tab 
+                                name="Let's work together!" 
+                                onClick={this.handleTabClick("contact")} 
+                                className="resume"
+                            />
                         </p>
                     </div>
                 </div>

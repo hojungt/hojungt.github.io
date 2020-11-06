@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "name": "drawing",
+        "image": "aoa.png",
+        "title": "Drawing",
+        "text": "some test text0"
+    },
+
+    {
+        "id": 1,
+        "name": "photography",
+        "image": "aoa.png",
+        "title": "Photography",
+        "text": "some test text1"
+    }
+]

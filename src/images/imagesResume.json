@@ -1,0 +1,25 @@
+[
+    {
+        "id": 0,
+        "name": "profile",
+        "image": "aoa.png",
+        "title": "About Me",
+        "text": "some test text0"
+    },
+
+    {
+        "id": 1,
+        "name": "skills",
+        "image": "aoa.png",
+        "title": "Skills & Certificates",
+        "text": "some test text1"
+    },
+
+    {
+        "id": 2,
+        "name": "contact",
+        "image": "aoa.png",
+        "title": "Contact",
+        "text": "some test text2"
+    }
+]

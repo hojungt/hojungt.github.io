@@ -1,13 +1,13 @@
 import React from "react";
 
-function Card(props) {
+function MyCard(props) {
     return (
         <img 
-            className="img-fluid img-thumbnail"
+            name={props.name}
             alt={props.name}
-            src={require("../images/" + props.image)}
+            src={require("../../images/" + props.image)}
+            className="card-img-top"
             style={style}
-
         />
     )
 }
@@ -17,4 +17,4 @@ const style = {
     maxWidth: "200px"
 };
 
-export default Card;
+export default MyCard;

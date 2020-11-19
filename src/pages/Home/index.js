@@ -1,10 +1,14 @@
 // React
 import React from 'react';
 
-// Content
-import Tile from '../Tile';
-import Story from '../../pages/Story';
+// Sections
+import Main from '../../section/Main';
+import RecentWork from '../../section/RecentWork';
+import SelectedWork from '../../section/SelectedWork';
+import About from '../../section/About';
+import Contact from '../../section/Contact';
 
+// Projects
 import AoA from '../../project/AoA';
 import Drawing from '../../project/Drawing';
 import Greenwich from '../../project/Greenwich';
@@ -13,15 +17,10 @@ import Questgiver from '../../project/Questgiver';
 import SomethingBorrowed from '../../project/SomethingBorrowed';
 import SpaFinder from '../../project/SomethingBorrowed';
 import Thesis from '../../project/Thesis';
-import Contact from '../../resume/Contact';
 import Photography from '../../project/Photography';
-import Profile from '../../resume/Profile';
-import Skills from '../../resume/Skills';
 
 // Components
-import HomeSection from '../../components/HomeSection';
 import NavMain from '../../components/NavMain';
-import NavBack from '../../components/NavBack';
 import Footer from '../../components/Footer';
 
 class Home extends React.Component {
@@ -38,27 +37,11 @@ class Home extends React.Component {
         this.handlePageChange = this.handlePageChange.bind(this);
     }
 
-    handleNavChange = (event) => {
-        this.setState({
-            navView: event,
-            pageView: "",
-            contentDisplay: false,
-        })
-    }
-
     handlePageChange = (event) => {
         this.setState({
             pageView: event,
             contentDisplay: true,
         })
-    }
-
-    navSwitch() {
-        switch (this.state.navView) {
-            case 'story': return <Story onSelectTab={this.handlePageChange}/>;
-            case 'tile': return <Tile onSelectCard={this.handlePageChange}/>;
-            default: return <Story />;
-        }
     }
 
     renderSwitch() {
@@ -72,9 +55,6 @@ class Home extends React.Component {
             case 'spafinder': return <SpaFinder />;
             case 'thesis': return <Thesis />;
             case 'photography': return <Photography />;
-            case 'profile': return <Profile />;
-            case 'skills': return <Skills />;
-            case 'contact': return <Contact />;
             default: return ;
         }
     }
@@ -85,22 +65,16 @@ class Home extends React.Component {
 
         return (
             <div className="container-page">
-                
-                <HomeSection />
 
-                { isContentDisplay ? 
-                    <NavBack 
-                        onSelectPage={this.handleNavChange} 
-                        dataA={this.state.navView}
-                    />
-                    :
-                    <NavMain 
-                        onSelectPage={this.handleNavChange} 
-                        dataA={this.state.navView}
-                    />     
-                }
+                <NavMain />
 
-                { isContentDisplay ? this.renderSwitch() : this.navSwitch() }
+                <Main />
+                <RecentWork />
+                <SelectedWork />
+                <About />
+                <Contact />
+
+                { isContentDisplay ? this.renderSwitch() : null }
 
                 { console.log(this.state.navView) }
                 { console.log(this.state.pageView) }

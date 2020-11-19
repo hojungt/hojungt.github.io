@@ -20,9 +20,13 @@ code {
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:200i|Noto+Sans|Noto+Sans+TC|PT+Serif&display=swap');
 
 /* containers */
-body {
-  font-size: 15px;
-  background: white;
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin-top: 200px;
 }
 
 .container-page {
@@ -31,26 +35,15 @@ body {
   min-height: 100vh;
 }
 
-#container-story {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-#container-tile {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-#container-detail {
-  margin-top: 60px;
-  margin-bottom: 60;
+.row {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 /* text */
 h1 {
-  border-bottom-style: none;
+  font-family: 'PT Serif', serif;
   font-size: 28px;
-  font-family: 'Noto Sans', sans-serif;
 }
 
 h1.footer {
@@ -94,20 +87,46 @@ p {
   color: gray;
 }
 
-p.story{
-  font-size: 30px;
-  font-family: 'PT Serif', serif;
-  color: black;
-  line-height: 200%;
-  margin-bottom: 1.5rem;
-  /* text-indent: 100px; */
+/* section */
+
+
+/* component - navbar */
+
+.navbar {
+  background-color: #ffffff95;
 }
 
-span {
-  color: red;
+.nav-link {
+  color: #888888;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  margin: 0 10px;
+  border-bottom-style: solid;
+  border-width: 3px;
+  border-color: transparent;
 }
 
-/* links and buttons */
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: #555555;
+  border-bottom-style: solid;
+  border-width: 3px;
+  border-color: #555555;
+}
+
+/* component - footer */
+
+footer {
+  color: grey;
+  background-color: black;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: auto;
+  text-align: center;
+}
+
 a.footer {
   color: lightgray;
   margin-left: 4px;
@@ -120,55 +139,7 @@ a.footer:active {
   color: white;
 }
 
-.nav-link {
-  color: gray;
-  font-size: 16px;
-  font-family: 'Noto Sans', sans-serif;
-  margin: 0 10px;
-  padding: 0;
-  text-align: center;
-  width: 60px;
-}
-
-.nav-link:hover,
-.nav-link:focus,
-.nav-link:active {
-  border-style: solid;
-  border-width: 1px;
-  border-color: yellow;
-  border-radius: 5px;
-  color: black;
-}
-
-.resume {
-  color: green;
-}
-
-.project-code {
-  color: blue;
-}
-
-.project-arch {
-  color: red;
-}
-
-.project-other {
-  color: orange;
-}
-
-/* components */
-.navbar {
-  background-color: orange;
-}
-
-footer {
-  color: grey;
-  background-color: black;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  margin-top: auto;
-  text-align: center;
-}
+/* component - card */
 
 .card {
   width: 18rem;
@@ -178,14 +149,67 @@ footer {
   opacity: 50%;
 }
 
-/* .card-header {
+/* background images */
 
+.img-bg-main,
+.img-bg-recent-work,
+.img-bg-selected-work,
+.img-bg-selected-work-more,
+.img-bg-about,
+.img-bg-contact {
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative
 }
 
-.card-header:hover {
-
+.img-bg-main {
+  background-image: url("images/elena-joland-mjeQon0Mh_Q-unsplash.jpg");
+}
+.img-bg-recent-work {
+  background-image: url("images/bench-accounting-xxeAftHHq6E-unsplash.jpg");
+}
+.img-bg-selected-work {
+  background-image: url("images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg");
+}
+.img-bg-selected-work-more {
+  background-image: url("images/bench-accounting-nvzvOPQW0gc-unsplash.jpg");
+}
+.img-bg-about {
+  background-image: url("images/scott-webb-zblX5hM9rp8-unsplash.jpg");
+  transform: scaleX(-1);
+}
+.img-bg-contact {
+  background-image: url("images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
 }
 
-hr {
+/* opacity adjustment */
+.img-bg-main::before,
+.img-bg-recent-work::before,
+.img-bg-selected-work::before,
+.img-bg-selected-work-more::before,
+.img-bg-about::before,
+.img-bg-contact::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #ffffff80;
+}
 
+#img-profile {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #ffffff;
+}
+
+/* .test {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin-top: 200px;
 } */

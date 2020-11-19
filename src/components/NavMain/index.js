@@ -4,42 +4,46 @@ import { Nav, Navbar } from 'react-bootstrap';
 
 class NavMain extends React.Component {
 
-    handleNavClick = (param) => (event) => {
-        this.props.onSelectPage(param);
-        event.preventDefault();
-    }
-
     render() {
-
-        const dataA = this.props.dataA;
-
-        let isStory = "";
-        if ( dataA === "story" ) {
-            isStory = true
-        } else {
-            isStory = false
-        }
-
         return (
-            <Navbar sticky="top" expand="lg" className="justify-content-center">
-                <Navbar.Brand href="/">Portfolio</Navbar.Brand>
-                { isStory ? 
+            <Navbar fixed="top" expand="lg">
+                <Navbar.Brand href="#">
+                    <img 
+                        src="/logo_RT.png"
+                        width="60"
+                        height="60"
+                        alt="logo_RT"
+                    />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="nav-main">
+                <Nav className="ml-auto">
                     <Nav.Link
-                        onClick={this.handleNavClick("tile")}
                         className="nav-icon"
-                        id="tile"
+                        href="#recent-work"
                     >
-                        <i className="fas fa-th-large"></i>
+                        Recent Work
                     </Nav.Link>
-                    : 
                     <Nav.Link
-                        onClick={this.handleNavClick("story")}
                         className="nav-icon"
-                        id="story"
+                        href="#selected-work"
                     >
-                        <i className="fas fa-book-open"></i>
+                        Selected Work
                     </Nav.Link>
-                }
+                    <Nav.Link
+                        className="nav-icon"
+                        href="#about"
+                    >
+                        About
+                    </Nav.Link>
+                    <Nav.Link
+                        className="nav-icon"
+                        href="#contact"
+                    >
+                        Contact
+                    </Nav.Link>
+                </Nav>
+                </Navbar.Collapse>
             </Navbar>
         )   
     }

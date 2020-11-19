@@ -4,6 +4,11 @@ import React from "react";
 // Components
 import Tab from '../../components/Tab';
 
+// Animation
+import styled, { keyframes } from 'styled-components';
+import { fadeInUp } from 'react-animations';
+const FadeInUp = styled.div`animation: 1s ${keyframes`${fadeInUp}`};`;
+
 class Story extends React.Component {
 
     handleTabClick = (param) => (event) => {
@@ -14,6 +19,7 @@ class Story extends React.Component {
 
     render() {
         return (
+            <FadeInUp>
             <div className="container" id="container-story">
                 <div className="row justify-content-center">
                     <div className="col-lg-10 col-sm-10">
@@ -94,7 +100,7 @@ class Story extends React.Component {
                     </div>
                 </div>
             </div>
-    
+            </FadeInUp>
         )
     }
 };

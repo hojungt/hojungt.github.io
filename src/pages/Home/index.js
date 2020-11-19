@@ -19,8 +19,10 @@ import Profile from '../../resume/Profile';
 import Skills from '../../resume/Skills';
 
 // Components
+import HomeSection from '../../components/HomeSection';
+import NavMain from '../../components/NavMain';
+import NavBack from '../../components/NavBack';
 import Footer from '../../components/Footer';
-import MainNavbar from '../../components/MainNavbar';
 
 class Home extends React.Component {
    
@@ -80,15 +82,31 @@ class Home extends React.Component {
     render() {
 
         const isContentDisplay = this.state.contentDisplay;
+
         return (
             <div className="container-page">
-                <MainNavbar onSelectPage={this.handleNavChange}/>
+                
+                <HomeSection />
+
+                { isContentDisplay ? 
+                    <NavBack 
+                        onSelectPage={this.handleNavChange} 
+                        dataA={this.state.navView}
+                    />
+                    :
+                    <NavMain 
+                        onSelectPage={this.handleNavChange} 
+                        dataA={this.state.navView}
+                    />     
+                }
 
                 { isContentDisplay ? this.renderSwitch() : this.navSwitch() }
 
                 { console.log(this.state.navView) }
-                { console.log(this.state.pageView)}
+                { console.log(this.state.pageView) }
+                
                 <Footer />
+
             </div>
         );
     }

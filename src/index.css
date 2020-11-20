@@ -31,26 +31,28 @@ body, html {
   min-height: 100vh;
 }
 
-.row {
+/* .row {
   padding-left: 3rem;
   padding-right: 3rem;
-}
+} */
 
 /* text */
 h1 {
   font-family: 'PT Serif', serif;
   font-size: 28px;
+  color: #333333;
 }
 
 h1.footer {
   font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
+  color: #888888;
 }
 
 h2 {
-  color: black;
   font-family: 'PT Serif', serif;
   font-size: 24px;
+  color: #333333;
   line-height: 180%;
   margin-bottom: 1rem;
 }
@@ -58,29 +60,36 @@ h2 {
 h3 {
   font-size: 20px;
   font-weight: bold;
+  color: #888888;
   /* margin-bottom: 12px; */
-  color: gray;
 
 }
 
 h4 {
   font-size: 16px;
-  color: gray;
+  color: #888888;
 }
 
 h5 {
   font-size: 14px;
-  color: gray;
+  color: #888888;
   font-family: 'Noto Sans', sans-serif;
 }
 
 h6 {
   font-size: 12px;
+  color: #888888;
 }
 
 p {
   font-family: 'PT Serif', serif;
-  color: gray;
+  color: #888888;
+}
+
+a {
+  font-family: 'Noto Sans', sans-serif;
+  color: #888888;
+  text-decoration: none;
 }
 
 /* section */
@@ -89,7 +98,7 @@ p {
 /* component - navbar */
 
 .navbar {
-  background-color: #ffffff95;
+  background-color: #ffffff99;
 }
 
 .nav-link {
@@ -115,8 +124,8 @@ p {
 /* component - footer */
 
 footer {
-  color: grey;
-  background-color: black;
+  color: #888888;
+  background-color: #333333;
   padding-top: 14px;
   padding-bottom: 14px;
   margin-top: auto;
@@ -124,7 +133,7 @@ footer {
 }
 
 a.footer {
-  color: lightgray;
+  color: #cccccc;
   margin-left: 4px;
   margin-right: 4px;
 }
@@ -132,7 +141,7 @@ a.footer {
 a.footer:hover,
 a.footer:focus,
 a.footer:active {
-  color: white;
+  color: #ffffff;
 }
 
 /* component - card */
@@ -203,9 +212,19 @@ a.footer:active {
   border-color: #ffffff;
 }
 
-/* .test {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  margin-top: 200px;
-} */
+/* button not aligning at center of page? */
+
+#btn-test {
+  padding: 6px 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888888;
+}
+
+#btn-div-test {
+  position: absolute;
+  bottom: 0;
+  width: 50vw;
+  transform: translate(100%);
+  margin-bottom: 40px;
+}

@@ -31,11 +31,6 @@ body, html {
   min-height: 100vh;
 }
 
-/* .row {
-  padding-left: 3rem;
-  padding-right: 3rem;
-} */
-
 /* text */
 h1 {
   font-family: 'PT Serif', serif;
@@ -71,9 +66,9 @@ h4 {
 }
 
 h5 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
   color: #888888;
-  font-family: 'Noto Sans', sans-serif;
 }
 
 h6 {
@@ -99,6 +94,19 @@ a {
 
 .navbar {
   background-color: #ffffff99;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    background-color: #ffffff;
+  }
+}
+
+.navbar:hover,
+.navbar:focus,
+.navbar:active {
+  background-color: #ffffff;
 }
 
 .nav-link {
@@ -144,16 +152,6 @@ a.footer:active {
   color: #ffffff;
 }
 
-/* component - card */
-
-.card {
-  width: 18rem;
-}
-
-.card-img {
-  opacity: 50%;
-}
-
 /* background images */
 
 .img-bg-main,
@@ -183,7 +181,6 @@ a.footer:active {
 }
 .img-bg-about {
   background-image: url("images/scott-webb-zblX5hM9rp8-unsplash.jpg");
-  transform: scaleX(-1);
 }
 .img-bg-contact {
   background-image: url("images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
@@ -210,21 +207,57 @@ a.footer:active {
   border-style: solid;
   border-width: 6px;
   border-color: #ffffff;
+  max-width: 200px;
 }
 
-/* button not aligning at center of page? */
+/* component - card */
 
-#btn-test {
-  padding: 6px 12px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #888888;
+.card {
+  border-color: #cccccc;
 }
+
+.card-title {
+  font-family: 'PT Serif', serif;
+  color: #333333;
+}
+
+.card-text {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+}
+
+.card-img {
+  padding: 20px;
+}
+
+
+/* component - buttons */
 
 #btn-div-test {
   position: absolute;
   bottom: 0;
-  width: 50vw;
-  transform: translate(100%);
-  margin-bottom: 40px;
+  width: 100vw;
+  text-align: center;
+}
+
+#btn-test {
+  color: #888888;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888888;
+  padding: 12px;
+  margin-bottom: 7rem;
+  transition: 0.3s;
+}
+
+#btn-test:hover,
+#btn-test:focus,
+#btn-test:active {
+  background-color: #ffffff;
+}
+
+.btn {
+  border: 1px solid #9cbd6f;
+  color: #9cbd6f;
+  font-size: 12px;
 }

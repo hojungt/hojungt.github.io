@@ -2,24 +2,33 @@
     {
         "id": 0,
         "name": "groundcycle",
-        "image": "aoa.png",
+        "className": "",
+        "image": "logo_Groundcycle.png",
         "title": "Groundcycle",
-        "text": "some test text0"
+        "text": "A compost collection and produce delivery service based in Brooklyn, New York.",
+        "website": "https://groundcycle.herokuapp.com/",
+        "details": ""
     },
 
     {
         "id": 1,
         "name": "something-borrowed",
-        "image": "aoa.png",
-        "title": "Something Borrowed Something Lent",
-        "text": "some test text1"
+        "className": "order-sm-first",
+        "image": "icon.png",
+        "title": "Something Borrowed",
+        "text": "A web app designed for small communities to borrow or lend items.",
+        "website": "https://something-borrowed-2019.herokuapp.com/",
+        "details": ""
     },
 
     {
         "id": 2,
         "name": "questgiver",
-        "image": "aoa.png",
+        "className": "",
+        "image": "wizard.png",
         "title": "Questgiver!",
-        "text": "some test text2"
+        "text": "A simple game-search engine to browse and explore new games.",
+        "website": "https://rzhanghu64.github.io/projects/api-project-1/index.html",
+        "details": ""
     }
 ]

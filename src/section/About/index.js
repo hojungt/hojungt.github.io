@@ -18,24 +18,51 @@ export default function About() {
                                     I am now an active member at <b>Interaction Design Foundation</b>, learning UI and UX design.
                                 </p>
 
-                                <a href="#recent-work" className="btn">Download Resume</a>
+                                <a href="#recent-work" className="btn"><i className="fas fa-file-download"></i> Download Resume</a>
                             </div>
                             <div className="col-12 col-lg-6">
                                 <h2>Skills</h2>
-                                <i className="devicon-javascript-plain"></i>
-                                <i className="devicon-html5-plain-wordmark"></i>
-                                <i className="devicon-css3-plain-wordmark"></i>
-                                <i className="devicon-bootstrap-plain-wordmark"></i>
+                                <div className="row">
+                                    <div className="col-2">
+                                        <i className="skill devicon-javascript-plain"></i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i className="skill devicon-html5-plain-wordmark"></i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i className="skill devicon-css3-plain-wordmark"></i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i className="skill devicon-bootstrap-plain-wordmark"></i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i className="skill devicon-react-original-wordmark"></i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i className="skill devicon-nodejs-plain"></i>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-2">
+                                        <i className="skill devicon-mongodb-plain-wordmark"></i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i className="skill devicon-heroku-original-wordmark"></i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i className="skill devicon-illustrator-line"></i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i>(axure)</i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i>(revit)</i>
+                                    </div>
+                                    <div className="col-2">
+                                        <i>(cad)</i>
+                                    </div>
+                                </div>
 
-                                <i className="devicon-react-original-wordmark"></i>
-                                <i className="devicon-nodejs-plain"></i>
-                                <i className="devicon-mongodb-plain-wordmark"></i>
-                                <i className="devicon-heroku-original-wordmark"></i>
-
-                                <i className="devicon-illustrator-line"></i>
-                                <i>axure </i>
-                                <i>revit </i>
-                                <i>autocad </i>
                             </div>
                         </div>
                     </div>   

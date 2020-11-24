@@ -87,6 +87,11 @@ a {
   text-decoration: none;
 }
 
+i.skill {
+  color: #888888;
+  font-size: 40px;
+}
+
 /* section */
 
 
@@ -227,9 +232,19 @@ a.footer:active {
 }
 
 .card-img {
-  padding: 20px;
+  height: 25vh;
+  object-fit: cover;
 }
 
+/* .card-img-overlay {
+  padding: 40px;
+} */
+
+.card-test {
+  background-color: #ffffff99;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
 
 /* component - buttons */
 
@@ -260,4 +275,10 @@ a.footer:active {
   border: 1px solid #9cbd6f;
   color: #9cbd6f;
   font-size: 12px;
+  background-color: #ffffff;
+  margin: 4px;
 }
+
+/* a:first-child {
+  color: red;
+} */

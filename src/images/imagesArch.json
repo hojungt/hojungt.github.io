@@ -2,24 +2,32 @@
     {
         "id": 0,
         "name": "greenwich",
-        "image": "aoa.png",
+        "className": "",
+        "image": "project_125greenwich.jpg",
         "title": "125 Greenwich Street",
-        "text": "some test text0"
+        "text": "some test text0",
+        "website": "https://www.125greenwich.com/",
+        "details": ""
     },
 
     {
         "id": 1,
         "name": "aoa",
-        "image": "aoa.png",
+        "className": "order-sm-first",
+        "image": "project_531aoa.jpg",
         "title": "531 Avenue of the Americas",
-        "text": "some test text1"
+        "text": "some test text1",
+        "details": ""
     },
 
     {
         "id": 2,
         "name": "spafinder",
-        "image": "aoa.png",
+        "className": "",
+        "image": "project_spafinder.jpg",
         "title": "SpaFinder",
-        "text": "some test text2"
+        "text": "some test text2",
+        "website": "https://triarch.com/2016/02/22/spafinder/",
+        "details": ""
     }
 ]

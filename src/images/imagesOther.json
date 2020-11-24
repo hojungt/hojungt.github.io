@@ -2,24 +2,30 @@
     {
         "id": 3,
         "name": "thesis",
-        "image": "aoa.png",
+        "className": "",
+        "image": "other_thesis.jpg",
         "title": "Chicken Memorial",
-        "text": "some test text3"
+        "text": "some test text3",
+        "details": ""
     },
     
     {
         "id": 0,
         "name": "drawing",
-        "image": "aoa.png",
+        "className": "",
+        "image": "other_drawing.jpg",
         "title": "Drawing",
-        "text": "some test text0"
+        "text": "some test text0",
+        "details": ""
     },
 
     {
         "id": 1,
         "name": "photography",
-        "image": "aoa.png",
+        "className": "",
+        "image": "other_photography.jpg",
         "title": "Photography",
-        "text": "some test text1"
+        "text": "some test text1",
+        "details": ""
     }
 ]

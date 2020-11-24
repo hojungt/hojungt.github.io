@@ -11,7 +11,7 @@ export default function Main() {
                         <div className="row justify-content-center">
                             <div className="col-12 col-lg-5">
                                 <h1>Hi, I'm Rachael Tseng,<br />a Front End Web Developer.</h1>
-                                <p>Previously an architect, I eat, sleep, and breath to solve wicked design problems.</p>
+                                <p>Previously an architect, I eat, sleep, and breathe to solve design problems.</p>
                             </div>
                             <div className="col-12 col-lg-3" align="center">
                                 <img 

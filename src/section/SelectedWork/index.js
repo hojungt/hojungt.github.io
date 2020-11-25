@@ -8,8 +8,8 @@ import imagesOther from "../../images/imagesOther.json";
 export default function SelectedWork() {
     return (
         <div>
-            <div className="img-bg-selected-work" id="selected-work">
-                <div className="container h-100">
+            <div className="img-bg-selected-work container-child">
+                <div className="container h-100" id="selected-work">
                     <div className="row h-100 justify-content-center align-items-center">
                         <div className="col-12">
                         <h1>Selected Work</h1>
@@ -31,7 +31,7 @@ export default function SelectedWork() {
                                                 >
                                                     website
                                                 </a> */}
-                                                <a href="#" className="btn">details</a>
+                                                <a href={`/selected-works/` + image.details} className="btn">details</a>
                                             </div>
 
                                         </div>
@@ -45,8 +45,8 @@ export default function SelectedWork() {
                 </div>
             </div>
 
-            <div className="img-bg-selected-work-more" id="selected-work-more">
-                <div className="container h-100">
+            <div className="img-bg-selected-work-more container-child">
+                <div className="container h-100" id="selected-work-more">
                     <div className="row h-100 justify-content-center align-items-center">
                         <div className="col-12">
                         <h1>and more...</h1>
@@ -60,7 +60,7 @@ export default function SelectedWork() {
                                         <div className="card-img-overlay">
                                             <div className="card-test">
                                                 <h3 className="card-title">{image.title}</h3>
-                                                <a href="#" className="btn">details</a>
+                                                <a href={`/selected-works/` + image.details} className="btn">details</a>
                                             </div>
 
                                         </div>

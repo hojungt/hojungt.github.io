@@ -4,7 +4,7 @@ import image from "../../images/rachael-tseng.jpg";
 
 export default function Main() {
     return (
-        <div className="img-bg-main">
+        <div className="img-bg-main container-child">
             <div className="container h-100" id="main">
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">

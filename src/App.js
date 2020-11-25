@@ -1,15 +1,19 @@
 // React
 import React from 'react';
 
-// Page
-import Home from './pages/Home';
+// Component
+import PageRouter from './components/PageRouter';
+import NavMain from './components/NavMain';
 
 // Stylesheets
 import './App.css';
 
 function App() {
   return (
-    <Home />
+    <div className="container-page">
+      <NavMain />
+      <PageRouter />
+    </div>
   );
 }
 

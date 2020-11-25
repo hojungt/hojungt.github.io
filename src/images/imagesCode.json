@@ -7,7 +7,7 @@
         "title": "Groundcycle",
         "text": "A compost collection and produce delivery service based in Brooklyn, New York.",
         "website": "https://groundcycle.herokuapp.com/",
-        "details": ""
+        "details": "#groundcycle"
     },
 
     {
@@ -18,7 +18,7 @@
         "title": "Something Borrowed",
         "text": "A web app designed for small communities to borrow or lend items.",
         "website": "https://something-borrowed-2019.herokuapp.com/",
-        "details": ""
+        "details": "#something-borrowed"
     },
 
     {
@@ -29,6 +29,6 @@
         "title": "Questgiver!",
         "text": "A simple game-search engine to browse and explore new games.",
         "website": "https://rzhanghu64.github.io/projects/api-project-1/index.html",
-        "details": ""
+        "details": "#questgiver"
     }
 ]

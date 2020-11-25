@@ -6,7 +6,7 @@
         "image": "other_thesis.jpg",
         "title": "Chicken Memorial",
         "text": "some test text3",
-        "details": ""
+        "details": "#thesis"
     },
     
     {
@@ -16,7 +16,7 @@
         "image": "other_drawing.jpg",
         "title": "Drawing",
         "text": "some test text0",
-        "details": ""
+        "details": "#drawing"
     },
 
     {
@@ -26,6 +26,6 @@
         "image": "other_photography.jpg",
         "title": "Photography",
         "text": "some test text1",
-        "details": ""
+        "details": "#photography"
     }
 ]

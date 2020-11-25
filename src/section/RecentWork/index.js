@@ -6,7 +6,7 @@ import imagesCode from "../../images/imagesCode.json";
 
 export default function RecentWork() {
     return (
-        <div className="img-bg-recent-work">
+        <div className="img-bg-recent-work container-child">
             <div className="container h-100" id="recent-work">
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
@@ -29,7 +29,7 @@ export default function RecentWork() {
                                                 >
                                                     website
                                                 </a>
-                                                <a href="#" className="btn">details</a>
+                                                <a href={`/recent-works/` + image.details} className="btn">details</a>
                                             </div>
                                         </div>
                                         {/* <div className="row no-gutters">

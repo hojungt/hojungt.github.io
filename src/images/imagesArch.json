@@ -7,7 +7,7 @@
         "title": "125 Greenwich Street",
         "text": "some test text0",
         "website": "https://www.125greenwich.com/",
-        "details": ""
+        "details": "#greenwich"
     },
 
     {
@@ -17,7 +17,7 @@
         "image": "project_531aoa.jpg",
         "title": "531 Avenue of the Americas",
         "text": "some test text1",
-        "details": ""
+        "details": "#aoa"
     },
 
     {
@@ -28,6 +28,6 @@
         "title": "SpaFinder",
         "text": "some test text2",
         "website": "https://triarch.com/2016/02/22/spafinder/",
-        "details": ""
+        "details": "#spafinder"
     }
 ]

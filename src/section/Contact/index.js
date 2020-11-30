@@ -15,11 +15,22 @@ export default function Contact() {
                                 <a href="#recent-work" className="btn"><i className="fas fa-file-download"></i>&nbsp;Resume</a>
                             </div>
                             <div className="col-12 col-lg-6">
-                                <p>
-                                    "From basic questions to granular details, Rachael provided clear explanations and suggested valuable solutions for the new web service. I appreciate her intellect and skills as well as her friendly personality."
-                                    <br />
-                                    - Juyoun H., Partner, A.I. Fairness & Data Privacy Litigation
-                                </p>
+                                <div className="section-quote">
+                                    <p className="quote">
+                                        "From basic questions to granular details, Rachael provided clear explanations and suggested valuable solutions for the new web service. I appreciate her intellect and skills as well as her friendly personality."
+                                    </p>
+                                    <p className="name">
+                                        - Juyoun H., Partner, A.I. Fairness & Data Privacy Litigation
+                                    </p>
+                                </div>
+                                <div className="section-quote">
+                                    <p className="quote">
+                                        " It is Rachael’s ability to balance both the nuances of creative interpretation and the practical problem solving of design production that make her someone any client would be excited to work with."
+                                    </p>
+                                    <p className="name">
+                                        - Jared V., Interior Designer, Beyer Blinder Belle
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

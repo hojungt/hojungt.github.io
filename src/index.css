@@ -107,6 +107,18 @@ p.footer {
   color: #888888;
 }
 
+p.quote {
+  color: #333333;
+  padding: 12px;
+  margin: 0;
+}
+
+p.name {
+  color: #888888;
+  padding: 12px;
+  margin: 0;
+}
+
 a {
   font-family: 'Noto Sans', sans-serif;
   color: #888888;
@@ -125,6 +137,10 @@ i.skill {
 
 /* section */
 
+.section-quote {
+  background-color: white;
+  border-radius: 12px;
+}
 
 /* component - navbar */
 
@@ -311,7 +327,7 @@ a.footer:active {
   background-color: #ffffff;
 }
 
-/* onLoad animation */
+/* OnLoad Animation */
 
 @keyframes fadeIn { 
   0% { opacity: 0; } 
@@ -331,6 +347,10 @@ a.footer:active {
   animation: fadeIn ease 3s forwards; 
 } 
 
+.navbar-toggler {
+  animation: fadeIn ease 3s forwards; 
+}
+
 nav::after {
   content: "";
   position: absolute;
@@ -342,15 +362,32 @@ nav::after {
   transform: scaleX(0);
 }
 
-nav::after {
-  animation: scaleIn 1.3s ease-in 0.2s forwards;
-}
+/* Animations for just the homepage */
 
-.navbar-brand {
+.navbar-brand.custom-animation{
   animation: fadeIn ease 2.5s forwards; 
 }
 
-.collapse > * {
+.container-parent.custom-animation { 
+  animation: fadeIn ease 3s forwards;
+} 
+
+.collapse.custom-animation > * {
   transform: translateY(-50px);
   animation: slideIn 1s ease-in 1s forwards;
+}
+
+nav.custom-animation::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #9cbd6f;
+  transform: scaleX(0);
+}
+
+nav.custom-animation::after {
+  animation: scaleIn 1.3s ease-in 0.2s forwards;
 }

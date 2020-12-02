@@ -8,61 +8,67 @@ export default function About() {
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
                         <div className="row justify-content-center">
-                            <div className="col-12 col-lg-6">
+                            <div className="col-12 col-lg-7">
                                 <h2>About me</h2>
-                                <div id="test-bg">
-                                    <p>
-                                        I received my <b>Full-Stack Web Development</b> certificate from Columbia University.
+                                <div className="section-about">
+                                    <p className="about">
+                                        Before becoming a web developer, I specialized in residential design.
+                                        This experience has taught me my design impact on people's behavior and emotion. It prompts me to always approach design with empathy and pursue better solutions.
                                         <br />
-                                        Before becoming a web developer, I was a practicing architect at <b>Rafael Vinoly Architect</b> and <b>Whitehall Interiors</b>, with a Bachelor of Architecture from Cornell University.
-                                        <br />
-                                        I am an active member at <b>Interaction Design Foundation</b>, expanding my knowledge in UI and UX design.
+                                    </p>
+                                    <p className="about">
+                                        To expand my creativity beyond the physical medium, I transitioned into coding. 
+                                        Explore possibilities in design beyond the physical medium.
                                     </p>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-6">
+                            <div className="col-12 col-lg-5">
                                 <h2>Skills</h2>
-                                <div className="row">
-                                    <div className="col-2">
-                                        <i className="skill devicon-javascript-plain"></i>
+                                <div className="mb-4">
+                                    <div className="row justify-content-center align-items-center">
+                                        <div className="col-2">
+                                            <i className="skill devicon-javascript-plain"></i>
+                                        </div>
+                                        <div className="col-2">
+                                            <i className="skill devicon-html5-plain-wordmark"></i>
+                                        </div>
+                                        <div className="col-2">
+                                            <i className="skill devicon-css3-plain-wordmark"></i>
+                                        </div>
+                                        <div className="col-2">
+                                            <i className="skill devicon-react-original-wordmark"></i>
+                                        </div>
+                                        <div className="col-2">
+                                            <i className="skill devicon-bootstrap-plain-wordmark"></i>
+                                        </div>
                                     </div>
-                                    <div className="col-2">
-                                        <i className="skill devicon-html5-plain-wordmark"></i>
-                                    </div>
-                                    <div className="col-2">
-                                        <i className="skill devicon-css3-plain-wordmark"></i>
-                                    </div>
-                                    <div className="col-2">
-                                        <i className="skill devicon-bootstrap-plain-wordmark"></i>
-                                    </div>
-                                    <div className="col-2">
-                                        <i className="skill devicon-react-original-wordmark"></i>
-                                    </div>
-                                    <div className="col-2">
-                                        <i className="skill devicon-nodejs-plain"></i>
+                                    <div className="row justify-content-center align-items-center">
+                                        <div className="col-2">
+                                            <i className="skill devicon-nodejs-plain"></i>
+                                        </div>
+                                        <div className="col-2">
+                                            <i className="skill devicon-mongodb-plain-wordmark"></i>
+                                        </div>
+                                        <div className="col-2">
+                                            <i className="skill devicon-heroku-original-wordmark"></i>
+                                        </div>
+                                        <div className="col-2">
+                                            <i className="skill fab fa-sketch"></i>
+                                        </div>
+                                        <div className="col-2">
+                                            <i className="skill devicon-illustrator-line"></i>
+                                        </div>
+                                        {/* <div className="col-2">
+                                            <i className="skill fab fa-figma"></i>
+                                        </div> */}
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-2">
-                                        <i className="skill devicon-mongodb-plain-wordmark"></i>
-                                    </div>
-                                    <div className="col-2">
-                                        <i className="skill devicon-heroku-original-wordmark"></i>
-                                    </div>
-                                    <div className="col-2">
-                                        <i className="skill devicon-illustrator-line"></i>
-                                    </div>
-                                    <div className="col-2">
-                                        <i>(axure)</i>
-                                    </div>
-                                    <div className="col-2">
-                                        <i>(revit)</i>
-                                    </div>
-                                    <div className="col-2">
-                                        <i>(cad)</i>
-                                    </div>
-                                </div>
-
+                                <h2>Experience</h2>
+                                <p>Architectural Designer & Revit Specialist | Whitehall Interiors</p>
+                                <p>Architectural Designer | Rafael Vinoly Architects</p>
+                                <h2>Credentials</h2>
+                                <p>Front End Web Development Certificate | Columbia University</p>
+                                <p>Bachelor of Architecture | Cornell University</p>
                             </div>
                         </div>
                     </div>   

@@ -9,15 +9,19 @@ import Photography from '../../project/Photography';
 import SpaFinder from '../../project/SpaFinder';
 import Thesis from '../../project/Thesis';
 
+// Components
+import Footer from '../../components/Footer';
+
 export default function SelectedWorks() {
     return (
-        <div>
+        <div className="container-parent detail">
             <AoA />
             <Drawing />
             <Greenwich />
             <Photography />
             <SpaFinder />
             <Thesis />
+            <Footer />                
         </div>
     )
 }

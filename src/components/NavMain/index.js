@@ -20,25 +20,25 @@ class NavMain extends React.Component {
                 <Nav className="ml-auto">
                     <Nav.Link
                         className="nav-icon"
-                        href="#recent-work"
+                        href="/#recent-work"
                     >
                         Recent Work
                     </Nav.Link>
                     <Nav.Link
                         className="nav-icon"
-                        href="#selected-work"
+                        href="/#selected-work"
                     >
                         Selected Work
                     </Nav.Link>
                     <Nav.Link
                         className="nav-icon"
-                        href="#about"
+                        href="/#about"
                     >
                         About
                     </Nav.Link>
                     <Nav.Link
                         className="nav-icon"
-                        href="#contact"
+                        href="/#contact"
                     >
                         Contact
                     </Nav.Link>

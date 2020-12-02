@@ -3,7 +3,7 @@ import React from 'react';
 
 function Groundcycle() {
     return (
-        <div className="container" id="container-detail">
+        <div className="container" id="groundcycle">
             <div className="row justify-content-center">
                 <div className="col-lg-6">
                     <img style={{ width: "100%" }} src="images/rachael_tseng_01.png" alt="project-groundcycle"/>

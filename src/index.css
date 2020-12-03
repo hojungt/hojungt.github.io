@@ -110,6 +110,12 @@ p.about {
   text-indent: 5%;
 }
 
+p.skill {
+  color: #333333;
+  margin: 20px;
+  text-align: center;
+}
+
 p.contact {
   color: #333333;
 }
@@ -154,6 +160,7 @@ i.skill {
   background-color: white;
   border-radius: 6px;
   border: 1px solid #9cbd6f;
+  margin-bottom: 12px;
 }
 
 .section-quote {
@@ -352,7 +359,10 @@ a.footer:active {
 
 @media screen and (max-width: 576px) {
   .card-img {
-    height: 18vh;
+    height: 15vh;
+  }
+  .div-card {
+    margin-bottom: 12px;
   }
 }
 
@@ -496,3 +506,9 @@ nav.custom-animation::after {
 .container-parent.detail { 
   animation: fadeIn ease 1.5s forwards; 
 } 
+
+
+
+.test {
+  margin: 10px;
+}

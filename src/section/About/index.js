@@ -14,20 +14,21 @@ export default function About() {
                                     <p className="about">
                                         Before web development, I specialized in architecture and residential design.
                                         My experience has taught me to design with people's behavior and emotion in mind. 
-                                        It also prompts me to always approach design with empathy and search for better solutions. 
                                     </p>
                                     <p className="about">
-                                        More than exploring creativity in the digital environment, 
-                                        I transition into web development to create useful and meaningful projects.
+                                        I code to create useful and meaningful projects for our daily lives.
+                                        Beyond exploring creativity in the digital environment, 
+                                        I wish to empathize with users' needs and challenges, in search for better solutions.
                                     </p>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-5">
                                 <h2>Skills</h2>
                                 <div className="section-about mb-4">
-                                    <p className="about">
-                                        Aside from softwares and digital tools, I have
+                                    <p className="skill">
+                                        Tools and technologies I use:
                                     </p>
+                                    <div className="test">
                                         <div className="row justify-content-center align-items-center">
                                             <div className="col-2">
                                                 <i className="skill devicon-javascript-plain"></i>
@@ -45,6 +46,8 @@ export default function About() {
                                                 <i className="skill devicon-bootstrap-plain-wordmark"></i>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div className="test">
                                         <div className="row justify-content-center align-items-center">
                                             <div className="col-2">
                                                 <i className="skill devicon-nodejs-plain"></i>
@@ -61,10 +64,11 @@ export default function About() {
                                             <div className="col-2">
                                                 <i className="skill devicon-illustrator-line"></i>
                                             </div>
-                                            {/* <div className="col-2">
-                                                <i className="skill fab fa-figma"></i>
-                                            </div> */}
                                         </div>
+                                    </div>
+                                    <p className="skill">
+                                        hell ya
+                                    </p>
                                 </div>
                             </div>
                         </div>

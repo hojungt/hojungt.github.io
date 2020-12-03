@@ -4,6 +4,9 @@ import React from "react";
 // Project images and details
 import imagesCode from "../../images/imagesCode.json";
 
+// npm
+import { HashLink } from 'react-router-hash-link';
+
 export default function RecentWork() {
     return (
         <div className="img-bg-recent-work container-child">
@@ -15,7 +18,7 @@ export default function RecentWork() {
 
                         <div className="row justify-content-center">
                             { imagesCode.map((image) => ( 
-                                <div className={`col-12 col-sm-6 col-md-4 col-lg-4 ` + image.className} key={image.id} id={image.id}>
+                                <div className={`col-12 col-sm-6 col-md-4 col-lg-4 div-card ` + image.className} key={image.id} id={image.id}>
                                     <div className="card h-100" align="center">
                                         <img className="card-img" src={require("../../images/" + image.image)} alt={image.name} />
                                         <div className="card-img-overlay d-flex justify-content-center align-items-center">
@@ -29,12 +32,18 @@ export default function RecentWork() {
                                                 >
                                                     website
                                                 </a>
-                                                <a 
+                                                {/* <a 
                                                     href={`/recent-works/` + image.details} 
                                                     className="btn"
                                                 >
                                                     details
-                                                </a>
+                                                </a> */}
+                                                <HashLink
+                                                    to={`/recent-works/` + image.details} 
+                                                    className="btn"
+                                                >
+                                                    details
+                                                </HashLink>
                                             </div>
                                         </div>
 

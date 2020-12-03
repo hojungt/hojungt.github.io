@@ -2,6 +2,9 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 
+// npm
+import { NavHashLink } from 'react-router-hash-link';
+
 class NavMain extends React.Component {
 
     render() {
@@ -18,7 +21,33 @@ class NavMain extends React.Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className="custom-animation" id="nav-main">
                 <Nav className="ml-auto custom-animation">
-                    <Nav.Link
+
+                    <NavHashLink
+                        to="/#recent-work"
+                        className="nav-icon"
+                    >
+                        Recent Work
+                    </NavHashLink>
+                    <NavHashLink
+                        to="/#selected-work"
+                        className="nav-icon"
+                    >
+                        Selected Work
+                    </NavHashLink>
+                    <NavHashLink
+                        to="/#about"
+                        className="nav-icon"
+                    >
+                        About
+                    </NavHashLink>
+                    <NavHashLink
+                        to="/#contact"
+                        className="nav-icon"
+                    >
+                        Contact
+                    </NavHashLink>
+
+                    {/* <Nav.Link
                         className="nav-icon"
                         href="/#recent-work"
                     >
@@ -41,7 +70,7 @@ class NavMain extends React.Component {
                         href="/#contact"
                     >
                         Contact
-                    </Nav.Link>
+                    </Nav.Link> */}
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>

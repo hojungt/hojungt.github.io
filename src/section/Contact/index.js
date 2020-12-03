@@ -20,9 +20,9 @@ export default function Contact() {
                         <div className="row justify-content-center" align="center">
                             <div className="col-12 col-lg-12">
                             <p className="contact">What my recommenders say about me:</p>
-                                <div id="carousel-recommendations" class="carousel slide" data-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
+                                <div id="carousel-recommendations" className="carousel slide" data-ride="carousel">
+                                    <div className="carousel-inner">
+                                        <div className="carousel-item active">
                                             <div className="section-quote">
                                                 <p className="quote">
                                                     <i className="fas fa-quote-left"></i>&nbsp;From basic questions to granular details, Rachael provided clear explanations and suggested valuable solutions for the new web service. I appreciate her intellect and skills as well as her friendly personality.&nbsp;<i className="fas fa-quote-right"></i>
@@ -34,7 +34,7 @@ export default function Contact() {
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
+                                        <div className="carousel-item">
                                             <div className="section-quote">
                                                 <p className="quote">
                                                     <i className="fas fa-quote-left"></i>&nbsp;It is Rachael’s ability to balance both the nuances of creative interpretation and the practical problem solving of design production that make her someone any client would be excited to work with.&nbsp;<i className="fas fa-quote-right"></i>
@@ -46,7 +46,7 @@ export default function Contact() {
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="carousel-item">
+                                        <div className="carousel-item">
                                             <div className="section-quote">
                                                 <p className="quote">
                                                     <i className="fas fa-quote-left"></i>&nbsp;Rachael is patient, knowledgeable, organized and adds tons of value to the team. She’s extremely detail oriented and shows great interest and care for the projects she’s involved in.&nbsp;<i className="fas fa-quote-right"></i>
@@ -59,13 +59,13 @@ export default function Contact() {
                                             </div>
                                         </div>
                                     </div>
-                                    <a class="carousel-control-prev" href="#carousel-recommendations" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
+                                    <a className="carousel-control-prev" href="#carousel-recommendations" role="button" data-slide="prev">
+                                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span className="sr-only">Previous</span>
                                     </a>
-                                    <a class="carousel-control-next" href="#carousel-recommendations" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
+                                    <a className="carousel-control-next" href="#carousel-recommendations" role="button" data-slide="next">
+                                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span className="sr-only">Next</span>
                                     </a>
                                 </div>
                             </div>

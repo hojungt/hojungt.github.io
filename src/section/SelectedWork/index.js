@@ -17,7 +17,7 @@ export default function SelectedWork() {
                         
                         <div className="row justify-content-center">
                             { imagesArch.map((image) => ( 
-                                <div className={`col-12 col-sm-6 col-md-4 col-lg-4 ` + image.className} key={image.id} id={image.id}>
+                                <div className={`col-12 col-sm-6 col-md-4 col-lg-4 div-card ` + image.className} key={image.id} id={image.id}>
                                     <div className="card h-100" align="center">
                                         <img className="card-img" src={require("../../images/" + image.image)} alt={image.name} />
                                         <div className="card-img-overlay d-flex justify-content-center align-items-center">
@@ -61,7 +61,7 @@ export default function SelectedWork() {
 
                         <div className="row justify-content-center">
                             { imagesOther.map((image) => ( 
-                                <div className={`col-12 col-sm-6 col-md-4 col-lg-4 ` + image.className} key={image.id} id={image.id}>
+                                <div className={`col-12 col-sm-6 col-md-4 col-lg-4 div-card ` + image.className} key={image.id} id={image.id}>
                                     <div className="card h-100" align="center">
                                         <img className="card-img" src={require("../../images/" + image.image)} alt={image.name} />
                                         <div className="card-img-overlay d-flex justify-content-center align-items-center">

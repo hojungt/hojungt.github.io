@@ -34,20 +34,9 @@ body, html {
   min-height: 100vh;
 }
 
-/* section */
-
-.section-about {
-  background-color: white;
-  border-radius: 6px;
-  border: 1px solid #9cbd6f;
-}
-
-.section-quote {
-  background-color: #ffffff99;
-  border-radius: 12px;
-}
 
 /* text */
+
 h1 {
   font-family: 'PT Serif', serif;
   font-size: 28px;
@@ -72,6 +61,7 @@ h2 {
   font-size: 24px;
   color: #333333;
   margin-bottom: 16px;
+  text-indent: 5%;
 }
 
 h3 {
@@ -117,6 +107,7 @@ p.footer {
 p.about {
   color: #333333;
   margin: 20px;
+  text-indent: 5%;
 }
 
 p.contact {
@@ -155,6 +146,21 @@ i.skill {
 .hr-custom {
   border-top: 1px solid #bbbbbb;
   width: 30px;
+}
+
+/* text-div */
+
+.section-about {
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #9cbd6f;
+}
+
+.section-quote {
+  background-color: #ffffff99;
+  border-radius: 12px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
 }
 
 /* component - navbar */
@@ -209,6 +215,24 @@ nav::after {
   border-color: #555555;
 }
 
+/* component - carousel */
+
+.carousel-inner {
+  width: 45vw;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-inner {
+    width: 70vw;
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 12vw;
+  filter: invert(50%);
+}
+
 /* component - footer */
 
 footer {
@@ -216,15 +240,6 @@ footer {
   background-color: #333333;
   padding-top: 10vh;
   padding-bottom: 10vh;
-}
-
-h1.footer > a {
-  color: #9cbd6f;
-}
-
-a.footer {
-  color: #cccccc;
-  /* color: #9cbd6f; */
 }
 
 .footer > a {
@@ -235,6 +250,21 @@ a.footer:hover,
 a.footer:focus,
 a.footer:active {
   color: #ffffff;
+}
+
+#footer-name {
+  color: #9cbd6f;
+}
+
+#footer-name:hover,
+#footer-name:focus,
+#footer-name:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#social-link {
+  padding: 4px;
 }
 
 /* background images */
@@ -307,17 +337,12 @@ a.footer:active {
   color: #333333;
 }
 
-.card-text {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 14px;
-}
-
 .card-img {
   height: 30vh;
   object-fit: cover;
 }
 
-.card-test {
+.card-overlay {
   background-color: #ffffff99;
   border: 1px solid #cccccc;
   padding: 10px;
@@ -332,7 +357,7 @@ a.footer:active {
 }
 
 @media screen and (min-width: 576px) {
-  .card-test {
+  .card-overlay {
     min-height: 122px;
   }
 }

@@ -21,7 +21,7 @@ export default function SelectedWork() {
                                     <div className="card h-100" align="center">
                                         <img className="card-img" src={require("../../images/" + image.image)} alt={image.name} />
                                         <div className="card-img-overlay d-flex justify-content-center align-items-center">
-                                            <div className="card-test">
+                                            <div className="card-overlay">
                                                 <h3 className="card-title">{image.title}</h3>
                                                 {/* <a 
                                                     className="btn"
@@ -65,7 +65,7 @@ export default function SelectedWork() {
                                     <div className="card h-100" align="center">
                                         <img className="card-img" src={require("../../images/" + image.image)} alt={image.name} />
                                         <div className="card-img-overlay d-flex justify-content-center align-items-center">
-                                            <div className="card-test">
+                                            <div className="card-overlay">
                                                 <h3 className="card-title">{image.title}</h3>
                                                 <a href={`/selected-works/` + image.details} className="btn">details</a>
                                             </div>

@@ -6,7 +6,7 @@ class NavMain extends React.Component {
 
     render() {
         return (
-            <Navbar fixed="top" expand="lg" className="header">
+            <Navbar fixed="top" expand="sm" className="header">
                 <Navbar.Brand href="/">
                     <img 
                         src="/logo_RT.png"

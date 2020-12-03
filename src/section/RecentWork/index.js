@@ -19,7 +19,7 @@ export default function RecentWork() {
                                     <div className="card h-100" align="center">
                                         <img className="card-img" src={require("../../images/" + image.image)} alt={image.name} />
                                         <div className="card-img-overlay d-flex justify-content-center align-items-center">
-                                            <div className="card-test">
+                                            <div className="card-overlay">
                                                 <h3 className="card-title">{image.title}</h3>
                                                 <a 
                                                     className="btn"
@@ -29,7 +29,12 @@ export default function RecentWork() {
                                                 >
                                                     website
                                                 </a>
-                                                <a href={`/recent-works/` + image.details} className="btn">details</a>
+                                                <a 
+                                                    href={`/recent-works/` + image.details} 
+                                                    className="btn"
+                                                >
+                                                    details
+                                                </a>
                                             </div>
                                         </div>
 

@@ -22,12 +22,12 @@ export default function PageRouter() {
                     <Home />
                 </Route>
 
-                <Route path="/recent-works">
+                <Route exact path="/recent-works">
                     <NavMain />
                     <RecentWorks />
                 </Route>
 
-                <Route path="/selected-works">
+                <Route exact path="/selected-works">
                     <NavMain />
                     <SelectedWorks />
                 </Route>

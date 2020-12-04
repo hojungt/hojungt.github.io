@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30057657c68defa1ed6f45fb0f135a9e",
+    "revision": "f2387ab8634581216c5c3b25833dc2e7",
     "url": "/index.html"
   },
   {
-    "revision": "5d4047691bdc489694fe",
-    "url": "/static/css/main.8d1f7891.chunk.css"
+    "revision": "7a061ee7b946ea46601f",
+    "url": "/static/css/main.03ccc585.chunk.css"
   },
   {
-    "revision": "d010f85f11f794b35250",
-    "url": "/static/js/2.2fa26f47.chunk.js"
+    "revision": "8f1a12fe8522e092ca34",
+    "url": "/static/js/2.1bd45c19.chunk.js"
   },
   {
     "revision": "36b3a2123f180e082ee45d579f114228",
-    "url": "/static/js/2.2fa26f47.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1bd45c19.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d4047691bdc489694fe",
-    "url": "/static/js/main.10d14fbd.chunk.js"
+    "revision": "7a061ee7b946ea46601f",
+    "url": "/static/js/main.5c7606d1.chunk.js"
   },
   {
     "revision": "dd8147bbe7734801bdde",
@@ -32,8 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bench-accounting-xxeAftHHq6E-unsplash.6597a09c.jpg"
   },
   {
+    "revision": "ad00fd6ca3ba535986f097e5cea86ef9",
+    "url": "/static/media/bruno-emmanuelle-ORo_hNxd4Ks-unsplash.ad00fd6c.jpg"
+  },
+  {
     "revision": "5cec7648811ef81f5725b7cc9c4024bd",
     "url": "/static/media/elena-joland-mjeQon0Mh_Q-unsplash.5cec7648.jpg"
+  },
+  {
+    "revision": "cd0c52e01b9870391efc1b50e0564558",
+    "url": "/static/media/isaac-benhesed-onLbXleIkds-unsplash.cd0c52e0.jpg"
   },
   {
     "revision": "583689282a70830fcdc405df2caae548",
@@ -88,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/samantha-gades-BlIhVfXbi9s-unsplash.e78a1490.jpg"
   },
   {
-    "revision": "7ddff99ff5da3ca646b5a1df8f38c73b",
-    "url": "/static/media/scott-webb-zblX5hM9rp8-unsplash.7ddff99f.jpg"
+    "revision": "ce6fc54ccdbbde7ac52ce78912bad470",
+    "url": "/static/media/scott-webb-zblX5hM9rp8-unsplash.ce6fc54c.jpg"
   },
   {
     "revision": "dd4b3dcf0eb62c0cde2c44eebbc403dc",

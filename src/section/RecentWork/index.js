@@ -32,12 +32,6 @@ export default function RecentWork() {
                                                 >
                                                     website
                                                 </a>
-                                                {/* <a 
-                                                    href={`/recent-works/` + image.details} 
-                                                    className="btn"
-                                                >
-                                                    details
-                                                </a> */}
                                                 <HashLink
                                                     to={`/recent-works/` + image.details} 
                                                     className="btn"

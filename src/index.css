@@ -68,8 +68,17 @@ h3 {
   font-size: 20px;
   font-weight: bold;
   color: #888888;
-  /* margin-bottom: 12px; */
+}
 
+h3.skill {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px; 
+  font-weight: normal;
+  color: #555555;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 h4 {
@@ -106,13 +115,15 @@ p.footer {
 
 p.about {
   color: #333333;
-  margin: 20px;
   text-indent: 5%;
+  margin-top: 8px;
 }
 
 p.skill {
-  color: #333333;
-  margin: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px; 
+  color: #555555;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -142,7 +153,7 @@ a {
 
 i.skill {
   color: #888888;
-  font-size: 40px;
+  font-size: 34px;
 }
 
 .quote > i {
@@ -157,10 +168,12 @@ i.skill {
 /* text-div */
 
 .section-about {
-  background-color: white;
+  background-color: #ffffff99;
   border-radius: 6px;
-  border: 1px solid #9cbd6f;
+  border: 1px solid #cccccc;
   margin-bottom: 12px;
+  padding: 12px 20px;
+  min-height: 240px;
 }
 
 .section-quote {
@@ -194,6 +207,10 @@ nav::after {
   .navbar-toggler {
     background-color: #ffffff;
   }
+  .navbar-brand > img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .navbar:hover,
@@ -207,12 +224,15 @@ nav::after {
   font-size: 16px;
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
   margin: 0 10px;
   border-bottom-style: solid;
   border-width: 3px;
-  border-color: transparent;
+  border-color: #ffffff00;
 }
 
+.nav-link-active,
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
@@ -281,7 +301,8 @@ a.footer:active {
 .img-bg-selected-work,
 .img-bg-selected-work-more,
 .img-bg-about,
-.img-bg-contact {
+.img-bg-contact,
+.img-bg-not-found {
   height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -307,6 +328,9 @@ a.footer:active {
 .img-bg-contact {
   background-image: url("images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
 }
+.img-bg-not-found {
+  background-image: url("images/isaac-benhesed-onLbXleIkds-unsplash.jpg");
+}
 
 /* opacity adjustment */
 
@@ -315,7 +339,8 @@ a.footer:active {
 .img-bg-selected-work::before,
 .img-bg-selected-work-more::before,
 .img-bg-about::before,
-.img-bg-contact::before {
+.img-bg-contact::before,
+.img-bg-not-found::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -342,6 +367,7 @@ a.footer:active {
 .card-title {
   font-family: 'PT Serif', serif;
   color: #333333;
+  margin-bottom: 8px;
 }
 
 .card-img {
@@ -423,9 +449,10 @@ a.footer:active {
 
 #btn-more {
   color: #888888;
-  border: 1px solid transparent;
+  border: 1px solid #ffffff00;
   border-bottom: 1px solid #888888;
-  background-color: transparent;
+  background-color: #ffffff00;
+  font-size: 16px;
   padding: 4px;
   margin-bottom: 3rem;
   transition: 0.3s;
@@ -494,9 +521,9 @@ nav.custom-animation::after {
   animation: scaleIn 1.3s ease-in 0.2s forwards;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) {
   .collapse.custom-animation > * {
-    transform: translateY(-50px);
+    transform: translateY(-70px);
     animation: slideIn 1s ease-in 1s forwards;
   }
 }
@@ -507,8 +534,6 @@ nav.custom-animation::after {
   animation: fadeIn ease 1.5s forwards; 
 } 
 
-
-
-.test {
-  margin: 10px;
+#div-skill > div {
+  padding: 0 6px
 }

@@ -5,6 +5,9 @@ import React from "react";
 import imagesArch from "../../images/imagesArch.json";
 import imagesOther from "../../images/imagesOther.json";
 
+// npm
+import { HashLink } from 'react-router-hash-link';
+
 export default function SelectedWork() {
     return (
         <div>
@@ -23,17 +26,13 @@ export default function SelectedWork() {
                                         <div className="card-img-overlay d-flex justify-content-center align-items-center">
                                             <div className="card-overlay">
                                                 <h3 className="card-title">{image.title}</h3>
-                                                {/* <a 
+                                                <HashLink
+                                                    to={`/selected-works/` + image.details} 
                                                     className="btn"
-                                                    target="_blank" 
-                                                    rel="noopener noreferrer" 
-                                                    href={image.website} 
                                                 >
-                                                    website
-                                                </a> */}
-                                                <a href={`/selected-works/` + image.details} className="btn">details</a>
+                                                    details
+                                                </HashLink>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -44,11 +43,13 @@ export default function SelectedWork() {
                     </div>
                 </div>
                 <div id="btn-div-more">
-                    <a href="#selected-work-more">
-                        <button id="btn-more">
-                            show more
-                        </button>
-                    </a>
+                    <HashLink
+                        to="#selected-work-more" 
+                        className="btn"
+                        id="btn-more"
+                    >
+                        show more
+                    </HashLink>
                 </div>
             </div>
 
@@ -56,7 +57,7 @@ export default function SelectedWork() {
                 <div className="container h-100" id="selected-work-more">
                     <div className="row h-100 justify-content-center align-items-center" align="center">
                         <div className="col-12">
-                        <h2>and more...</h2>
+                        <h1>and more...</h1>
                         <p>lorem ipsum</p>
 
                         <div className="row justify-content-center">
@@ -79,13 +80,15 @@ export default function SelectedWork() {
                         </div>
                     </div>
                 </div>
-                <div id="btn-div-more">
-                    <a href="#selected-work">
-                        <button id="btn-more">
-                            show less
-                        </button>
-                    </a>
-                </div>
+                {/* <div id="btn-div-more">
+                    <HashLink
+                        to="#selected-work" 
+                        className="btn"
+                        id="btn-more"
+                    >
+                        show less
+                    </HashLink>
+                </div> */}
             </div>
         </div>
     )

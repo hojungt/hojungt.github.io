@@ -21,56 +21,35 @@ class NavMain extends React.Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className="custom-animation" id="nav-main">
                 <Nav className="ml-auto custom-animation">
-
                     <NavHashLink
                         to="/#recent-work"
-                        className="nav-icon"
+                        className="nav-link"
+                        activeClassName="nav-link-active"
                     >
                         Recent Work
                     </NavHashLink>
                     <NavHashLink
                         to="/#selected-work"
-                        className="nav-icon"
+                        className="nav-link"
+                        activeClassName="nav-link-active"
                     >
                         Selected Work
                     </NavHashLink>
                     <NavHashLink
                         to="/#about"
-                        className="nav-icon"
+                        className="nav-link"
+                        activeClassName="nav-link-active"
                     >
                         About
                     </NavHashLink>
                     <NavHashLink
                         to="/#contact"
-                        className="nav-icon"
+                        className="nav-link"
+                        activeClassName="nav-link-active"
                     >
                         Contact
                     </NavHashLink>
 
-                    {/* <Nav.Link
-                        className="nav-icon"
-                        href="/#recent-work"
-                    >
-                        Recent Work
-                    </Nav.Link>
-                    <Nav.Link
-                        className="nav-icon"
-                        href="/#selected-work"
-                    >
-                        Selected Work
-                    </Nav.Link>
-                    <Nav.Link
-                        className="nav-icon"
-                        href="/#about"
-                    >
-                        About
-                    </Nav.Link>
-                    <Nav.Link
-                        className="nav-icon"
-                        href="/#contact"
-                    >
-                        Contact
-                    </Nav.Link> */}
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>

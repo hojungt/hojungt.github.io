@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.03ccc585.chunk.css",
-    "main.js": "/static/js/main.5c7606d1.chunk.js",
-    "main.js.map": "/static/js/main.5c7606d1.chunk.js.map",
+    "main.css": "/static/css/main.0af1d03d.chunk.css",
+    "main.js": "/static/js/main.ed11f730.chunk.js",
+    "main.js.map": "/static/js/main.ed11f730.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.1bd45c19.chunk.js": "/static/js/2.1bd45c19.chunk.js",
-    "static/js/2.1bd45c19.chunk.js.map": "/static/js/2.1bd45c19.chunk.js.map",
+    "static/js/2.eb0ea3cb.chunk.js": "/static/js/2.eb0ea3cb.chunk.js",
+    "static/js/2.eb0ea3cb.chunk.js.map": "/static/js/2.eb0ea3cb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7236c6f8fa2cb9560a57b49af458fe65.js": "/precache-manifest.7236c6f8fa2cb9560a57b49af458fe65.js",
+    "precache-manifest.b7be033ac5d655c84e15b1b81d2152a7.js": "/precache-manifest.b7be033ac5d655c84e15b1b81d2152a7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.03ccc585.chunk.css.map": "/static/css/main.03ccc585.chunk.css.map",
-    "static/js/2.1bd45c19.chunk.js.LICENSE.txt": "/static/js/2.1bd45c19.chunk.js.LICENSE.txt",
+    "static/css/main.0af1d03d.chunk.css.map": "/static/css/main.0af1d03d.chunk.css.map",
+    "static/js/2.eb0ea3cb.chunk.js.LICENSE.txt": "/static/js/2.eb0ea3cb.chunk.js.LICENSE.txt",
     "static/media/bench-accounting-nvzvOPQW0gc-unsplash.jpg": "/static/media/bench-accounting-nvzvOPQW0gc-unsplash.0be33336.jpg",
     "static/media/bench-accounting-xxeAftHHq6E-unsplash.jpg": "/static/media/bench-accounting-xxeAftHHq6E-unsplash.6597a09c.jpg",
     "static/media/bruno-emmanuelle-ORo_hNxd4Ks-unsplash.jpg": "/static/media/bruno-emmanuelle-ORo_hNxd4Ks-unsplash.ad00fd6c.jpg",
@@ -31,12 +31,13 @@
     "static/media/rachael-tseng.jpg": "/static/media/rachael-tseng.bce97db2.jpg",
     "static/media/samantha-gades-BlIhVfXbi9s-unsplash.jpg": "/static/media/samantha-gades-BlIhVfXbi9s-unsplash.e78a1490.jpg",
     "static/media/scott-webb-zblX5hM9rp8-unsplash.jpg": "/static/media/scott-webb-zblX5hM9rp8-unsplash.ce6fc54c.jpg",
+    "static/media/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg": "/static/media/thomas-heintz-0tgMnMIYQ9Y-unsplash.68f32bbb.jpg",
     "static/media/wizard.png": "/static/media/wizard.dd4b3dcf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
-    "static/js/2.1bd45c19.chunk.js",
-    "static/css/main.03ccc585.chunk.css",
-    "static/js/main.5c7606d1.chunk.js"
+    "static/js/2.eb0ea3cb.chunk.js",
+    "static/css/main.0af1d03d.chunk.css",
+    "static/js/main.ed11f730.chunk.js"
   ]
 }

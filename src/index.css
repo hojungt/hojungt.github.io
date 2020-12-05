@@ -556,3 +556,12 @@ nav.custom-animation::after {
 .container-parent.not-found { 
   animation: fadeIn ease 1.5s forwards; 
 } 
+
+
+/* test area */
+
+#scroll-box {
+  height: 200px;
+  background-color: #ffffff;
+  padding: 20px;  
+}

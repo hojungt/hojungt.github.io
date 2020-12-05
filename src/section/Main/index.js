@@ -1,9 +1,11 @@
 // React
 import React from "react";
-import image from "../../images/rachael-tseng.jpg";
 
 // npm
 import { HashLink } from "react-router-hash-link";
+
+// images
+import image from "../../images/rachael-tseng.jpg";
 
 export default function Main() {
     return (

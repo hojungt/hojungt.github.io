@@ -11,8 +11,12 @@ export default function Contact() {
                             <div className="col-12 col-lg-12">
                                 <h1>Let's work together!</h1>
                                 <p className="contact">Reach out with opportunies, to discuss my work, or just chat.</p>
-                                <a href="mailto:hojungt@gmail.com" className="btn"><i className="fab fa-telegram-plane"></i>&nbsp;Get in Touch</a>
-                                <a href="#recent-work" className="btn"><i className="fas fa-file-download"></i>&nbsp;Download Resume</a>
+                                <a className="btn contact" href="mailto:hojungt@gmail.com">
+                                    <i className="fab fa-telegram-plane"></i>&nbsp;Email me
+                                </a>
+                                <a className="btn contact" href="https://drive.google.com/file/d/1yb7hlqeTeqGMcrZBbnrv__EERhBnLk5O/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                    <i className="fas fa-file-download"></i>&nbsp;Resume
+                                </a>
                             </div>
                         </div>
                         <hr className="hr-custom"/>

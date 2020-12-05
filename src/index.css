@@ -414,6 +414,12 @@ a.footer:active {
   text-decoration: none;
 }
 
+.btn.contact {
+  font-size: 14px;
+  padding: 6px 14px;
+  margin: 4px 8px;
+}
+
 .btn:hover,
 .btn:focus,
 .btn:active {

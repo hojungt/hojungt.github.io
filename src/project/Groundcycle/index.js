@@ -1,5 +1,5 @@
 // React
-import React from 'react';
+import React from "react";
 
 function Groundcycle() {
     return (
@@ -11,9 +11,7 @@ function Groundcycle() {
                     </div>
                     <div className="col-12 col-lg-5">
                         <h1>Groundcycle</h1>
-                        <p>Type: Web Application</p>
                         <p>Project duration: Aug 2020 - present</p>
-                        <p>Role: Front-end design and development</p>
                         <p>Wireframe: Axure XP</p>
                         <p>Language: React MongoDB Express Node</p>
                         <div>

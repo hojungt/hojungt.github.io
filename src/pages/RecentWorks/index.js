@@ -13,8 +13,8 @@ export default function RecentWorks() {
     return (
         <div className="container-parent detail">
             <Groundcycle />
-            <Questgiver />
             <SomethingBorrowed />
+            <Questgiver />
             <Footer />                
         </div>
     )

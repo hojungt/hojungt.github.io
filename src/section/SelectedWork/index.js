@@ -16,8 +16,7 @@ export default function SelectedWork() {
                     <div className="row h-100 justify-content-center align-items-center" align="center">
                         <div className="col-12">
                         <h1>Selected Work</h1>
-                        <p>lorem ipsum</p>
-                        
+                        <p>Professional architecture and interior design projects.</p>
                         <div className="row justify-content-center">
                             { imagesArch.map((image) => ( 
                                 <div className={`col-12 col-sm-6 col-md-4 col-lg-4 div-card ` + image.className} key={image.id} id={image.id}>
@@ -58,8 +57,7 @@ export default function SelectedWork() {
                     <div className="row h-100 justify-content-center align-items-center" align="center">
                         <div className="col-12">
                         <h1>and more...</h1>
-                        <p>lorem ipsum</p>
-
+                        <p>Creative projects in various media.</p>
                         <div className="row justify-content-center">
                             { imagesOther.map((image) => ( 
                                 <div className={`col-12 col-sm-6 col-md-4 col-lg-4 div-card ` + image.className} key={image.id} id={image.id}>

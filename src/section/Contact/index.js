@@ -12,7 +12,7 @@ export default function Contact() {
                                 <h1>Let's work together!</h1>
                                 <p className="contact">Reach out with opportunies, to discuss my work, or just chat.</p>
                                 <a href="mailto:hojungt@gmail.com" className="btn"><i className="fab fa-telegram-plane"></i>&nbsp;Get in Touch</a>
-                                <a href="#recent-work" className="btn"><i className="fas fa-file-download"></i>&nbsp;My Resume</a>
+                                <a href="#recent-work" className="btn"><i className="fas fa-file-download"></i>&nbsp;Download Resume</a>
                             </div>
                         </div>
                         <hr className="hr-custom"/>

@@ -99,7 +99,7 @@ h6 {
 
 p {
   font-family: 'PT Serif', serif;
-  color: #888888;
+  color: #555555;
 }
 
 p.intro {
@@ -302,6 +302,7 @@ a.footer:active {
 .img-bg-selected-work-more,
 .img-bg-about,
 .img-bg-contact,
+.img-bg-detail,
 .img-bg-not-found {
   height: 100vh;
   background-position: center center;
@@ -328,6 +329,9 @@ a.footer:active {
 .img-bg-contact {
   background-image: url("images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
 }
+.img-bg-detail {
+  background-image: url("images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
+}
 .img-bg-not-found {
   background-image: url("images/isaac-benhesed-onLbXleIkds-unsplash.jpg");
 }
@@ -340,6 +344,7 @@ a.footer:active {
 .img-bg-selected-work-more::before,
 .img-bg-about::before,
 .img-bg-contact::before,
+.img-bg-detail::before,
 .img-bg-not-found::before {
   content: "";
   position: absolute;
@@ -406,6 +411,7 @@ a.footer:active {
   font-size: 12px;
   background-color: #ffffff;
   margin: 4px;
+  text-decoration: none;
 }
 
 .btn:hover,
@@ -421,6 +427,7 @@ a.footer:active {
   bottom: 0;
   width: 100vw;
   text-align: center;
+  transform: translateY(-7rem)
 }
 
 #btn-main {
@@ -428,7 +435,6 @@ a.footer:active {
   border: 1px solid #5e8642;
   background-color: #ffffff;
   padding: 12px;
-  margin-bottom: 7rem;
   transition: 0.3s;
 }
 
@@ -438,6 +444,7 @@ a.footer:active {
   color: #ffffff;
   border-color: #5e8642;
   background-color: #9cbd6f;
+  text-decoration: none;
 }
 
 #btn-div-more {
@@ -528,7 +535,7 @@ nav.custom-animation::after {
   }
 }
 
-/* Detail Page Animation */
+/* Page Animation - Detail*/
 
 .container-parent.detail { 
   animation: fadeIn ease 1.5s forwards; 
@@ -537,3 +544,9 @@ nav.custom-animation::after {
 #div-skill > div {
   padding: 0 6px
 }
+
+/* Page Animation - Not Found */
+
+.container-parent.not-found { 
+  animation: fadeIn ease 1.5s forwards; 
+} 

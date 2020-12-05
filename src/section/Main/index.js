@@ -2,6 +2,9 @@
 import React from "react";
 import image from "../../images/rachael-tseng.jpg";
 
+// npm
+import { HashLink } from "react-router-hash-link";
+
 export default function Main() {
     return (
         <div className="img-bg-main container-child">
@@ -21,24 +24,19 @@ export default function Main() {
                                     id="img-profile"
                                 />
                                 <br />
-                                {/* <a 
-                                    target="_blank" 
-                                    rel="noopener noreferrer" 
-                                    href="http://maps.google.com/?q=Manhattan New York, NY"
-                                >
-                                    <i className="fas fa-map-marker-alt"></i>&nbsp;New York, NY
-                                </a> */}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="btn-div-main">
-                <a href="#recent-work">
-                    <button id="btn-main">
-                        View Projects
-                    </button>
-                </a>
+                <HashLink
+                    to="#recent-work"
+                    role="button"
+                    id="btn-main"
+                >
+                    View Projects
+                </HashLink>
             </div>
         </div>
     )

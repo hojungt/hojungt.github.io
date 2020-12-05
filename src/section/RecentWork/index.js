@@ -14,8 +14,7 @@ export default function RecentWork() {
                 <div className="row h-100 justify-content-center align-items-center" align="center">
                     <div className="col-12">
                     <h1>Recent Work</h1>
-                    <p>lorem ipsum</p>
-
+                    <p>Comprehensive, useful, and fun web applications.</p>
                         <div className="row justify-content-center">
                             { imagesCode.map((image) => ( 
                                 <div className={`col-12 col-sm-6 col-md-4 col-lg-4 div-card ` + image.className} key={image.id} id={image.id}>

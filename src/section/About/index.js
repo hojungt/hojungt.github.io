@@ -10,7 +10,7 @@ export default function About() {
                         <div className="row justify-content-center">
                             <div className="col-12 col-md-6">
                                 <div className="h-100">
-                                    <h2>About me</h2>
+                                    <h2 className="about">About me</h2>
                                     <div className="section-about">
                                         <p className="about">
                                             Before web development, I specialized in architecture and residential design.
@@ -26,7 +26,7 @@ export default function About() {
                             </div>
                             <div className="col-12 col-md-6 col-lg-5">
                                 <div className="h-100">
-                                    <h2>Skills & Experience</h2>
+                                    <h2 className="about">Skills & Experience</h2>
                                     <div className="section-about">
                                         <h3 className="skill">
                                             Tools and technologies

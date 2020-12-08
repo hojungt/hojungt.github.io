@@ -11,6 +11,7 @@ function Groundcycle() {
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
                         <h1>Groundcycle</h1>
+
                         <div className="row justify-content-center">
                             <div className="col-12 col-lg-7">
                                 <p>
@@ -42,6 +43,7 @@ function Groundcycle() {
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>

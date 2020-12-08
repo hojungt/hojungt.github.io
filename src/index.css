@@ -61,6 +61,9 @@ h2 {
   font-size: 24px;
   color: #333333;
   margin-bottom: 16px;
+}
+
+h2.about {
   text-indent: 5%;
 }
 
@@ -561,7 +564,7 @@ nav.custom-animation::after {
 /* test area */
 
 #scroll-box {
-  height: 200px;
+  height: 360px;
   background-color: #ffffff;
   padding: 20px;  
 }

@@ -4,12 +4,13 @@ import { HashRouter, Switch, Route } from "react-router-dom";
 
 // Pages
 import Home from '../../pages/Home';
-import RecentWorks from '../../pages/RecentWorks';
-import SelectedWorks from '../../pages/SelectedWorks';
+import Past from "../../pages/Past";
+import Recent from "../../pages/Recent";
 import NotFound from '../../pages/NotFound';
 
 // Components
 import NavAnimated from '../../components/NavAnimated';
+
 
 export default function PageRouter() {
     return (
@@ -21,12 +22,12 @@ export default function PageRouter() {
                     <Home />
                 </Route>
 
-                <Route exact path="/recent-works">
-                    <RecentWorks />
+                <Route exact path="/recent-projects-view">
+                    <Recent />
                 </Route>
 
-                <Route exact path="/selected-works">
-                    <SelectedWorks />
+                <Route exact path="/past-projects-view">
+                    <Past />
                 </Route>
 
                 <Route>

@@ -13,13 +13,13 @@ export default function About() {
                                     <h2 className="about">About me</h2>
                                     <div className="section-about">
                                         <p className="about">
-                                            Before web development, I specialized in architecture and residential design.
-                                            My experience has taught me to design with people's behavior and emotion in mind. 
+                                            Before web development, I specialized in architecture and residential design. 
+                                            My experience has taught me to design with people's behavior and emotions in mind.
                                         </p>
                                         <p className="about">
-                                            I code to create useful and meaningful projects for our daily lives.
+                                            I code to create useful and meaningful projects for our daily lives. 
                                             Beyond exploring creativity in the digital environment, 
-                                            I wish to empathize with users' needs and challenges, in search for better solutions.
+                                            I strive to empathize with users' needs and challenges in search of better solutions.
                                         </p>
                                     </div>
                                 </div>

@@ -43,6 +43,13 @@ h1 {
   color: #333333;
 }
 
+h1.detail {
+  /* background-color: #ffffff;
+  padding: 12px;
+  margin: 0; */
+  text-align: center;
+}
+
 h1.intro {
   line-height: 1.6;
   margin-top: 20px;
@@ -146,6 +153,11 @@ p.name {
   color: #888888;
   padding: 12px;
   margin: 0;
+}
+
+li {
+  font-family: 'PT Serif', serif;
+  color: #555555;
 }
 
 a {
@@ -300,9 +312,9 @@ a.footer:active {
 /* background images */
 
 .img-bg-main,
-.img-bg-recent-work,
-.img-bg-selected-work,
-.img-bg-selected-work-more,
+.img-bg-recent-projects,
+.img-bg-past-projects,
+.img-bg-past-projects-more,
 .img-bg-about,
 .img-bg-contact,
 .img-bg-detail,
@@ -317,13 +329,13 @@ a.footer:active {
 .img-bg-main {
   background-image: url("images/elena-joland-mjeQon0Mh_Q-unsplash.jpg");
 }
-.img-bg-recent-work {
+.img-bg-recent-projects {
   background-image: url("images/bench-accounting-xxeAftHHq6E-unsplash.jpg");
 }
-.img-bg-selected-work {
+.img-bg-past-projects {
   background-image: url("images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg");
 }
-.img-bg-selected-work-more {
+.img-bg-past-projects-more {
   background-image: url("images/bench-accounting-nvzvOPQW0gc-unsplash.jpg");
 }
 .img-bg-about {
@@ -342,9 +354,9 @@ a.footer:active {
 /* opacity adjustment */
 
 .img-bg-main::before,
-.img-bg-recent-work::before,
-.img-bg-selected-work::before,
-.img-bg-selected-work-more::before,
+.img-bg-recent-projects::before,
+.img-bg-past-projects::before,
+.img-bg-past-projects-more::before,
 .img-bg-about::before,
 .img-bg-contact::before,
 .img-bg-detail::before,
@@ -560,11 +572,21 @@ nav.custom-animation::after {
   animation: fadeIn ease 1.5s forwards; 
 } 
 
-
-/* test area */
+/* Scroll Box */
 
 #scroll-box {
   height: 360px;
   background-color: #ffffff;
   padding: 20px;  
+  overflow: scroll;
+}
+
+#scroll-box::-webkit-scrollbar {
+  width: 12px;
+}
+
+#scroll-box::-webkit-scrollbar-thumb {
+  background-color: #9cbd6f; 
+  border: 3px solid #ffffff;
+  border-radius: 10px;
 }

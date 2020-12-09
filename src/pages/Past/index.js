@@ -12,7 +12,7 @@ import Thesis from '../../project/Thesis';
 // Components
 import Footer from '../../components/Footer';
 
-export default function SelectedWorks() {
+export default function Past() {
     return (
         <div className="container-parent detail">
             <AoA />

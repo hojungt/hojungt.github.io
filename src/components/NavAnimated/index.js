@@ -22,18 +22,18 @@ class NavMain extends React.Component {
                 <Navbar.Collapse className="custom-animation" id="nav-main">
                 <Nav className="ml-auto custom-animation">
                     <NavHashLink
-                        to="/#recent-work"
+                        to="/#recent-projects"
                         className="nav-link"
                         activeClassName="nav-link-active"
                     >
-                        Recent Work
+                        Recent Projects
                     </NavHashLink>
                     <NavHashLink
-                        to="/#selected-work"
+                        to="/#past-projects"
                         className="nav-link"
                         activeClassName="nav-link-active"
                     >
-                        Selected Work
+                        Past Projects
                     </NavHashLink>
                     <NavHashLink
                         to="/#about"

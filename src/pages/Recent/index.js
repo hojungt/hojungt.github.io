@@ -9,7 +9,7 @@ import SomethingBorrowed from '../../project/SomethingBorrowed';
 // Components
 import Footer from '../../components/Footer';
 
-export default function RecentWorks() {
+export default function Recent() {
     return (
         <div className="container-parent detail">
             <Groundcycle />

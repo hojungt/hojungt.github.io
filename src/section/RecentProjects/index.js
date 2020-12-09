@@ -7,13 +7,13 @@ import imagesCode from "../../images/imagesCode.json";
 // npm
 import { HashLink } from 'react-router-hash-link';
 
-export default function RecentWork() {
+export default function RecentProjects() {
     return (
-        <div className="img-bg-recent-work container-child">
-            <div className="container h-100" id="recent-work">
+        <div className="img-bg-recent-projects container-child">
+            <div className="container h-100" id="recent-projects">
                 <div className="row h-100 justify-content-center align-items-center" align="center">
                     <div className="col-12">
-                    <h1>Recent Work</h1>
+                    <h1>Recent Projects</h1>
                     <p>Comprehensive, useful, and fun web applications.</p>
                         <div className="row justify-content-center">
                             { imagesCode.map((image) => ( 
@@ -32,7 +32,7 @@ export default function RecentWork() {
                                                     website
                                                 </a>
                                                 <HashLink
-                                                    to={`/recent-works/` + image.details} 
+                                                    to={`/recent-projects-view/` + image.details} 
                                                     className="btn"
                                                 >
                                                     details

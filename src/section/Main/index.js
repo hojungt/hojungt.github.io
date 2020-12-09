@@ -33,7 +33,7 @@ export default function Main() {
             </div>
             <div id="btn-div-main">
                 <HashLink
-                    to="#recent-work"
+                    to="#recent-projects"
                     role="button"
                     id="btn-main"
                 >

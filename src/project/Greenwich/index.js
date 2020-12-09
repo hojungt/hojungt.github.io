@@ -3,7 +3,7 @@ import React from 'react';
 
 // images
 import main from '../../images/project_125greenwich.jpg';
-import render from '../../images/125Greenwich_render.jpg';
+// import render from '../../images/125Greenwich_render.jpg';
 import sketch from '../../images/125Greenwich_scan-section.png';
 
 
@@ -62,13 +62,13 @@ export default function Greenwich() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-3">
+                            {/* <div className="col-12 col-lg-3">
                                 <img 
                                     src={render} 
                                     alt="img-greenwich-render"
                                     className="img-fluid" 
                                 />
-                            </div>
+                            </div> */}
                         </div>
                         
                     </div>

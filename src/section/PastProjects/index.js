@@ -8,14 +8,14 @@ import imagesOther from "../../images/imagesOther.json";
 // npm
 import { HashLink } from 'react-router-hash-link';
 
-export default function SelectedWork() {
+export default function PastProjects() {
     return (
         <div>
-            <div className="img-bg-selected-work container-child">
-                <div className="container h-100" id="selected-work">
+            <div className="img-bg-past-projects container-child">
+                <div className="container h-100" id="past-projects">
                     <div className="row h-100 justify-content-center align-items-center" align="center">
                         <div className="col-12">
-                        <h1>Selected Work</h1>
+                        <h1>Past Projects</h1>
                         <p>Professional architecture and interior design projects.</p>
                         <div className="row justify-content-center">
                             { imagesArch.map((image) => ( 
@@ -26,7 +26,7 @@ export default function SelectedWork() {
                                             <div className="card-overlay">
                                                 <h3 className="card-title">{image.title}</h3>
                                                 <HashLink
-                                                    to={`/selected-works/` + image.details} 
+                                                    to={`/past-projects-view/` + image.details} 
                                                     className="btn"
                                                 >
                                                     details
@@ -43,7 +43,7 @@ export default function SelectedWork() {
                 </div>
                 <div id="btn-div-more">
                     <HashLink
-                        to="#selected-work-more" 
+                        to="#past-projects-more" 
                         className="btn"
                         id="btn-more"
                     >
@@ -52,8 +52,8 @@ export default function SelectedWork() {
                 </div>
             </div>
 
-            <div className="img-bg-selected-work-more container-child">
-                <div className="container h-100" id="selected-work-more">
+            <div className="img-bg-past-projects-more container-child">
+                <div className="container h-100" id="past-projects-more">
                     <div className="row h-100 justify-content-center align-items-center" align="center">
                         <div className="col-12">
                         <h1>and more...</h1>
@@ -66,7 +66,7 @@ export default function SelectedWork() {
                                         <div className="card-img-overlay d-flex justify-content-center align-items-center">
                                             <div className="card-overlay">
                                                 <h3 className="card-title">{image.title}</h3>
-                                                <a href={`/selected-works/` + image.details} className="btn">details</a>
+                                                <a href={`/past-projects-view/` + image.details} className="btn">details</a>
                                             </div>
 
                                         </div>
@@ -80,7 +80,7 @@ export default function SelectedWork() {
                 </div>
                 {/* <div id="btn-div-more">
                     <HashLink
-                        to="#selected-work" 
+                        to="#past-projects" 
                         className="btn"
                         id="btn-more"
                     >

@@ -270,24 +270,80 @@ nav::after {
 
 /* component - carousel */
 
-#carousel-recommendations.carousel-inner {
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(50%);
+}
+
+img.d-block {
+  border: 1px solid #cccccc;
+}
+
+#carousel-recommendations .carousel-inner {
   width: 45vw;
 }
 
-#carousel-drawing > * {
-  max-height: 50vh;
+/* #carousel-drawing .carousel-inner {
+
+} */
+
+.carousel-detail .carousel-inner {
+  height: 45vh;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.carousel-detail .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(8vh);
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 0;
+  filter: invert(50%);
+  padding: 3px;
+}
+
+.carousel-detail .carousel-indicators li {
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  height: 4px;
+}
+
+.carousel-detail .carousel-control-prev,
+.carousel-detail .carousel-control-next {
+  top: auto;
+  width: 5%;
+  height: 36px;
+  transform: translateY(8vh);
+}
+
+.carousel-detail .carousel-control-prev {
+  margin-left: 30%;
+}
+.carousel-detail .carousel-control-next {
+  margin-right: 30%;
 }
 
 @media screen and (max-width: 576px) {
-  #carousel-recommendations.carousel-inner {
+
+  #carousel-recommendations .carousel-inner {
     width: 70vw;
   }
-}
+  .carousel-detail .carousel-indicators {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .carousel-detail .carousel-control-prev {
+    width: 15%;
+    margin-left: 15%;
+  }
+  .carousel-detail .carousel-control-next {
+    width: 15%;
+    margin-right: 15%;
+  }
 
-.carousel-control-next,
-.carousel-control-prev {
-  width: 12vw;
-  filter: invert(50%);
 }
 
 /* component - footer */
@@ -451,8 +507,8 @@ a.footer:active {
 }
 
 .btn.detail {
-  color: #888888;
-  border: 1px solid #cccccc;
+  /* color: #888888;
+  border: 1px solid #cccccc; */
   width: 100px;
 }
 
@@ -593,31 +649,28 @@ nav.custom-animation::after {
   animation: fadeIn ease 1.5s forwards; 
 } 
 
+
+/* TEST ZONE */
+
+
 /* Scroll Box */
 
-#scroll-box {
+/* #scroll-box {
   height: 50vh;
   background-color: #ffffff;
   padding: 20px;  
   overflow: scroll;
-  border: 1px solid #ffffff;
   position: relative;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
 
 #scroll-box::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 
 #scroll-box::-webkit-scrollbar-thumb {
   background-color: #bfe0a8; 
-  border: 3px solid #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 10px;
-}
-
-#test-fade {
-  width: 100%;
-  bottom: 0; 
-  position: absolute;
-  padding: 20px;
-  background-image: linear-gradient(to bottom, transparent, #ffffff);
-}
+} */

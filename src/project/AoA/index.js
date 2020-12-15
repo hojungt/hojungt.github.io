@@ -10,9 +10,9 @@ export default function AoA() {
             <div className="container h-100" id="aoa">
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
-                        <h1 className="detail">531 Avenue of the Americas</h1>
+                        <h1 className="detail">101 West 14th Street</h1>
                         <div className="mt-3 mb-3" align="center">
-                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://www.6sqft.com/oda-architects-bring-their-signature-boxy-aesthetic-to-new-14th-street-condo/"><i className="fas fa-globe"></i>&nbsp;website (in the news)</a>
+                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://101west14th.com/"><i className="fas fa-globe"></i>&nbsp;website (official)</a>
                         </div>
                     </div>
                 </div>

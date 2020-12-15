@@ -34,6 +34,16 @@ body, html {
   min-height: 100vh;
 }
 
+/* overflow fix test */
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
 
 /* text */
 
@@ -47,7 +57,7 @@ h1.detail {
   text-align: center;
   color: #555555;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 h1.intro {
@@ -161,9 +171,17 @@ p.name {
   margin: 0;
 }
 
+ul {
+  padding: 0 0 0 16px;
+}
+
 li {
   font-family: 'PT Serif', serif;
   color: #555555;
+}
+
+ul.detail > li {
+  margin-bottom: 4px;
 }
 
 a {
@@ -184,6 +202,16 @@ i.skill {
 .hr-custom {
   border-top: 1px solid #bbbbbb;
   width: 30px;
+}
+
+@media screen and (max-width: 576px) {
+
+  p.detail {
+    font-size: 13px;
+  }
+  ul.detail > li {
+    font-size: 12px;
+  }
 }
 
 /* text-div */
@@ -288,7 +316,7 @@ img.d-block {
 } */
 
 .carousel-detail .carousel-inner {
-  height: 45vh;
+  height: 50vh;
   background-color: white;
   padding: 20px;
   position: relative;

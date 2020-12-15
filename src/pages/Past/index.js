@@ -15,12 +15,12 @@ import Footer from '../../components/Footer';
 export default function Past() {
     return (
         <div className="container-parent detail">
-            <AoA />
-            <Drawing />
             <Greenwich />
-            <Photography />
+            <AoA />
             <SpaFinder />
             <Thesis />
+            <Drawing />
+            <Photography />
             <Footer />                
         </div>
     )

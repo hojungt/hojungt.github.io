@@ -4,8 +4,7 @@
         "name": "thesis",
         "className": "",
         "image": "other_thesis.jpg",
-        "title": "Chicken Memorial",
-        "text": "some test text3",
+        "title": "Encounter Machine: Chicken Memorial",
         "details": "#thesis"
     },
     
@@ -15,7 +14,6 @@
         "className": "",
         "image": "other_drawing.jpg",
         "title": "Drawing",
-        "text": "some test text0",
         "details": "#drawing"
     },
 
@@ -25,7 +23,6 @@
         "className": "",
         "image": "other_photography.jpg",
         "title": "Photography",
-        "text": "some test text1",
         "details": "#photography"
     }
 ]

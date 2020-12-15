@@ -44,10 +44,10 @@ h1 {
 }
 
 h1.detail {
-  /* background-color: #ffffff;
-  padding: 12px;
-  margin: 0; */
   text-align: center;
+  color: #555555;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 h1.intro {
@@ -72,6 +72,12 @@ h2 {
 
 h2.about {
   text-indent: 5%;
+}
+
+h2.description {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  color: #cccccc;
 }
 
 h3 {
@@ -215,6 +221,11 @@ nav::after {
   transition: 0.3s;
 }
 
+.navbar-brand > img {
+  width: 52px;
+  height: 52px;
+}
+
 @media screen and (max-width: 576px) {
   .navbar {
     background-color: #ffffff;
@@ -259,12 +270,16 @@ nav::after {
 
 /* component - carousel */
 
-.carousel-inner {
+#carousel-recommendations.carousel-inner {
   width: 45vw;
 }
 
+#carousel-drawing > * {
+  max-height: 50vh;
+}
+
 @media screen and (max-width: 576px) {
-  .carousel-inner {
+  #carousel-recommendations.carousel-inner {
     width: 70vw;
   }
 }
@@ -327,28 +342,28 @@ a.footer:active {
 }
 
 .img-bg-main {
-  background-image: url("images/elena-joland-mjeQon0Mh_Q-unsplash.jpg");
+  background-image: url("images/bg_elena-joland-mjeQon0Mh_Q-unsplash.jpg");
 }
 .img-bg-recent-projects {
-  background-image: url("images/bench-accounting-xxeAftHHq6E-unsplash.jpg");
+  background-image: url("images/bg_bench-accounting-xxeAftHHq6E-unsplash.jpg");
 }
 .img-bg-past-projects {
-  background-image: url("images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg");
+  background-image: url("images/bg_philipp-berndt-5i0GnoTTjSE-unsplash.jpg");
 }
 .img-bg-past-projects-more {
-  background-image: url("images/bench-accounting-nvzvOPQW0gc-unsplash.jpg");
+  background-image: url("images/bg_bench-accounting-nvzvOPQW0gc-unsplash.jpg");
 }
 .img-bg-about {
-  background-image: url("images/scott-webb-zblX5hM9rp8-unsplash.jpg");
+  background-image: url("images/bg_scott-webb-zblX5hM9rp8-unsplash.jpg");
 }
 .img-bg-contact {
-  background-image: url("images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
+  background-image: url("images/bg_samantha-gades-BlIhVfXbi9s-unsplash.jpg");
 }
 .img-bg-detail {
-  background-image: url("images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
+  background-image: url("images/bg_thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
 }
 .img-bg-not-found {
-  background-image: url("images/isaac-benhesed-onLbXleIkds-unsplash.jpg");
+  background-image: url("images/bg_isaac-benhesed-onLbXleIkds-unsplash.jpg");
 }
 
 /* opacity adjustment */
@@ -433,6 +448,12 @@ a.footer:active {
   font-size: 14px;
   padding: 6px 14px;
   margin: 4px 8px;
+}
+
+.btn.detail {
+  color: #888888;
+  border: 1px solid #cccccc;
+  width: 100px;
 }
 
 .btn:hover,
@@ -575,10 +596,12 @@ nav.custom-animation::after {
 /* Scroll Box */
 
 #scroll-box {
-  height: 360px;
+  height: 50vh;
   background-color: #ffffff;
   padding: 20px;  
   overflow: scroll;
+  border: 1px solid #ffffff;
+  position: relative;
 }
 
 #scroll-box::-webkit-scrollbar {
@@ -586,7 +609,15 @@ nav.custom-animation::after {
 }
 
 #scroll-box::-webkit-scrollbar-thumb {
-  background-color: #9cbd6f; 
+  background-color: #bfe0a8; 
   border: 3px solid #ffffff;
   border-radius: 10px;
+}
+
+#test-fade {
+  width: 100%;
+  bottom: 0; 
+  position: absolute;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, transparent, #ffffff);
 }

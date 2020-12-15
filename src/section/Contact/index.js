@@ -1,6 +1,9 @@
 // React
 import React from "react";
 
+// pdf
+import resume from "../../pdf/Resume.pdf";
+
 export default function Contact() {
     return (
         <div className="img-bg-contact container-child">
@@ -14,7 +17,7 @@ export default function Contact() {
                                 <a className="btn contact" href="mailto:hojungt@gmail.com">
                                     <i className="fab fa-telegram-plane"></i>&nbsp;Email me
                                 </a>
-                                <a className="btn contact" href="https://drive.google.com/file/d/1yb7hlqeTeqGMcrZBbnrv__EERhBnLk5O/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a className="btn contact" href={resume} target="_blank" rel="noopener noreferrer">
                                     <i className="fas fa-file-download"></i>&nbsp;Resume
                                 </a>
                             </div>

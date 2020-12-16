@@ -608,13 +608,10 @@ a.footer:active {
   overflow-y: scroll;
   scroll-snap-type: y proximity;
   scroll-snap-points-y: repeat(100vh);
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 .container-child {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   height: 100vh;
   scroll-snap-align: start;
   position: relative;
@@ -657,12 +654,12 @@ nav.custom-animation::after {
   animation: scaleIn 1.3s ease-in 0.2s forwards;
 }
 
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
   .collapse.custom-animation > * {
     transform: translateY(-70px);
     animation: slideIn 1s ease-in 1s forwards;
   }
-}
+} */
 
 /* Page Animation - Detail*/
 

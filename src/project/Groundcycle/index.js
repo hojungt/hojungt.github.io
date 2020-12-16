@@ -56,7 +56,6 @@ function Groundcycle() {
                                             </p>
                                         </div>
                                     </div>
-
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">

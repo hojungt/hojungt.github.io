@@ -27,10 +27,6 @@ body, html {
   height: 100%;
 }
 
-.container-page {
-  height: 100%;
-}
-
 /* text */
 
 h1 {
@@ -214,8 +210,6 @@ i.skill {
 .section-quote {
   background-color: #ffffff99;
   border-radius: 12px;
-  /* margin-left: 100px;
-  margin-right: 100px; */
 }
 
 /* component - navbar */
@@ -595,16 +589,7 @@ html, body {
 
 .container-parent {
   height: 100%;
-  overflow-y: scroll;
-  scroll-snap-type: y proximity;
-
 }
-
-/* .container-child {
-  height: 100vh;
-  scroll-snap-align: start;
-  position: relative;
-} */
 
 /* OnLoad Animation */
 
@@ -616,6 +601,10 @@ html, body {
 
 @keyframes scaleIn {
   100% { transform: scaleX(1); }
+}
+
+@keyframes slideIn {
+  100% { transform: translateY(0); }
 }
 
 .container-parent { 
@@ -641,7 +630,8 @@ nav.custom-animation::after {
 
 @media screen and (min-width: 576px) {
   .collapse.custom-animation > * {
-    animation: fadeIn ease 3s forwards;
+    transform: translateY(-70px);
+    animation: slideIn 1s ease-in 1s forwards;
   }
 }
 
@@ -661,28 +651,5 @@ nav.custom-animation::after {
   animation: fadeIn ease 1.5s forwards; 
 } 
 
-
 /* TEST ZONE */
 
-
-/* Scroll Box */
-
-/* #scroll-box {
-  height: 50vh;
-  background-color: #ffffff;
-  padding: 20px;  
-  overflow: scroll;
-  position: relative;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-}
-
-#scroll-box::-webkit-scrollbar {
-  width: 10px;
-}
-
-#scroll-box::-webkit-scrollbar-thumb {
-  background-color: #bfe0a8; 
-  border: 2px solid #ffffff;
-  border-radius: 10px;
-} */

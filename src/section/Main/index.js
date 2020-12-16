@@ -33,11 +33,11 @@ export default function Main() {
             </div>
             <div id="btn-div-main">
                 <HashLink
-                    smooth to="#recent-projects"
+                    to="#recent-projects"
                     role="button"
                     id="btn-main"
                 >
-                    Test x
+                    View Projects
                 </HashLink>
             </div>
         </div>

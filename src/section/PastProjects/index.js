@@ -15,8 +15,8 @@ export default function PastProjects() {
                 <div className="container h-100" id="past-projects">
                     <div className="row h-100 justify-content-center align-items-center" align="center">
                         <div className="col-12">
-                        <h1>Past Projects</h1>
-                        <p>Professional architecture and interior design projects.</p>
+                            <h1>Past Projects</h1>
+                            <h2 className="main">Professional architecture and interior design projects.</h2>
                             <div className="row justify-content-center">
                                 { imagesArch.map((image) => ( 
                                     <div className={`col-12 col-sm-6 col-md-4 col-lg-4 div-card ` + image.className} key={image.id} id={image.id}>
@@ -42,7 +42,7 @@ export default function PastProjects() {
                 </div>
                 <div id="btn-div-more">
                     <HashLink
-                        smooth to="#past-projects-more" 
+                        to="#past-projects-more" 
                         className="btn"
                         id="btn-more"
                     >
@@ -56,7 +56,7 @@ export default function PastProjects() {
                     <div className="row h-100 justify-content-center align-items-center" align="center">
                         <div className="col-12">
                         <h1>and more...</h1>
-                        <p>Creative projects in various media.</p>
+                        <h2 className="main">Creative projects in various media.</h2>
                         <div className="row justify-content-center">
                             { imagesOther.map((image) => ( 
                                 <div className={`col-12 col-sm-6 col-md-4 col-lg-4 div-card ` + image.className} key={image.id} id={image.id}>
@@ -83,7 +83,7 @@ export default function PastProjects() {
                 </div>
                 {/* <div id="btn-div-more">
                     <HashLink
-                        smooth to="#past-projects" 
+                        to="#past-projects" 
                         className="btn"
                         id="btn-more"
                     >

@@ -593,6 +593,11 @@ html, body {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
 .container-parent {
   height: 100%;
 }

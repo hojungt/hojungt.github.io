@@ -191,8 +191,14 @@ i.skill {
   p.detail {
     font-size: 13px;
   }
+  p.about {
+    font-size: 13px;
+  }
   ul.detail > li {
     font-size: 12px;
+  }
+  i.skill {
+    font-size: 28px;
   }
 }
 

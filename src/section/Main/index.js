@@ -37,7 +37,7 @@ export default function Main() {
                     role="button"
                     id="btn-main"
                 >
-                    Test
+                    Test 0
                 </HashLink>
             </div>
         </div>

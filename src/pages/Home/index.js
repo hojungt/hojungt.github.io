@@ -1,5 +1,5 @@
 // React
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // Sections
 import Main from '../../section/Main';
@@ -11,7 +11,14 @@ import Contact from '../../section/Contact';
 // Components
 import Footer from '../../components/Footer';
 
+// npm
+import smoothscroll from "smoothscroll-polyfill";
+
 export default function Home() {
+    
+    useEffect(() => {
+        smoothscroll.polyfill();
+    });
     
     return (
         <div className="container-parent">

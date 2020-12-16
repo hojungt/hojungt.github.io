@@ -9,7 +9,7 @@ class NavMain extends React.Component {
 
     render() {
         return (
-            <Navbar expand="sm" className="header custom-animation">
+            <Navbar fixed="top" expand="sm" className="header custom-animation">
                 <Navbar.Brand href="/" className="custom-animation">
                     <img 
                         src="/logo_RT.png"

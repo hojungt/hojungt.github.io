@@ -27,30 +27,9 @@ body, html {
   height: 100%;
 }
 
-body {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-}
-html {
-  height: -webkit-fill-available;
-}
-
 .container-page {
-  /* display: flex;
-  flex-direction: column; */
   height: 100%;
 }
-
-/* overflow fix test */
-
-/* body {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-}
-
-html {
-  height: -webkit-fill-available;
-} */
 
 /* text */
 
@@ -610,19 +589,22 @@ a.footer:active {
 
 /* container scroll-snapping */
 
-.container-parent {
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y proximity;
-  scroll-snap-points-y: repeat(100vh);
+html, body {
   scroll-behavior: smooth;
 }
 
-.container-child {
+.container-parent {
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+
+}
+
+/* .container-child {
   height: 100vh;
   scroll-snap-align: start;
   position: relative;
-}
+} */
 
 /* OnLoad Animation */
 

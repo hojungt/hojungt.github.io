@@ -32,7 +32,7 @@ export default function NavMain() {
     // }, []);
 
     return (
-        <Navbar ref={node} expanded={expanded} fixed="top" expand="sm" className="header custom-animation">
+        <Navbar expanded={expanded} fixed="top" expand="sm" className="header custom-animation">
             <Navbar.Brand href="/" className="custom-animation">
                 <img 
                     src="/logo_RT.png"

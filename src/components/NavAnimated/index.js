@@ -5,33 +5,34 @@ import { Nav, Navbar } from 'react-bootstrap';
 // npm
 import { NavHashLink } from 'react-router-hash-link';
 
-// https://stackoverflow.com/questions/32553158/detect-click-outside-react-component
-function useOutsideAlerter(ref) {
-    useEffect(()=> {
-        function handleClickOuside(event) {
-            if (ref.current && !ref.current.contains(event.target)) {
-                alert ("outside clicked");
-            }
-        }
-        // Bind the event listener
-        document.addEventListener("mousedown", handleClickOuside);
-        return () => {
-            // Unbind event listener on return
-            document.removeEventListener("mousedown", handleClickOuside);
-        };
-    }, [ref]);
-}
-
 export default function NavMain() {
 
     // collapse Navbar on NavHashLink click
     const [expanded, setExpanded] = useState(false);
 
-    const wrapperRef = useRef(null);
-    useOutsideAlerter(wrapperRef);
+    // https://medium.com/@pitipatdop/little-neat-trick-to-capture-click-outside-with-react-hook-ba77c37c7e82
+    const node = useRef();
+
+    const handleClick = e => {
+        if (node.current.contains(e.target)){
+            // inside click
+            return;
+        }
+        // outisde click
+        setExpanded(false);
+    }
+
+    useEffect(() => {
+        // add when mounted
+        document.addEventListener("mousedown", handleClick);
+        // return function called when unmounted, add empty array
+        return () => {
+            document.removeEventListener("mousedown", handleClick);
+        };
+    }, []);
 
     return (
-        <Navbar ref={wrapperRef} expanded={expanded} fixed="top" expand="sm" className="header custom-animation">
+        <Navbar ref={node} expanded={expanded} fixed="top" expand="sm" className="header custom-animation">
             <Navbar.Brand href="/" className="custom-animation">
                 <img 
                     src="/logo_RT.png"

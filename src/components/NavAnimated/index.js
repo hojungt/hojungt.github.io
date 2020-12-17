@@ -10,26 +10,26 @@ export default function NavMain() {
     // collapse Navbar on NavHashLink click
     const [expanded, setExpanded] = useState(false);
 
-    // https://medium.com/@pitipatdop/little-neat-trick-to-capture-click-outside-with-react-hook-ba77c37c7e82
-    const node = useRef();
+    // // https://medium.com/@pitipatdop/little-neat-trick-to-capture-click-outside-with-react-hook-ba77c37c7e82
+    // const node = useRef();
 
-    const handleClick = e => {
-        if (node.current.contains(e.target)){
-            // inside click
-            return;
-        }
-        // outisde click
-        setExpanded(false);
-    }
+    // const handleClick = e => {
+    //     if (node.current.contains(e.target)){
+    //         // inside click
+    //         return;
+    //     }
+    //     // outisde click
+    //     setExpanded(false);
+    // }
 
-    useEffect(() => {
-        // add when mounted
-        document.addEventListener("mousedown", handleClick);
-        // return function called when unmounted, add empty array
-        return () => {
-            document.removeEventListener("mousedown", handleClick);
-        };
-    }, []);
+    // useEffect(() => {
+    //     // add when mounted
+    //     document.addEventListener("mousedown", handleClick);
+    //     // return function called when unmounted, add empty array
+    //     return () => {
+    //         document.removeEventListener("mousedown", handleClick);
+    //     };
+    // }, []);
 
     return (
         <Navbar ref={node} expanded={expanded} fixed="top" expand="sm" className="header custom-animation">

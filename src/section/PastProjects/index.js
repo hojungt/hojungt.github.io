@@ -42,7 +42,7 @@ export default function PastProjects() {
                 </div>
                 <div id="btn-div-more">
                     <HashLink
-                        to="#past-projects-more" 
+                        smooth to="#past-projects-more" 
                         className="btn"
                         id="btn-more"
                     >
@@ -83,7 +83,7 @@ export default function PastProjects() {
                 </div>
                 {/* <div id="btn-div-more">
                     <HashLink
-                        to="#past-projects" 
+                        smooth to="#past-projects" 
                         className="btn"
                         id="btn-more"
                     >

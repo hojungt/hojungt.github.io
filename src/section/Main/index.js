@@ -37,7 +37,7 @@ export default function Main() {
                     role="button"
                     id="btn-main"
                 >
-                    View Projects test
+                    View Projects
                 </HashLink>
             </div>
         </div>

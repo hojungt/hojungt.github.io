@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f92bbb9356d6ff20c3e322d6c8803a7",
+    "revision": "84812b39d1effe6af5f751e58ef73b02",
     "url": "/index.html"
   },
   {
-    "revision": "7a8cb96d33e1d2d4f7c0",
-    "url": "/static/css/main.f8569c45.chunk.css"
+    "revision": "8c34cef6dfbf2cd37a98",
+    "url": "/static/css/main.92ee9200.chunk.css"
   },
   {
-    "revision": "6313127f8c28fe7f5f96",
-    "url": "/static/js/2.f92ea6f2.chunk.js"
+    "revision": "865ca66adf7837fd7c4e",
+    "url": "/static/js/2.11874922.chunk.js"
   },
   {
     "revision": "36b3a2123f180e082ee45d579f114228",
-    "url": "/static/js/2.f92ea6f2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.11874922.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a8cb96d33e1d2d4f7c0",
-    "url": "/static/js/main.0d8679ca.chunk.js"
+    "revision": "8c34cef6dfbf2cd37a98",
+    "url": "/static/js/main.4ceae9a3.chunk.js"
   },
   {
     "revision": "dd8147bbe7734801bdde",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/125Greenwich_scan-section.37ded599.png"
   },
   {
-    "revision": "a2171ee509d341696d8c1e656bc90640",
-    "url": "/static/media/Resume.a2171ee5.pdf"
+    "revision": "a47d6b3943b704250bd67e3d3b04a983",
+    "url": "/static/media/Resume_Rachael-Tseng.a47d6b39.pdf"
   },
   {
     "revision": "8c1d373c6f75c6218ee4303602249e08",

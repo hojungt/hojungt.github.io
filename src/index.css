@@ -483,6 +483,13 @@ a.footer:active {
   margin-bottom: 8px;
 }
 
+h3.card-title {
+  color: #333333;
+  /* -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #333333;
+  -webkit-text-fill-color: #cccccc; */
+}
+
 .card-img {
   height: 30vh;
   object-fit: cover;

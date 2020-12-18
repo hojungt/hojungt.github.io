@@ -2,7 +2,7 @@
 import React from "react";
 
 // pdf
-import resume from "../../pdf/Resume.pdf";
+import resume from "../../pdf/Resume_Rachael-Tseng.pdf";
 
 export default function Contact() {
     return (

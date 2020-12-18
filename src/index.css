@@ -309,10 +309,13 @@ img.d-block {
 
 } */
 
+.carousel-item {
+  padding: 20px;
+}
+
 .carousel-detail .carousel-inner {
   height: 50vh;
   background-color: white;
-  padding: 20px;
   position: relative;
 }
 

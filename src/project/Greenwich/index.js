@@ -15,12 +15,12 @@ export default function Greenwich() {
                     <div className="col-12">
                         <h1 className="detail">125 Greenwich Street</h1>
 
-                        <div id="carousel-detail-groundcycle" className="carousel slide carousel-detail" data-ride="carousel" data-interval="false">
+                        <div id="carousel-detail-greenwich" className="carousel slide carousel-detail" data-ride="carousel" data-interval="false">
                             <ol className="carousel-indicators">
-                                <li data-target="#carousel-detail-groundcycle" data-slide-to="0" className="active"></li>
-                                <li data-target="#carousel-detail-groundcycle" data-slide-to="1"></li>
-                                <li data-target="#carousel-detail-groundcycle" data-slide-to="2"></li>
-                                <li data-target="#carousel-detail-groundcycle" data-slide-to="3"></li>
+                                <li data-target="#carousel-detail-greenwich" data-slide-to="0" className="active"></li>
+                                <li data-target="#carousel-detail-greenwich" data-slide-to="1"></li>
+                                <li data-target="#carousel-detail-greenwich" data-slide-to="2"></li>
+                                <li data-target="#carousel-detail-greenwich" data-slide-to="3"></li>
                             </ol>
 
                             <div className="carousel-inner">
@@ -82,19 +82,19 @@ export default function Greenwich() {
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <div className="mt-3 mb-3" align="center">
-                                                <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://www.125greenwich.com/"><i className="fas fa-globe"></i>&nbsp;website (official)</a>
-                                                <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://vinoly.com/works/125-greenwich-street/"><i className="fas fa-globe"></i>&nbsp;website (architect)</a>
+                                                <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://www.125greenwich.com/"><i className="fas fa-globe"></i>&nbsp;website (official)</a>
+                                                <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://vinoly.com/works/125-greenwich-street/"><i className="fas fa-globe"></i>&nbsp;website (architect)</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <a className="carousel-control-prev" href="#carousel-detail-groundcycle" role="button" data-slide="prev">
+                            <a className="carousel-control-prev" href="#carousel-detail-greenwich" role="button" data-slide="prev">
                                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span className="sr-only">Previous</span>
                             </a>
-                            <a className="carousel-control-next" href="#carousel-detail-groundcycle" role="button" data-slide="next">
+                            <a className="carousel-control-next" href="#carousel-detail-greenwich" role="button" data-slide="next">
                                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span className="sr-only">Next</span>
                             </a>

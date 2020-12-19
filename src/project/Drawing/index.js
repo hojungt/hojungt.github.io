@@ -18,99 +18,66 @@ export default function Drawing() {
             <div className="container h-100" id="drawing">
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
-                        <h1 className="detail">Drawing</h1>
+                        <h1 className="detail">Drawings</h1>
 
-                        <div className="row">
-                            <div className="col-12 col-lg-8">
-                                <div id="carousel-drawing" className="carousel slide" data-ride="carousel">
-                                    <ol className="carousel-indicators">
-                                        <li data-target="#carousel-drawing" data-slide-to="0" className="active"></li>
-                                        <li data-target="#carousel-drawing" data-slide-to="1"></li>
-                                        <li data-target="#carousel-drawing" data-slide-to="2"></li>
-                                        <li data-target="#carousel-drawing" data-slide-to="3"></li>
-                                        <li data-target="#carousel-drawing" data-slide-to="4"></li>
-                                        <li data-target="#carousel-drawing" data-slide-to="5"></li>
-                                        <li data-target="#carousel-drawing" data-slide-to="6"></li>
-                                        <li data-target="#carousel-drawing" data-slide-to="7"></li>
-                                        <li data-target="#carousel-drawing" data-slide-to="8"></li>
-                                    </ol>
-                                    <div className="carousel-inner">
-                                        <div className="carousel-item active">
+                        <div id="carousel-detail-drawing" className="carousel slide carousel-detail" data-ride="carousel" data-interval="false">
+                            <ol className="carousel-indicators">
+                                <li data-target="#carousel-detail-drawing" data-slide-to="0" className="active"></li>
+                                <li data-target="#carousel-detail-drawing" data-slide-to="1"></li>
+                                <li data-target="#carousel-detail-drawing" data-slide-to="2"></li>
+                                <li data-target="#carousel-detail-drawing" data-slide-to="3"></li>
+                                <li data-target="#carousel-detail-drawing" data-slide-to="4"></li>
+                                <li data-target="#carousel-detail-drawing" data-slide-to="5"></li>
+                                <li data-target="#carousel-detail-drawing" data-slide-to="6"></li>
+                                <li data-target="#carousel-detail-drawing" data-slide-to="7"></li>
+                                <li data-target="#carousel-detail-drawing" data-slide-to="8"></li>
+                            </ol>
+
+                            <div className="carousel-inner">
+                                <div className="carousel-item active h-100">
+                                    <div className="row justify-content-center align-items-center h-100">
+                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
                                             <img 
-                                                src={drawing01} 
-                                                alt="drawing_object-pattern-01"
+                                                src={drawing01}
                                                 className="d-block w-100"
-                                            />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img 
-                                                src={drawing02} 
-                                                alt="drawing_object-pattern-02"
-                                                className="d-block w-100"
-                                            />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img 
-                                                src={drawing03} 
-                                                alt="drawing_object-pattern-03"
-                                                className="d-block w-100"
-                                            />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img 
-                                                src={drawing04} 
-                                                alt="drawing_object-pattern-04"
-                                                className="d-block w-100"
-                                            />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img 
-                                                src={drawing05} 
-                                                alt="drawing_object-pattern-05"
-                                                className="d-block w-100"
-                                            />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img 
-                                                src={drawing06} 
-                                                alt="drawing_object-pattern-06"
-                                                className="d-block w-100"
-                                            />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img 
-                                                src={drawing07} 
-                                                alt="drawing_object-pattern-07"
-                                                className="d-block w-100"
-                                            />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img 
-                                                src={drawing08} 
-                                                alt="drawing_object-pattern-08"
-                                                className="d-block w-100"
-                                            />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img 
-                                                src={drawing09} 
-                                                alt="drawing_object-pattern-09"
-                                                className="d-block w-100"
+                                                alt="drawing_01"
                                             />
                                         </div>
                                     </div>
-                                    {/* <a className="carousel-control-prev" href="#carousel-drawing" role="button" data-slide="prev">
-                                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span className="sr-only">Previous</span>
-                                    </a>
-                                    <a className="carousel-control-next" href="#carousel-drawing" role="button" data-slide="next">
-                                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span className="sr-only">Next</span>
-                                    </a> */}
+                                </div>
+                                <div className="carousel-item h-100">
+                                    <div className="row justify-content-center align-items-center h-100">
+                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                            <img 
+                                                src={drawing02}
+                                                className="d-block w-100"
+                                                alt="drawing_02"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item h-100">
+                                    <div className="row justify-content-center align-items-center h-100">
+                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                            <img 
+                                                src={drawing03}
+                                                className="d-block w-100"
+                                                alt="drawing_03"
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
+                            <a className="carousel-control-prev" href="#carousel-detail-drawing" role="button" data-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Previous</span>
+                            </a>
+                            <a className="carousel-control-next" href="#carousel-detail-drawing" role="button" data-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

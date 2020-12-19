@@ -2,7 +2,7 @@
 import React from 'react';
 
 // images
-// import main from '../../images/project_125greenwich.jpg';
+import cover from '../../images/project_125greenwich.jpg';
 // import render from '../../images/125Greenwich_render.jpg';
 // import sketch from '../../images/125Greenwich_scan-section.png';
 
@@ -27,11 +27,12 @@ export default function Greenwich() {
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={cover}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="project_125greenwich"
+                                            />
+                                            <p className="caption">Rendering by March & White Design</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">

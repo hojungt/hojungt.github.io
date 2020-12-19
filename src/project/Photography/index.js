@@ -43,11 +43,13 @@ export default function Photography() {
                                             />
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-7">
-                                            <h2>Object | Pattern</h2>
+                                            <h2 className="description">Object | Pattern</h2>
                                             <p className="detail">
                                                 A simple fascination with objects initiates this concentration series. 
                                                 <br />
-                                                Whether it is noticing an object in a space field, framing a field or similar objects, or isolating a single object, I determine a pattern according to my vision when my sight meets objects. When possible, I capture the objects at minimal distance. Chosen with a depth-of-field true to the instance of observation, each photograph accentuates a specific pattern composition for the objects, and vice versa.
+                                                Whether it is framing a field or isolating a single object, I determine a pattern according to my vision when my sight meets objects. When possible, I capture the objects at minimal distance. 
+                                                <br />
+                                                Chosen with a depth-of-field true to the instance of observation, each photograph accentuates a pattern composition for the objects and vice versa.
                                             </p>
                                         </div>
                                     </div>

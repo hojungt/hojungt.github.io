@@ -2,7 +2,7 @@
 import React from "react";
 
 // images
-// import image from "../../videos/vid_gc_test.gif";
+import cover from "../../images/project_spafinder.jpg";
 
 export default function SpaFinder() {
     return (
@@ -24,11 +24,12 @@ export default function SpaFinder() {
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={cover}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="project_spafinder"
+                                            />
+                                            <p className="caption">Photograph by TRIARCH Inc.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">

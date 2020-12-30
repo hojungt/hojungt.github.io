@@ -14,7 +14,7 @@ function Groundcycle() {
                         <div className="mb-3" align="center">
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://github.com/hchen651/groundcycle"><i className="fas fa-code"></i>&nbsp;code</a>
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://groundcycle.herokuapp.com/"><i className="fas fa-globe"></i>&nbsp;website</a>
-                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://fseyc0.axshare.com/#id=812ba3&p=home&g=1"><i className="fas fa-palette"></i>&nbsp;wireframe</a>
+                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://rkc5yu.axshare.com/#id=sm217u&p=project_cover"><i className="fas fa-palette"></i>&nbsp;wireframe</a>
                         </div>
 
                         <div id="carousel-detail-groundcycle" className="carousel slide carousel-detail" data-ride="carousel" data-interval="false">

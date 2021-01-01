@@ -23,7 +23,7 @@ export default function AoA() {
                             <div className="carousel-inner">
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
                                                 src={cover}
                                                 className="d-block w-100"
@@ -31,7 +31,7 @@ export default function AoA() {
                                             />
                                             <p className="caption">Rendering by ODA Architecture</p>
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 A distinctive complex, 101 W 14th Street is a new residential development at the cusp of Chelsea and Greenwich village in Manhattan. The client wished to deliver a building that both yields extra space and maximizes resident privacy in this busy district. Instead of adapting traditional stacked layouts, the condominium provides each unit a unique layout of its own and a private terrace for a refined living experience. 
                                              </p>
@@ -40,14 +40,14 @@ export default function AoA() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 Due to the non-conformist nature of this project, this project called to design each individual unit separately while adhering to construction conventions. Aside from creating a large amount of customization and various documentation of similar modules, our team at Whitehall Interiors collaborated closely with the rest of the project team on a daily basis. 
                                             </p>
@@ -56,14 +56,14 @@ export default function AoA() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 To guide my team that was new to Building Information Modeling (BIM) system, I acted beyond my role and took on the responsibilities of a Revit manager:
                                             </p>
@@ -77,8 +77,8 @@ export default function AoA() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
-                                            <div className="mt-3 mb-3" align="center">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <div className="mt-3 " align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://101west14th.com/"><i className="fas fa-globe"></i>&nbsp;website (official)</a>
                                             </div>
                                         </div>

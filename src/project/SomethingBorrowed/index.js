@@ -14,7 +14,7 @@ function SomethingBorrowed() {
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
                     <h1 className="detail">Something Borrowed</h1>
-                    <div className="mt-3 mb-3" align="center">
+                    <div className="mt-3 " align="center">
                         <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://github.com/SomatThakali/project2"><i className="fas fa-code"></i>&nbsp;code</a>
                         <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://something-borrowed-2019.herokuapp.com/"><i className="fas fa-globe"></i>&nbsp;website</a>
                         <a className="btn detail" target="_blank" rel="noopener noreferrer" href={balsamiq}><i className="fas fa-palette"></i>&nbsp;wireframe</a>
@@ -30,14 +30,14 @@ function SomethingBorrowed() {
                             <div className="carousel-inner">
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 Something Borrowed is a web application built with the idea of creating a community of borrowers and lenders. It was created as a solution to counter the modern problem of owning items we don’t need while also needing items we don’t own. The goal was to give everyone the choice of living a cheaper, cleaner and more sustainable life through the act of sharing.
                                             </p>
@@ -46,14 +46,14 @@ function SomethingBorrowed() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 We created an app in which participants grouped into sharing “hubs” list items they wish to lend to their fellow community members. Our system allowed users to post individual items into a community inventory to lend out to other users for a specified amount of time. Our SQL database stored unique user profiles, tracked community inventories, and managed community groups.
                                             </p>
@@ -62,14 +62,14 @@ function SomethingBorrowed() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 My main focus for this project was to work with the front-end team in development and to streamline their efforts:
                                             </p>

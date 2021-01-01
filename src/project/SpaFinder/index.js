@@ -26,7 +26,7 @@ export default function SpaFinder() {
                             <div className="carousel-inner">
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
                                                 src={cover}
                                                 className="d-block w-100"
@@ -34,16 +34,18 @@ export default function SpaFinder() {
                                             />
                                             <p className="caption">Photograph by TRIARCH Inc.</p>
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <p className="detail">
-                                                SpaFinder is a self-care service that prides itself in gifting wellness. The client sought an office environment that promotes a healthy work style and resonates with the company's core values. To achieve this, the new space called for glass, wood, and a vibrant color palette. Glass partitions introduce a visually open environment and physically private cubicles. Wood ceiling fins and floor finishing form a soothing connection between reception and working stations. Solid colors warm and bring energy with natural lighting, all to make every workday a pleasant one.
+                                                SpaFinder is a self-care scheduling service that prides itself in gifting wellness. 
+                                                <br />
+                                                The client sought an office environment that promotes a healthy work style and resonates with the company's core values. To achieve this, the new space called for glass, wood, and a vibrant color palette. Glass partitions introduce a visually open environment and physically private cubicles. Wood ceiling fins and floor finishing form a soothing connection between reception and working stations. Solid colors warm and bring energy with natural lighting, all to make every workday a pleasant one.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
                                                 src={floorplan}
                                                 className="d-block w-100"
@@ -51,7 +53,7 @@ export default function SpaFinder() {
                                             />
                                             <p className="caption">Architectural Floorplan. All Rights Reserved</p>
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 The space given for renovation wasn’t ideal: the floorplate was long and narrow, modularized by the building’s enclosure. Fitting additional amenities into the floorplan required multiple tests and trials. Our team at Triarch Inc. turned the weakness of this space to our advantage: removing dropped ceilings to lift the visual height and designating open workspaces along the windows to allow natural lighting to reach into the cubicles. The result is an open yet cozy office environment for its employees, clients, and partners to work dynamically in.
                                             </p>
@@ -60,7 +62,7 @@ export default function SpaFinder() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
                                                 src={image01}
                                                 className="d-block w-100"
@@ -68,7 +70,7 @@ export default function SpaFinder() {
                                             />
                                             <p className="caption">Photograph by TRIARCH Inc.</p>
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 Assigned to a small project team, I worked directly with the firm’s design principal to execute this fast-paced renovation:
                                             </p>
@@ -82,7 +84,7 @@ export default function SpaFinder() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
                                                 src={image02}
                                                 className="d-block w-100"
@@ -90,8 +92,8 @@ export default function SpaFinder() {
                                             />
                                             <p className="caption">Photograph by TRIARCH Inc.</p>
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
-                                            <div className="mt-3 mb-3" align="center">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <div className="mt-3 " align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://triarch.com/2016/02/22/spafinder/"><i className="fas fa-globe"></i>&nbsp;website (architect)</a>
                                             </div>
                                         </div>

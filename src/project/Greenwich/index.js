@@ -26,7 +26,7 @@ export default function Greenwich() {
                             <div className="carousel-inner">
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
                                                 src={cover}
                                                 className="d-block w-100"
@@ -34,7 +34,7 @@ export default function Greenwich() {
                                             />
                                             <p className="caption">Rendering by March & White Design</p>
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 A high-end residential skyscraper, 125 Greenwich Street has a crowning triplex of amenities 85 stories above ground. It offers captivating views and stylish living for its residents in the heart of Manhattan’s World Trade Center. 
                                             </p>
@@ -43,14 +43,14 @@ export default function Greenwich() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 During the design and planning of this project, the marketing strategy for this complex was changed to fit its target demographic. The client wished to offer an exclusive amenity experience on the top floors while maintaining the same amount of sellable apartment units. Our team at Rafael Vinoly Architects was met with the task of redesigning the building to meet the client’s new needs.
                                             </p>
@@ -59,14 +59,14 @@ export default function Greenwich() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 As an architectural designer, I took on the role of a team lead in this multifaceted redesign and covered various aspects of the project:
                                             </p>
@@ -81,8 +81,8 @@ export default function Greenwich() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
-                                            <div className="mt-3 mb-3" align="center">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <div className="mt-3 " align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://www.125greenwich.com/"><i className="fas fa-globe"></i>&nbsp;website (official)</a>
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://vinoly.com/works/125-greenwich-street/"><i className="fas fa-globe"></i>&nbsp;website (architect)</a>
                                             </div>

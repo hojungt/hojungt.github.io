@@ -11,7 +11,7 @@ export default function Questgiver() {
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
                         <h1 className="detail">Questgiver</h1>
-                        <div className="mt-3 mb-3" align="center">
+                        <div className="mt-3 " align="center">
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt/API-Project-1"><i className="fas fa-code"></i>&nbsp;code</a>
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://rzhanghu64.github.io/projects/api-project-1/index.html"><i className="fas fa-globe"></i>&nbsp;website</a>
                         </div>
@@ -26,14 +26,14 @@ export default function Questgiver() {
                             <div className="carousel-inner">
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 Questgiver is a game search engine designed to combat a common problem amongst many gamers: not knowing what to play next. Oftentimes, gamers (especially PC gamers) have the modern problem of too much choice. In order to solve that problem, Questgiver makes game suggestions based on the user’s preferences.
                                             </p>
@@ -42,14 +42,14 @@ export default function Questgiver() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 The main feature of the app allows a user to look up any video game in existence through the search function, and the application will try to look for up to six other titles which have similar gameplay mechanics, concepts, and genres. All the game data and information is aggregated from the giantbomb.com and igdb.com APIs through axios queries and processed through an algorithm which finds the best matches based on the amount of similarities.
                                             </p>
@@ -58,14 +58,14 @@ export default function Questgiver() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 As the primary front-end developer for this project, I focused on:
                                             </p>

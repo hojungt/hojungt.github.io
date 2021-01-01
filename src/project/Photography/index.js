@@ -35,17 +35,17 @@ export default function Photography() {
                             <div className="carousel-inner">
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5 mb-3">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
                                                 src={cover}
                                                 className="d-block w-100"
                                                 alt="other_photography"
                                             />
                                         </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7">
+                                        <div className="col-12  col-md-6 col-lg-6">
                                             <h2 className="description">Object | Pattern</h2>
                                             <p className="detail">
-                                                A simple fascination with objects initiates this concentration series. 
+                                                A simple fascination with objects initiates this photography series. 
                                                 <br />
                                                 Whether it is framing a field or isolating a single object, I determine a pattern according to my vision when my sight meets objects. When possible, I capture the objects at minimal distance. 
                                                 <br />

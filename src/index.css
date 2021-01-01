@@ -197,8 +197,7 @@ i.skill {
   width: 30px;
 }
 
-@media screen and (max-width: 576px) {
-
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 24px ;
   }
@@ -208,11 +207,23 @@ i.skill {
   p.about {
     font-size: 13px;
   }
+  p.caption {
+    margin-bottom: 6px;
+  }
   ul.detail > li {
     font-size: 12px;
   }
   i.skill {
     font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  p.detail {
+    font-size: 14px;
+  }
+  ul.detail > li {
+    font-size: 13px;
   }
 }
 
@@ -304,6 +315,17 @@ nav::after {
 }
 
 img.d-block {
+  max-height: 300px;
+  object-fit: contain;
+  /* object-fit: cover; */
+}
+
+img#drawing {
+  max-height: 45vh;
+  object-fit: contain;
+}
+
+img.frame {
   border: 1px solid #cccccc;
 }
 
@@ -354,7 +376,6 @@ img.d-block {
 }
 
 @media screen and (max-width: 576px) {
-
   #carousel-recommendations .carousel-inner {
     width: 70vw;
   }
@@ -373,7 +394,13 @@ img.d-block {
   .carousel-detail .carousel-inner {
     height: 60vh;
   }
+}
 
+@media screen and (max-width: 768px) {
+  img.d-block {
+    max-height: 20vh;
+    object-fit: contain;
+  }
 }
 
 /* component - footer */
@@ -597,9 +624,10 @@ h3.card-title {
   color: #888888;
   border: 1px solid #ffffff00;
   border-bottom: 1px solid #888888;
+  border-radius: 0;
   background-color: #ffffff00;
   font-size: 16px;
-  padding: 4px;
+  padding: 6px;
   margin-bottom: 3rem;
   transition: 0.3s;
 }
@@ -609,6 +637,7 @@ h3.card-title {
 #btn-more:active {
   color: #333333;
   border-bottom: 1px solid #333333;
+  background-color: #ffffff99;
 }
 
 

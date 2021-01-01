@@ -55,7 +55,7 @@ export default function PastProjects() {
                 <div className="container h-100" id="past-projects-more">
                     <div className="row h-100 justify-content-center align-items-center" align="center">
                         <div className="col-12">
-                        <h1>and more...</h1>
+                        <h1>Past Projects</h1>
                         <h2 className="main">Creative projects in various media.</h2>
                         <div className="row justify-content-center">
                             { imagesOther.map((image) => ( 

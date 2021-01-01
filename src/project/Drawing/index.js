@@ -9,7 +9,7 @@ export default function Drawing() {
         <div className="img-bg-detail container-child">
             <div className="container h-100" id="drawing">
                 <div className="row h-100 justify-content-center align-items-center">
-                    <div className="col-12">
+                    <div className="col-12 col-sm-12 col-md-10 col-lg-8">
                         <h1 className="detail">Drawings</h1>
 
                         <div id="carousel-detail-drawing" className="carousel slide carousel-detail" data-ride="carousel" data-interval="false">
@@ -29,10 +29,11 @@ export default function Drawing() {
                                 { imagesDrawing.map((image) => (
                                     <div className={"carousel-item h-100 " + image.className} key={image.id}>
                                         <div className="row justify-content-center align-items-center h-100">
-                                            <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3" id={image.id}>
+                                            <div className="col-12" id={image.id}>
                                                 <img 
                                                     src={require("../../images/" + image.image)}
                                                     className="d-block w-100"
+                                                    id="drawing"
                                                     alt={image.name}
                                                 />
                                             </div>

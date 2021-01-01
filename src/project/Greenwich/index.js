@@ -36,7 +36,7 @@ export default function Greenwich() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">
-                                                A high-end residential skyscraper located in World Trade Center, 125 Greenwich Street has a crowning triplex of amenities 85 stories above ground, offering captivating views and stylish living for its residents.
+                                                A high-end residential skyscraper, 125 Greenwich Street has a crowning triplex of amenities 85 stories above ground. It offers captivating views and stylish living for its residents in the heart of Manhattan’s World Trade Center. 
                                             </p>
                                         </div>
                                     </div>
@@ -52,7 +52,7 @@ export default function Greenwich() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">
-                                                During the design and planning of this project, the marketing strategy for this complex was changed to fit its target demographic. The client wished to offer an exclusive amenity experience on the top floors while being able to maintain the same amount of sellable apartment units. Our team at Rafael Vinoly Architects was met with the task of redesigning the building to meet the client’s new needs.
+                                                During the design and planning of this project, the marketing strategy for this complex was changed to fit its target demographic. The client wished to offer an exclusive amenity experience on the top floors while maintaining the same amount of sellable apartment units. Our team at Rafael Vinoly Architects was met with the task of redesigning the building to meet the client’s new needs.
                                             </p>
                                         </div>
                                     </div>
@@ -68,12 +68,12 @@ export default function Greenwich() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">
-                                                As an architectural designer on this team, I was met with many challenges:
+                                                As an architectural designer, I took on the role of a team lead in this multifaceted redesign and covered various aspects of the project:
                                             </p>
                                             <ul className="detail">
-                                                <li>Redesigning the both the building exterior and interior for the podium and penthouse floors.</li>
-                                                <li>Testing and modifying loft apartment units for an optimized apartment plan and coordinating with the engineering teams to maximize salable square footage while verifying legality with building-code consultants.</li>
-                                                <li>Designing amenity programs for an immersive experience by collaborating with interior designers on material selection and researching methods to resolve engineering conflicts.</li>
+                                                <li>Working directly with the design partner and project manager to reconfigure both building exterior and interior for the podium and penthouse floors.</li>
+                                                <li>Collaborating with interior designers and engineers to execute all design intent and resolve mechanical conflict.</li>
+                                                <li>Test-fitting units for optimized apartment layouts; researching legality of construction and verifying with building-code consultants.</li>
                                                 <li>Guiding the internal team though a fast-paced schedule and communicating with the lead architect, clients, and marketing professionals.</li>
                                             </ul>
                                         </div>

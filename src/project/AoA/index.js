@@ -33,7 +33,23 @@ export default function AoA() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">
-                                                A distinctive residential complex built on a busy intersection in Chelsea, Manhattan, 101 W 14th St. aims to be an eye-catching sight. Instead of stacked and uniform apartment units, the client wanted to provide a unique living experience to residents.
+                                                A distinctive complex, 101 W 14th Street is a new residential development at the cusp of Chelsea and Greenwich village in Manhattan. The client wished to deliver a building that both yields extra space and maximizes resident privacy in this busy district. Instead of adapting traditional stacked layouts, the condominium provides each unit a unique layout of its own and a private terrace for a refined living experience. 
+                                             </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item h-100">
+                                    <div className="row justify-content-center align-items-center h-100">
+                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                            {/* <img 
+                                                src={image}
+                                                className="d-block w-100"
+                                                alt="gc_image-gif"
+                                            /> */}
+                                        </div>
+                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
+                                            <p className="detail">
+                                                Due to the non-conformist nature of this project, this project called to design each individual unit separately while adhering to construction conventions. Aside from creating a large amount of customization and various documentation of similar modules, our team at Whitehall Interiors collaborated closely with the rest of the project team on a daily basis. 
                                             </p>
                                         </div>
                                     </div>
@@ -49,28 +65,12 @@ export default function AoA() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">
-                                                Due to the unique and non-conformist nature of the project, our project team needed to design each individual unit separately to meet the requests of the client while still adhering to construction conventions. This process required a large amount of customization and heavy documentation on similar modules.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="carousel-item h-100">
-                                    <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
-                                            {/* <img 
-                                                src={image}
-                                                className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
-                                        </div>
-                                        <div className="col-12 col-sm-10 col-md-8 col-lg-5">
-                                            <p className="detail">
-                                                The planning and design of this project presented me with a variety of challenges:
+                                                To guide my team that was new to Building Information Modeling (BIM) system, I acted beyond my role and took on the responsibilities of a Revit manager:
                                             </p>
                                             <ul className="detail">
-                                                <li>Creating reusable 3D models from scratch with Building Information Modeling (BIM) to meet the unique and individualized needs of the project.</li>
-                                                <li>Learning how to use Revit and establishing a Revit Library for the company in order to define adjustable parameters and provide construction details for reusability.</li>
-                                                <li>Coordinating with architects, interior designers, engineers, and the client in a fast-paced work environment.</li>
+                                                <li>Categorizing building units per construction requirements; creating 3D models from scratch to meet code and constructability.</li>
+                                                <li>Defining adjustable parameters and providing documentational details for reusability.</li>
+                                                <li>Establishing modeling standards and libraries for the interior design team.</li>
                                             </ul>
                                         </div>
                                     </div>

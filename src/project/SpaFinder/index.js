@@ -3,6 +3,9 @@ import React from "react";
 
 // images
 import cover from "../../images/project_spafinder.jpg";
+import floorplan from "../../images/spafinder_floorplan.png";
+import image01 from "../../images/spafinder_photo-01.jpg";
+import image02 from "../../images/spafinder_photo-02.jpg";
 
 export default function SpaFinder() {
     return (
@@ -33,7 +36,7 @@ export default function SpaFinder() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">
-                                                {/* spafinder is an innovative compost pickup and produce delivery service founded in response to the pandemic. It was a startup that delivers organic produce to customers who provide their food waste to be used for composting.  */}
+                                                SpaFinder is a self-care service that prides itself in gifting wellness. The client sought an office environment that promotes a healthy work style and resonates with the company's core values. To achieve this, the new space called for glass, wood, and a vibrant color palette. Glass partitions introduce a visually open environment and physically private cubicles. Wood ceiling fins and floor finishing form a soothing connection between reception and working stations. Solid colors warm and bring energy with natural lighting, all to make every workday a pleasant one.
                                             </p>
                                         </div>
                                     </div>
@@ -41,15 +44,16 @@ export default function SpaFinder() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={floorplan}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="spafinder_floorplan"
+                                            />
+                                            <p className="caption">Architectural Floorplan. All Rights Reserved</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">
-                                                {/* The company needed a unique web application solution that was able to take and manage orders, delivery routes, and customers. As a web developer on the team, my role was to take their preexisting rudimentary site done in the LAMP stack and improve the UI/UX while converting to the MERN stack. */}
+                                                The space given for renovation wasn’t ideal: the floorplate was long and narrow, modularized by the building’s enclosure. Fitting additional amenities into the floorplan required multiple tests and trials. Our team at Triarch Inc. turned the weakness of this space to our advantage: removing dropped ceilings to lift the visual height and designating open workspaces along the windows to allow natural lighting to reach into the cubicles. The result is an open yet cozy office environment for its employees, clients, and partners to work dynamically in.
                                             </p>
                                         </div>
                                     </div>
@@ -57,26 +61,35 @@ export default function SpaFinder() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={image01}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="spafinder_photo01"
+                                            />
+                                            <p className="caption">Photograph by TRIARCH Inc.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <p className="detail">
-                                                {/* The main challenge for this project was to design a modern UI that is intuitive for users while managing the constant changes and needs that befit a new startup: */}
+                                                Assigned to a small project team, I worked directly with the firm’s design principal to execute this fast-paced renovation:
                                             </p>
                                             <ul className="detail">
-                                                {/* <li>Designing a user dashboard to help manage subscriptions, orders, and payments through Stripe.</li>
-                                                <li>Improving the design, general user flow, and readability of informational pages.</li>
-                                                <li>Outlining the redesign and creating a mockup for the team to follow in AxureRP.</li> */}
+                                                <li>Creating various layout options to befit user needs.</li>
+                                                <li>Researching unconventional construction details to realize design intent.</li>
+                                                <li>Drafting thorough construction documentation; preparing client presentations.</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
+                                        <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3">
+                                            <img 
+                                                src={image02}
+                                                className="d-block w-100"
+                                                alt="spafinder_photo02"
+                                            />
+                                            <p className="caption">Photograph by TRIARCH Inc.</p>
+                                        </div>
                                         <div className="col-12 col-sm-10 col-md-8 col-lg-5">
                                             <div className="mt-3 mb-3" align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://triarch.com/2016/02/22/spafinder/"><i className="fas fa-globe"></i>&nbsp;website (architect)</a>

@@ -27,9 +27,9 @@ export default function Drawing() {
 
                             <div className="carousel-inner">
                                 { imagesDrawing.map((image) => (
-                                    <div className={"carousel-item h-100 " + image.className}>
+                                    <div className={"carousel-item h-100 " + image.className} key={image.id}>
                                         <div className="row justify-content-center align-items-center h-100">
-                                            <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3" key={image.id} id={image.id}>
+                                            <div className="col-12 col-sm-10 col-md-8 col-lg-7 mb-3" id={image.id}>
                                                 <img 
                                                     src={require("../../images/" + image.image)}
                                                     className="d-block w-100"

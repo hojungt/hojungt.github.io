@@ -593,7 +593,7 @@ h3.card-title {
   bottom: 0;
   width: 100vw;
   text-align: center;
-  transform: translateY(-7rem)
+  transform: translateY(-12vh)
 }
 
 #btn-main {

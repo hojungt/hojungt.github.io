@@ -74,7 +74,6 @@ export default function Greenwich() {
                                                 <li>Working directly with the design partner and project manager to reconfigure both building exterior and interior for the podium and penthouse floors.</li>
                                                 <li>Collaborating with interior designers and engineers to execute all design intent and resolve mechanical conflict.</li>
                                                 <li>Test-fitting units for optimized apartment layouts; researching legality of construction and verifying with building-code consultants.</li>
-                                                <li>Guiding the internal team though a fast-paced schedule and communicating with the lead architect, clients, and marketing professionals.</li>
                                             </ul>
                                         </div>
                                     </div>

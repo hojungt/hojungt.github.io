@@ -40,7 +40,7 @@ export default function Greenwich() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
-                                                A high-end residential skyscraper, 125 Greenwich Street has a crowning triplex of amenities 85 stories above ground. It offers captivating views and stylish living for its residents in the heart of Manhattan’s World Trade Center. 
+                                                A high-end residential skyscraper, <b>125 Greenwich Street</b> has a crowning triplex of amenities 85 stories above ground. It offers captivating views and stylish living for its residents in the heart of Manhattan’s World Trade Center. 
                                             </p>
                                         </div>
                                     </div>
@@ -115,8 +115,8 @@ export default function Greenwich() {
                                             <p className="caption">Infinity Pool. Rendering by March & White Design.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            <p className="detail" align="center">
-                                                For more information, please visit the following sites:
+                                            <p className="status" align="center">
+                                                This project is currently under construction. For more information, please visit the following sites:
                                             </p>
                                             <div className="mt-3 " align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://www.125greenwich.com/"><i className="fas fa-globe"></i>&nbsp;website (official)</a>

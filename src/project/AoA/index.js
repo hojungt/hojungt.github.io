@@ -3,10 +3,11 @@ import React from "react";
 
 // images
 import cover from "../../images/project_531aoa.jpg";
+import gifType from "../../images/Aoa_revit-kitchen-families.gif";
+import gifParam from "../../images/Aoa_revit-kitchen-parameters.gif";
 import render from "../../images/Aoa_render-terrace.jpg";
 import chart from "../../images/Aoa_type-chart.png";
 import moduleK from "../../images/Aoa_module-kitchen.png";
-import moduleS from "../../images/Aoa_module-stairs.png";
 
 export default function AoA() {
     return (
@@ -38,24 +39,24 @@ export default function AoA() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
-                                                A distinctive complex, 101 W 14th Street is a new residential development at the cusp of Chelsea and Greenwich village in Manhattan. The client wished to deliver a building that both yields extra space and maximizes resident privacy in this busy district. Instead of adapting traditional stacked layouts, the condominium provides each unit a unique layout of its own and a private terrace for a refined living experience. 
+                                                A distinctive complex, <b>101 W 14th Street</b> is a new residential development at the cusp of Chelsea and Greenwich village in Manhattan. The client wished to deliver a building that both yields extra space and maximizes resident privacy in this busy district. Instead of adapting traditional stacked layouts, the condominium provides each unit a unique layout of its own and a private terrace for a refined living experience. 
                                              </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6 mt-2">
                                             <img 
-                                                src={chart}
-                                                className="d-block w-100"
-                                                alt="Aoa_type-chart"
+                                                src={gifParam}
+                                                className="d-block w-100 frame"
+                                                alt="Aoa_revit-kitchen-parameters"
                                             />
-                                            <p className="caption">Revit component - reusable model complies with design convention.</p>
+                                            <p className="caption">Example of parameter manipulation - <br /> adjusting overall kitchen dimension changes customizable cabinet only.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
-                                                Due to the non-conformist nature of this project, this project called to design each individual unit separately while adhering to construction conventions. Aside from creating a large amount of customization and various documentation of similar modules, our team at Whitehall Interiors collaborated closely with the rest of the project team on a daily basis. 
+                                                Due to the non-conformist nature of this project, this project called to design each individual unit separately while adhering to construction conventions. Aside from creating a large amount of customization and various documentation of similar modules, our team at Whitehall Interiors collaborated closely with the rest of the project team. 
                                             </p>
                                         </div>
                                     </div>
@@ -64,19 +65,19 @@ export default function AoA() {
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
+                                                src={gifType}
+                                                className="d-block w-100"
+                                                alt="Aoa_revit-kitchen-families"
+                                            />
+                                            <p className="caption">Revit component - <br /> reusable model complies with design convention.</p>
+                                        </div>
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
                                                 src={moduleK}
                                                 className="d-block w-100"
                                                 alt="Aoa_module-kitchen"
                                             />
-                                            <p className="caption">Type review - kitchen modules</p>
-                                        </div>
-                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            <img 
-                                                src={moduleS}
-                                                className="d-block w-100"
-                                                alt="Aoa_module-stairs"
-                                            />
-                                            <p className="caption">Type review - stair modules</p>
+                                            <p className="caption">Plan study of kitchen module variety</p>
                                         </div>
                                     </div>
                                 </div>
@@ -113,10 +114,12 @@ export default function AoA() {
                                             <p className="caption">Apartment private terrace. Rendering by ODA Architecture.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            <p className="detail" align="center">
+                                            <p className="status" align="center">
+                                                This project is currently under construction. 
+                                                <br />
                                                 For more information, please visit the following site:
                                             </p>
-                                            <div className="mt-3 " align="center">
+                                            <div className="mt-3" align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://101west14th.com/"><i className="fas fa-globe"></i>&nbsp;website (official)</a>
                                             </div>
                                         </div>

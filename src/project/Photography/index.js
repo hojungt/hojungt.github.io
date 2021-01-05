@@ -43,12 +43,9 @@ export default function Photography() {
                                             />
                                         </div>
                                         <div className="col-12  col-md-6 col-lg-6">
-                                            <h2 className="description">Object | Pattern</h2>
                                             <p className="detail">
-                                                A simple fascination with objects initiates this photography series. 
-                                                <br />
+                                                <b>Object | Pattern</b> is a digital photography series initiated by simple fascination with objects.
                                                 Whether it is framing a field or isolating a single object, I determine a pattern according to my vision when my sight meets objects. When possible, I capture the objects at minimal distance. 
-                                                <br />
                                                 Chosen with a depth-of-field true to the instance of observation, each photograph accentuates a pattern composition for the objects and vice versa.
                                             </p>
                                         </div>

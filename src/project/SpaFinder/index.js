@@ -36,8 +36,7 @@ export default function SpaFinder() {
                                         </div>
                                         <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <p className="detail">
-                                                SpaFinder is a self-care scheduling service that prides itself in gifting wellness. 
-                                                <br />
+                                                <b>SpaFinder</b> is a self-care scheduling service that prides itself in gifting wellness. 
                                                 The client sought an office environment that promotes a healthy work style and resonates with the company's core values. To achieve this, the new space called for glass, wood, and a vibrant color palette. Glass partitions introduce a visually open environment and physically private cubicles. Wood ceiling fins and floor finishing form a soothing connection between reception and working stations. Solid colors warm and bring energy with natural lighting, all to make every workday a pleasant one.
                                             </p>
                                         </div>
@@ -93,8 +92,8 @@ export default function SpaFinder() {
                                             <p className="caption">Private cubicles and open workspaces. Photograph by TRIARCH Inc.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            <p className="detail" align="center">
-                                                For more information, please visit the following site:
+                                            <p className="status" align="center">
+                                                This project is completed. For more information, please visit the following site:
                                             </p>
                                             <div className="mt-3" align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://triarch.com/2016/02/22/spafinder/"><i className="fas fa-globe"></i>&nbsp;website (architect)</a>

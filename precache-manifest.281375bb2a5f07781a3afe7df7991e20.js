@@ -1,35 +1,55 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1acb71d62c40f893f2d50532307f199",
+    "revision": "342aecd5f23d49ff9fd661714b5e1060",
     "url": "/index.html"
   },
   {
-    "revision": "a5d9294ef970e898edfd",
-    "url": "/static/css/main.453d0843.chunk.css"
+    "revision": "a3e849b91b9f07011459",
+    "url": "/static/css/main.5156c5b4.chunk.css"
   },
   {
-    "revision": "22620ecae75295148835",
-    "url": "/static/js/2.4cb8f2f3.chunk.js"
+    "revision": "e94addc916755a6bef1a",
+    "url": "/static/js/2.cee60637.chunk.js"
   },
   {
     "revision": "36b3a2123f180e082ee45d579f114228",
-    "url": "/static/js/2.4cb8f2f3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cee60637.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5d9294ef970e898edfd",
-    "url": "/static/js/main.448f1a04.chunk.js"
+    "revision": "a3e849b91b9f07011459",
+    "url": "/static/js/main.10dc092d.chunk.js"
   },
   {
     "revision": "dd8147bbe7734801bdde",
     "url": "/static/js/runtime-main.e312f208.js"
   },
   {
-    "revision": "8a7bd114ef4af06cdec6fb2766888dc1",
-    "url": "/static/media/125Greenwich_render.8a7bd114.jpg"
+    "revision": "a2ca4e8abce3d2f42b435da0867a1f00",
+    "url": "/static/media/125Greenwich_coordination-chart.a2ca4e8a.png"
+  },
+  {
+    "revision": "04b4678b14c82dd7fd9099345d2f3550",
+    "url": "/static/media/125Greenwich_plan-amenity.04b4678b.png"
+  },
+  {
+    "revision": "bccd14e25ddbfa0cf50f94a9f9219ce9",
+    "url": "/static/media/125Greenwich_plan-residential.bccd14e2.png"
+  },
+  {
+    "revision": "bffb2f1659080dad22ac6f87fe84abba",
+    "url": "/static/media/125Greenwich_render-interior.bffb2f16.jpg"
   },
   {
     "revision": "37ded59959f5e82f1b46c89d8bcdca84",
     "url": "/static/media/125Greenwich_scan-section.37ded599.png"
+  },
+  {
+    "revision": "eee827f51e14008931b6d69282113de1",
+    "url": "/static/media/Aoa_module-kitchen.eee827f5.png"
+  },
+  {
+    "revision": "32f67d0462ff9b8fede865accea32858",
+    "url": "/static/media/Aoa_module-stairs.32f67d04.png"
   },
   {
     "revision": "8b4285e0e73c4d557caf20961ced4c75",
@@ -38,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b89e9264dc49e259e0cea14d7f1d54e3",
     "url": "/static/media/Aoa_render-terrace.b89e9264.jpg"
+  },
+  {
+    "revision": "041a69d3dbd5e3f0dc6735e3dcd9282c",
+    "url": "/static/media/Aoa_type-chart.041a69d3.png"
   },
   {
     "revision": "ddd69273d47ed5ea7b59a9735dd4cf3a",
@@ -80,40 +104,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bg_thomas-heintz-0tgMnMIYQ9Y-unsplash.68f32bbb.jpg"
   },
   {
-    "revision": "4db9a6d208ed08585b5279d38441c28c",
-    "url": "/static/media/drawing_01.4db9a6d2.jpg"
-  },
-  {
-    "revision": "522516e65ad3c66ffd457e6557292309",
-    "url": "/static/media/drawing_02.522516e6.jpg"
-  },
-  {
-    "revision": "7b7e670b405b22e62180c93566569304",
-    "url": "/static/media/drawing_03.7b7e670b.jpg"
-  },
-  {
     "revision": "859b17580283455d4c3a2dcef47cbd33",
-    "url": "/static/media/drawing_04.859b1758.jpg"
+    "url": "/static/media/drawing_01.859b1758.jpg"
   },
   {
     "revision": "24f13a381e1686da173e4af18fc52704",
-    "url": "/static/media/drawing_05.24f13a38.jpg"
+    "url": "/static/media/drawing_02.24f13a38.jpg"
   },
   {
     "revision": "c9b0bd4e02bed2b7d7fbf521d6070348",
-    "url": "/static/media/drawing_06.c9b0bd4e.jpg"
+    "url": "/static/media/drawing_03.c9b0bd4e.jpg"
   },
   {
     "revision": "4050f31a85128ad763f88ac54d5d427d",
-    "url": "/static/media/drawing_07.4050f31a.jpg"
+    "url": "/static/media/drawing_04.4050f31a.jpg"
   },
   {
     "revision": "8238a97de53305407cb0599915ade7b7",
-    "url": "/static/media/drawing_08.8238a97d.jpg"
+    "url": "/static/media/drawing_05.8238a97d.jpg"
+  },
+  {
+    "revision": "522516e65ad3c66ffd457e6557292309",
+    "url": "/static/media/drawing_06.522516e6.jpg"
   },
   {
     "revision": "a965668052d358923a67d0f696faa57e",
-    "url": "/static/media/drawing_09.a9656680.jpg"
+    "url": "/static/media/drawing_07.a9656680.jpg"
+  },
+  {
+    "revision": "4db9a6d208ed08585b5279d38441c28c",
+    "url": "/static/media/drawing_08.4db9a6d2.jpg"
   },
   {
     "revision": "859b17580283455d4c3a2dcef47cbd33",
@@ -168,8 +188,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/photography_object-pattern-09.cbcd08b2.jpg"
   },
   {
-    "revision": "e8022cc74c0844045af301624cd43523",
-    "url": "/static/media/project_125greenwich.e8022cc7.jpg"
+    "revision": "7fd219e966cbee89f6708f17e475a5dd",
+    "url": "/static/media/project_125greenwich.7fd219e9.jpg"
   },
   {
     "revision": "46db2872679bc5b106dc2727b82e3627",
@@ -206,6 +226,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e85bd9c602e247429c6f3284ead85c6",
     "url": "/static/media/spafinder_photo-02.4e85bd9c.jpg"
+  },
+  {
+    "revision": "7cefc656d20979f4e6535fcea1790cfb",
+    "url": "/static/media/thesis_concept-map.7cefc656.jpg"
+  },
+  {
+    "revision": "99660e0e2e6f5d429dcae4ed7065162e",
+    "url": "/static/media/thesis_diagram-production-process.99660e0e.png"
+  },
+  {
+    "revision": "8c9c97c639775f0738aca3c3785262dd",
+    "url": "/static/media/thesis_diagram-scale.8c9c97c6.png"
+  },
+  {
+    "revision": "543f29defb156b0f53d3e679078e0ee8",
+    "url": "/static/media/thesis_photo-final-review.543f29de.jpeg"
+  },
+  {
+    "revision": "7362eb3b7aed7ef3dbdbadbb15c66f07",
+    "url": "/static/media/thesis_sketch.7362eb3b.png"
   },
   {
     "revision": "cb7d2f4fe275209e6c55fb1acb0f8f64",

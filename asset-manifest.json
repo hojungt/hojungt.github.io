@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.5156c5b4.chunk.css",
-    "main.js": "/static/js/main.10dc092d.chunk.js",
-    "main.js.map": "/static/js/main.10dc092d.chunk.js.map",
+    "main.css": "/static/css/main.11497b42.chunk.css",
+    "main.js": "/static/js/main.76d0c8f4.chunk.js",
+    "main.js.map": "/static/js/main.76d0c8f4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.cee60637.chunk.js": "/static/js/2.cee60637.chunk.js",
-    "static/js/2.cee60637.chunk.js.map": "/static/js/2.cee60637.chunk.js.map",
+    "static/js/2.b0d38a0f.chunk.js": "/static/js/2.b0d38a0f.chunk.js",
+    "static/js/2.b0d38a0f.chunk.js.map": "/static/js/2.b0d38a0f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.281375bb2a5f07781a3afe7df7991e20.js": "/precache-manifest.281375bb2a5f07781a3afe7df7991e20.js",
+    "precache-manifest.285fd08263ce165b8ec8c704550b507d.js": "/precache-manifest.285fd08263ce165b8ec8c704550b507d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5156c5b4.chunk.css.map": "/static/css/main.5156c5b4.chunk.css.map",
-    "static/js/2.cee60637.chunk.js.LICENSE.txt": "/static/js/2.cee60637.chunk.js.LICENSE.txt",
+    "static/css/main.11497b42.chunk.css.map": "/static/css/main.11497b42.chunk.css.map",
+    "static/js/2.b0d38a0f.chunk.js.LICENSE.txt": "/static/js/2.b0d38a0f.chunk.js.LICENSE.txt",
     "static/media/125Greenwich_coordination-chart.png": "/static/media/125Greenwich_coordination-chart.a2ca4e8a.png",
     "static/media/125Greenwich_plan-amenity.png": "/static/media/125Greenwich_plan-amenity.04b4678b.png",
     "static/media/125Greenwich_plan-residential.png": "/static/media/125Greenwich_plan-residential.bccd14e2.png",
     "static/media/125Greenwich_render-interior.jpg": "/static/media/125Greenwich_render-interior.bffb2f16.jpg",
     "static/media/125Greenwich_scan-section.png": "/static/media/125Greenwich_scan-section.37ded599.png",
     "static/media/Aoa_module-kitchen.png": "/static/media/Aoa_module-kitchen.eee827f5.png",
-    "static/media/Aoa_module-stairs.png": "/static/media/Aoa_module-stairs.32f67d04.png",
     "static/media/Aoa_render-interior.jpg": "/static/media/Aoa_render-interior.8b4285e0.jpg",
     "static/media/Aoa_render-terrace.jpg": "/static/media/Aoa_render-terrace.b89e9264.jpg",
+    "static/media/Aoa_revit-kitchen-families.gif": "/static/media/Aoa_revit-kitchen-families.0ce01c70.gif",
+    "static/media/Aoa_revit-kitchen-parameters.gif": "/static/media/Aoa_revit-kitchen-parameters.53432409.gif",
     "static/media/Aoa_type-chart.png": "/static/media/Aoa_type-chart.041a69d3.png",
     "static/media/Resume_Rachael-Tseng.pdf": "/static/media/Resume_Rachael-Tseng.ddd69273.pdf",
     "static/media/SomethingBorrowed.pdf": "/static/media/SomethingBorrowed.8c1d373c.pdf",
@@ -72,8 +73,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
-    "static/js/2.cee60637.chunk.js",
-    "static/css/main.5156c5b4.chunk.css",
-    "static/js/main.10dc092d.chunk.js"
+    "static/js/2.b0d38a0f.chunk.js",
+    "static/css/main.11497b42.chunk.css",
+    "static/js/main.76d0c8f4.chunk.js"
   ]
 }

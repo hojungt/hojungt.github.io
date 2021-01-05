@@ -12,7 +12,7 @@ export default function Questgiver() {
                     <div className="col-12">
                         <h1 className="detail">Questgiver</h1>
                         <div className="mb-3" align="center">
-                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt/API-Project-1"><i className="fas fa-code"></i>&nbsp;code</a>
+                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt/questgiver"><i className="fas fa-code"></i>&nbsp;code</a>
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://hchen651.github.io/questgiver/"><i className="fas fa-globe"></i>&nbsp;website</a>
                         </div>
 
@@ -32,6 +32,7 @@ export default function Questgiver() {
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
+                                            <p className="caption">App Demo</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">

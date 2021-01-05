@@ -2,7 +2,8 @@
 import React from "react";
 
 // images
-// import image from "../../videos/vid_gc_test.gif";
+import image from "../../images/SomethingBorrowed_wireframe.png";
+import style from "../../images/SomethingBorrowed_styling-standard.png";
 
 // pdf
 import balsamiq from "../../pdf/SomethingBorrowed.pdf";
@@ -36,6 +37,7 @@ function SomethingBorrowed() {
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
                                             /> */}
+                                            <p className="caption">App Demo</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -47,11 +49,12 @@ function SomethingBorrowed() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
+                                            <img 
                                                 src={image}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="something-borrowed_wireframe"
+                                            />
+                                            <p className="caption">Wireframe - generate quick mockup of user interface for internal discussion</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -63,11 +66,12 @@ function SomethingBorrowed() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={style}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="something-borrowed_styling-standard"
+                                            />
+                                            <p className="caption">Styling standards - research on existing website with similar aesthetics</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">

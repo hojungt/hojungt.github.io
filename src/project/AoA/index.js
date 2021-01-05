@@ -69,7 +69,7 @@ export default function AoA() {
                                                 className="d-block w-100"
                                                 alt="Aoa_revit-kitchen-families"
                                             />
-                                            <p className="caption">Revit component - <br /> reusable model complies with design convention.</p>
+                                            <p className="caption">Revit component - reusable model complies with design convention.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 

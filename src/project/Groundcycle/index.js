@@ -33,6 +33,7 @@ function Groundcycle() {
                                                 className="d-block w-100 frame"
                                                 alt="gc_image-gif"
                                             />
+                                            <p className="caption">App Demo</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">

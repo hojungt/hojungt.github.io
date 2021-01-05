@@ -3,6 +3,10 @@ import React from "react";
 
 // images
 import cover from "../../images/project_531aoa.jpg";
+import render from "../../images/Aoa_render-terrace.jpg";
+import chart from "../../images/Aoa_type-chart.png";
+import moduleK from "../../images/Aoa_module-kitchen.png";
+import moduleS from "../../images/Aoa_module-stairs.png";
 
 export default function AoA() {
     return (
@@ -18,6 +22,7 @@ export default function AoA() {
                                 <li data-target="#carousel-detail-aoa" data-slide-to="1"></li>
                                 <li data-target="#carousel-detail-aoa" data-slide-to="2"></li>
                                 <li data-target="#carousel-detail-aoa" data-slide-to="3"></li>
+                                <li data-target="#carousel-detail-aoa" data-slide-to="4"></li>
                             </ol>
 
                             <div className="carousel-inner">
@@ -29,7 +34,7 @@ export default function AoA() {
                                                 className="d-block w-100"
                                                 alt="project_531aoa"
                                             />
-                                            <p className="caption">Rendering by ODA Architecture</p>
+                                            <p className="caption">Architectural design. Concept rendering by ODA Architecture.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -41,11 +46,12 @@ export default function AoA() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={chart}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="Aoa_type-chart"
+                                            />
+                                            <p className="caption">Revit component - reusable model complies with design convention.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -57,11 +63,32 @@ export default function AoA() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={moduleK}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="Aoa_module-kitchen"
+                                            />
+                                            <p className="caption">Type review - kitchen modules</p>
+                                        </div>
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
+                                                src={moduleS}
+                                                className="d-block w-100"
+                                                alt="Aoa_module-stairs"
+                                            />
+                                            <p className="caption">Type review - stair modules</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item h-100">
+                                    <div className="row justify-content-center align-items-center h-100">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
+                                                src={chart}
+                                                className="d-block w-100"
+                                                alt="Aoa_type-chart"
+                                            />
+                                            <p className="caption">Type chart - list of adjustable modules created with code system.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -78,6 +105,17 @@ export default function AoA() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
+                                                src={render}
+                                                className="d-block w-100"
+                                                alt="Aoa_render-terrace"
+                                            />
+                                            <p className="caption">Apartment private terrace. Rendering by ODA Architecture.</p>
+                                        </div>
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <p className="detail" align="center">
+                                                For more information, please visit the following site:
+                                            </p>
                                             <div className="mt-3 " align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://101west14th.com/"><i className="fas fa-globe"></i>&nbsp;website (official)</a>
                                             </div>

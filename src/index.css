@@ -160,8 +160,16 @@ p.name {
 p.caption {
   font-size: 12px;
   color: #888888;
-  font-style: italic;
+  /* font-style: italic; */
+  margin-top: 2px;
   text-align: center;
+}
+
+p.caption-drawing {
+  font-size: 12px;
+  color: #888888;
+  text-align: center;
+  margin-bottom: 2px;
 }
 
 ul {
@@ -314,14 +322,18 @@ nav::after {
   filter: invert(50%);
 }
 
+.carousel-item {
+  padding: 20px;
+}
+
 img.d-block {
-  max-height: 300px;
+  max-height: 294px;
   object-fit: contain;
   /* object-fit: cover; */
 }
 
 img#drawing {
-  max-height: 45vh;
+  max-height: 40vh;
   object-fit: contain;
 }
 
@@ -331,10 +343,6 @@ img.frame {
 
 #carousel-recommendations .carousel-inner {
   width: 45vw;
-}
-
-.carousel-item {
-  padding: 20px;
 }
 
 .carousel-detail .carousel-inner {
@@ -589,11 +597,8 @@ h3.card-title {
 }
 
 #btn-div-main {
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
   text-align: center;
-  transform: translateY(-12vh)
+  margin-top: 5vh;
 }
 
 #btn-main {
@@ -636,7 +641,7 @@ h3.card-title {
 #btn-more:focus,
 #btn-more:active {
   color: #333333;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #ffffff99;
   background-color: #ffffff99;
 }
 

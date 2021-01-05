@@ -3,6 +3,11 @@ import React from "react";
 
 // images
 import cover from "../../images/other_thesis.jpg";
+import photo from "../../images/thesis_photo-final-review.jpeg";
+import sketch from "../../images/thesis_sketch.png";
+import concept from "../../images/thesis_concept-map.jpg";
+import diagram02 from "../../images/thesis_diagram-production-process.png";
+import diagram01 from "../../images/thesis_diagram-scale.png";
 
 export default function Thesis() {
     return (
@@ -18,6 +23,7 @@ export default function Thesis() {
                                 <li data-target="#carousel-detail-thesis" data-slide-to="1"></li>
                                 <li data-target="#carousel-detail-thesis" data-slide-to="2"></li>
                                 <li data-target="#carousel-detail-thesis" data-slide-to="3"></li>
+                                <li data-target="#carousel-detail-thesis" data-slide-to="4"></li>
                             </ol>
 
                             <div className="carousel-inner">
@@ -29,10 +35,11 @@ export default function Thesis() {
                                                 className="d-block w-100"
                                                 alt="other_thesis"
                                             />
+                                            <p className="caption">Project installation. Photograph by Henry Chuang</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
-                                                An unfamiliar form of memorial, Encounter Machine is a product of behavioral design that questions our relationship with chickens, a species that is not human and a species we consume. The project entails creating a farm-like structure that can be easily installed anywhere in the world. Using the attended university as a prototype, a one-to-one scale installation was built in the department’s main hallway.
+                                                An unfamiliar form of memorial, <b>Encounter Machine</b> is a product of behavioral design that questions our relationship with chickens, a species that is not human and a species we consume. The project entails creating a farm-like structure that can be easily installed anywhere in the world. Using the attended university as a prototype, a one-to-one scale installation was built in the department’s main hallway.
                                             </p>
                                         </div>
                                     </div>
@@ -40,11 +47,12 @@ export default function Thesis() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={diagram01}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="thesis_diagram"
+                                            />
+                                            <p className="caption">Diagram - A chicken's living space in human scale</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -55,12 +63,33 @@ export default function Thesis() {
                                 </div>
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
-                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                        <div className="col-12 col-sm-10 col-md-4 col-lg-4">
+                                            <img 
+                                                src={concept}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="thesis_concept-map"
+                                            />
+                                            <p className="caption">Diagram - Roadmap on definition of a memorial</p>
+                                        </div>
+                                        <div className="col-12 col-sm-10 col-md-8 col-lg-8">
+                                            <img 
+                                                src={diagram02}
+                                                className="d-block w-100 frame"
+                                                alt="thesis_diagram-production-process"
+                                            />
+                                            <p className="caption">Diagram - Production process of intensive farming system</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item h-100">
+                                    <div className="row justify-content-center align-items-center h-100">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
+                                                src={sketch}
+                                                className="d-block w-100"
+                                                alt="thesis_sketch"
+                                            />
+                                            <p className="caption">Sketches - Installation concept and method</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -72,11 +101,12 @@ export default function Thesis() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={photo}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="thesis_photo-final-review"
+                                            />
+                                            <p className="caption">Final installation. Photograph by William Staffeld</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">

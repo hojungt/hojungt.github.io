@@ -9,7 +9,7 @@ export default function Drawing() {
         <div className="img-bg-detail container-child">
             <div className="container h-100" id="drawing">
                 <div className="row h-100 justify-content-center align-items-center">
-                    <div className="col-12 col-sm-12 col-md-10 col-lg-8">
+                    <div className="col-12">
                         <h1 className="detail">Drawings</h1>
 
                         <div id="carousel-detail-drawing" className="carousel slide carousel-detail" data-ride="carousel" data-interval="false">
@@ -22,7 +22,6 @@ export default function Drawing() {
                                 <li data-target="#carousel-detail-drawing" data-slide-to="5"></li>
                                 <li data-target="#carousel-detail-drawing" data-slide-to="6"></li>
                                 <li data-target="#carousel-detail-drawing" data-slide-to="7"></li>
-                                <li data-target="#carousel-detail-drawing" data-slide-to="8"></li>
                             </ol>
 
                             <div className="carousel-inner">
@@ -36,6 +35,7 @@ export default function Drawing() {
                                                     id="drawing"
                                                     alt={image.name}
                                                 />
+                                                <p className="caption-drawing mt-2"><b>{image.title}</b> {image.caption}</p>
                                             </div>
                                         </div>
                                     </div>

@@ -27,18 +27,18 @@ export default function Main() {
                                 />
                                 <br />
                             </div>
+                            <div className="col-12" id="btn-div-main">
+                                <HashLink
+                                    smooth to="#recent-projects"
+                                    role="button"
+                                    id="btn-main"
+                                >
+                                    View Projects
+                                </HashLink>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="btn-div-main">
-                <HashLink
-                    smooth to="#recent-projects"
-                    role="button"
-                    id="btn-main"
-                >
-                    View Projects
-                </HashLink>
             </div>
         </div>
     )

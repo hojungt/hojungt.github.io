@@ -32,7 +32,7 @@ export default function SpaFinder() {
                                                 className="d-block w-100"
                                                 alt="project_spafinder"
                                             />
-                                            <p className="caption">Photograph by TRIARCH Inc.</p>
+                                            <p className="caption">Reception, office amenity and main corridor. Photograph by TRIARCH Inc.</p>
                                         </div>
                                         <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -51,7 +51,7 @@ export default function SpaFinder() {
                                                 className="d-block w-100"
                                                 alt="spafinder_floorplan"
                                             />
-                                            <p className="caption">Architectural Floorplan. All Rights Reserved</p>
+                                            <p className="caption mt-3">Architectural floor plan by TRIARCH Inc.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -68,7 +68,7 @@ export default function SpaFinder() {
                                                 className="d-block w-100"
                                                 alt="spafinder_photo01"
                                             />
-                                            <p className="caption">Photograph by TRIARCH Inc.</p>
+                                            <p className="caption">Main conference room. Photograph by TRIARCH Inc.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -90,10 +90,13 @@ export default function SpaFinder() {
                                                 className="d-block w-100"
                                                 alt="spafinder_photo02"
                                             />
-                                            <p className="caption">Photograph by TRIARCH Inc.</p>
+                                            <p className="caption">Private cubicles and open workspaces. Photograph by TRIARCH Inc.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            <div className="mt-3 " align="center">
+                                            <p className="detail" align="center">
+                                                For more information, please visit the following site:
+                                            </p>
+                                            <div className="mt-3" align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://triarch.com/2016/02/22/spafinder/"><i className="fas fa-globe"></i>&nbsp;website (architect)</a>
                                             </div>
                                         </div>

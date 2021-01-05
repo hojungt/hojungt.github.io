@@ -1,73 +1,73 @@
 [
     {
         "id": 0,
-        "name": "drawing-01",
+        "name": "Artifact-I",
         "image": "drawing_01.jpg",
-        "caption": "",
+        "title": "Artifact I",
+        "caption": "40 x 50 in., Graphite",
         "className": "active"
     },
 
     {
         "id": 1,
-        "name": "drawing-02",
+        "name": "Geometry-Sketch-Study",
         "image": "drawing_02.jpg",
-        "caption": "",
+        "title": "Geometry Sketch Study",
+        "caption": "8.5 x 11 in., Graphite",
         "className": ""
     },
 
     {
         "id": 2,
-        "name": "drawing-03",
+        "name": "Trastevere-Rome",
         "image": "drawing_03.jpg",
-        "caption": "",
+        "title": "Lines and Shapes, Trastevere",
+        "caption": "(4)12 x 18 in., Charcoal",
         "className": ""
     },
 
     {
         "id": 3,
-        "name": "drawing-04",
+        "name": "Campidoglio-Rome",
         "image": "drawing_04.jpg",
-        "caption": "",
+        "title": "Panorama, Campidoglio",
+        "caption": "(2) 52 x 24 in., Charcoal",
         "className": ""
     },
 
     {
         "id": 4,
-        "name": "drawing-05",
+        "name": "Veritas-Still-Life",
         "image": "drawing_05.jpg",
-        "caption": "",
+        "title": "Veritas Still Life",
+        "caption": "24 x 36 in., Charcoal",
         "className": ""
     },
 
     {
         "id": 5,
-        "name": "drawing-06",
+        "name": "Artifact-II",
         "image": "drawing_06.jpg",
-        "caption": "",
+        "title": "Artifact II",
+        "caption": "19 x 24 in., Graphite",
         "className": ""
     },
 
     {
         "id": 6,
-        "name": "drawing-07",
+        "name": "Seasonal-Greetings",
         "image": "drawing_07.jpg",
-        "caption": "",
+        "title": "Seasonal Greetings",
+        "caption": "8.5 x 5.5 in., Ink & Color Pencil",
         "className": ""
     },
 
     {
         "id": 7,
-        "name": "drawing-08",
+        "name": "A-Little-Girl",
         "image": "drawing_08.jpg",
-        "caption": "",
-        "className": ""
-    },
-
-    {
-        "id": 8,
-        "name": "drawing-09",
-        "image": "drawing_09.jpg",
-        "caption": "",
+        "title": "A Little Girl",
+        "caption": "(6) 5.5 x 8.5 in., Brush",
         "className": ""
     }
 ]

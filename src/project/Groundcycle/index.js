@@ -11,7 +11,7 @@ function Groundcycle() {
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
                         <h1 className="detail">Groundcycle</h1>
-                        <div className="" align="center">
+                        <div className="mb-3" align="center">
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://github.com/hchen651/groundcycle"><i className="fas fa-code"></i>&nbsp;code</a>
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://groundcycle.herokuapp.com/"><i className="fas fa-globe"></i>&nbsp;website</a>
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://rkc5yu.axshare.com/#id=sm217u&p=project_cover"><i className="fas fa-palette"></i>&nbsp;wireframe</a>
@@ -36,7 +36,7 @@ function Groundcycle() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
-                                                Groundcycle is an innovative compost pickup and produce delivery service founded in response to the pandemic. It was a startup that delivers organic produce to customers who provide their food waste to be used for composting. 
+                                                <b>Groundcycle</b> is an innovative compost pickup and produce delivery service founded in response to the pandemic. It was a startup that delivers organic produce to customers who provide their food waste to be used for composting. 
                                             </p>
                                         </div>
                                     </div>
@@ -44,11 +44,11 @@ function Groundcycle() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            <img 
+                                            {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
-                                            />
+                                            /> */}
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -60,11 +60,11 @@ function Groundcycle() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            <img 
+                                            {/* <img 
                                                 src={image}
                                                 className="d-block w-100"
                                                 alt="gc_image-gif"
-                                            />
+                                            /> */}
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">

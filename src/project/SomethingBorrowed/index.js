@@ -14,7 +14,7 @@ function SomethingBorrowed() {
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
                     <h1 className="detail">Something Borrowed</h1>
-                    <div className="mt-3 " align="center">
+                    <div className="mb-3" align="center">
                         <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://github.com/SomatThakali/project2"><i className="fas fa-code"></i>&nbsp;code</a>
                         <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://something-borrowed-2019.herokuapp.com/"><i className="fas fa-globe"></i>&nbsp;website</a>
                         <a className="btn detail" target="_blank" rel="noopener noreferrer" href={balsamiq}><i className="fas fa-palette"></i>&nbsp;wireframe</a>
@@ -39,7 +39,7 @@ function SomethingBorrowed() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
-                                                Something Borrowed is a web application built with the idea of creating a community of borrowers and lenders. It was created as a solution to counter the modern problem of owning items we don’t need while also needing items we don’t own. The goal was to give everyone the choice of living a cheaper, cleaner and more sustainable life through the act of sharing.
+                                                <b>Something Borrowed</b> is a web application built with the idea of creating a community of borrowers and lenders. It was created as a solution to counter the modern problem of owning items we don’t need while also needing items we don’t own. The goal was to give everyone the choice of living a cheaper, cleaner and more sustainable life through the act of sharing.
                                             </p>
                                         </div>
                                     </div>

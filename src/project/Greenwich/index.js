@@ -1,10 +1,13 @@
 // React
-import React from 'react';
+import React from "react";
 
 // images
-import cover from '../../images/project_125greenwich.jpg';
-// import render from '../../images/125Greenwich_render.jpg';
-// import sketch from '../../images/125Greenwich_scan-section.png';
+import cover from "../../images/project_125greenwich.jpg";
+import chart from "../../images/125Greenwich_coordination-chart.png";
+import renderInt from "../../images/125Greenwich_render-interior.jpg";
+import sketch from "../../images/125Greenwich_scan-section.png";
+import planResidential from "../../images/125Greenwich_plan-residential.png";
+import planAmenity from "../../images/125Greenwich_plan-amenity.png";
 
 export default function Greenwich() {
 
@@ -21,6 +24,7 @@ export default function Greenwich() {
                                 <li data-target="#carousel-detail-greenwich" data-slide-to="1"></li>
                                 <li data-target="#carousel-detail-greenwich" data-slide-to="2"></li>
                                 <li data-target="#carousel-detail-greenwich" data-slide-to="3"></li>
+                                <li data-target="#carousel-detail-greenwich" data-slide-to="4"></li>
                             </ol>
 
                             <div className="carousel-inner">
@@ -32,7 +36,7 @@ export default function Greenwich() {
                                                 className="d-block w-100"
                                                 alt="project_125greenwich"
                                             />
-                                            <p className="caption">Rendering by March & White Design</p>
+                                            <p className="caption">Crowning amenity. Rendering by March & White Design.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -44,11 +48,12 @@ export default function Greenwich() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={sketch}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="125Greenwich_scan-section"
+                                            />
+                                            <p className="caption">Coordination sketch - adjusting structural floor heights to adapt design changes</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -60,11 +65,32 @@ export default function Greenwich() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={planResidential}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="125Greenwich_plan-residential"
+                                            />
+                                            <p className="caption">Floor plan - typical residential apartments by Rafael Vinoly Architects</p>
+                                        </div>
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
+                                                src={planAmenity}
+                                                className="d-block w-100"
+                                                alt="125Greenwich_plan-amenity"
+                                            />
+                                            <p className="caption">Floor plan - amenity redesign by Rafael Vinoly Architects</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item h-100">
+                                    <div className="row justify-content-center align-items-center h-100">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
+                                                src={chart}
+                                                className="d-block w-100"
+                                                alt="125Greenwich_coordination-chart"
+                                            />
+                                            <p className="caption mt-2">Coordination chart - tracking coordination process and documentation across design disciplines.</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -81,6 +107,17 @@ export default function Greenwich() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
+                                                src={renderInt}
+                                                className="d-block w-100"
+                                                alt="125Greenwich_render-interior"
+                                            />
+                                            <p className="caption">Infinity Pool. Rendering by March & White Design.</p>
+                                        </div>
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <p className="detail" align="center">
+                                                For more information, please visit the following sites:
+                                            </p>
                                             <div className="mt-3 " align="center">
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://www.125greenwich.com/"><i className="fas fa-globe"></i>&nbsp;website (official)</a>
                                                 <a className="btn description" target="_blank" rel="noopener noreferrer" href="https://vinoly.com/works/125-greenwich-street/"><i className="fas fa-globe"></i>&nbsp;website (architect)</a>

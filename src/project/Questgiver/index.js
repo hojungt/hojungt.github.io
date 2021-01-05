@@ -11,9 +11,9 @@ export default function Questgiver() {
                 <div className="row h-100 justify-content-center align-items-center">
                     <div className="col-12">
                         <h1 className="detail">Questgiver</h1>
-                        <div className="mt-3 " align="center">
+                        <div className="mb-3" align="center">
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://github.com/hojungt/API-Project-1"><i className="fas fa-code"></i>&nbsp;code</a>
-                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://rzhanghu64.github.io/projects/api-project-1/index.html"><i className="fas fa-globe"></i>&nbsp;website</a>
+                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://hchen651.github.io/questgiver/"><i className="fas fa-globe"></i>&nbsp;website</a>
                         </div>
 
                         <div id="carousel-detail-questgiver" className="carousel slide carousel-detail" data-ride="carousel" data-interval="false">
@@ -35,7 +35,7 @@ export default function Questgiver() {
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
-                                                Questgiver is a game search engine designed to combat a common problem amongst many gamers: not knowing what to play next. Oftentimes, gamers (especially PC gamers) have the modern problem of too much choice. In order to solve that problem, Questgiver makes game suggestions based on the user’s preferences.
+                                                <b>Questgiver</b> is a game search engine designed to combat a common problem amongst many gamers: not knowing what to play next. Oftentimes, gamers (especially PC gamers) have the modern problem of too much choice. In order to solve that problem, Questgiver makes game suggestions based on the user’s preferences.
                                             </p>
                                         </div>
                                     </div>

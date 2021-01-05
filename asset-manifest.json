@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.11497b42.chunk.css",
-    "main.js": "/static/js/main.76d0c8f4.chunk.js",
-    "main.js.map": "/static/js/main.76d0c8f4.chunk.js.map",
+    "main.js": "/static/js/main.5e25f28c.chunk.js",
+    "main.js.map": "/static/js/main.5e25f28c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.b0d38a0f.chunk.js": "/static/js/2.b0d38a0f.chunk.js",
-    "static/js/2.b0d38a0f.chunk.js.map": "/static/js/2.b0d38a0f.chunk.js.map",
+    "static/js/2.a797b88d.chunk.js": "/static/js/2.a797b88d.chunk.js",
+    "static/js/2.a797b88d.chunk.js.map": "/static/js/2.a797b88d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.285fd08263ce165b8ec8c704550b507d.js": "/precache-manifest.285fd08263ce165b8ec8c704550b507d.js",
+    "precache-manifest.840e6e30943956975e7bbd7d5959b041.js": "/precache-manifest.840e6e30943956975e7bbd7d5959b041.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.11497b42.chunk.css.map": "/static/css/main.11497b42.chunk.css.map",
-    "static/js/2.b0d38a0f.chunk.js.LICENSE.txt": "/static/js/2.b0d38a0f.chunk.js.LICENSE.txt",
+    "static/js/2.a797b88d.chunk.js.LICENSE.txt": "/static/js/2.a797b88d.chunk.js.LICENSE.txt",
     "static/media/125Greenwich_coordination-chart.png": "/static/media/125Greenwich_coordination-chart.a2ca4e8a.png",
     "static/media/125Greenwich_plan-amenity.png": "/static/media/125Greenwich_plan-amenity.04b4678b.png",
     "static/media/125Greenwich_plan-residential.png": "/static/media/125Greenwich_plan-residential.bccd14e2.png",
@@ -25,6 +25,8 @@
     "static/media/Aoa_type-chart.png": "/static/media/Aoa_type-chart.041a69d3.png",
     "static/media/Resume_Rachael-Tseng.pdf": "/static/media/Resume_Rachael-Tseng.ddd69273.pdf",
     "static/media/SomethingBorrowed.pdf": "/static/media/SomethingBorrowed.8c1d373c.pdf",
+    "static/media/SomethingBorrowed_styling-standard.png": "/static/media/SomethingBorrowed_styling-standard.f19e4d4a.png",
+    "static/media/SomethingBorrowed_wireframe.png": "/static/media/SomethingBorrowed_wireframe.d4ccd669.png",
     "static/media/bg_bench-accounting-nvzvOPQW0gc-unsplash.jpg": "/static/media/bg_bench-accounting-nvzvOPQW0gc-unsplash.0be33336.jpg",
     "static/media/bg_bench-accounting-xxeAftHHq6E-unsplash.jpg": "/static/media/bg_bench-accounting-xxeAftHHq6E-unsplash.6597a09c.jpg",
     "static/media/bg_elena-joland-mjeQon0Mh_Q-unsplash.jpg": "/static/media/bg_elena-joland-mjeQon0Mh_Q-unsplash.5cec7648.jpg",
@@ -39,7 +41,7 @@
     "static/media/drawing_04.jpg": "/static/media/drawing_04.4050f31a.jpg",
     "static/media/drawing_05.jpg": "/static/media/drawing_05.8238a97d.jpg",
     "static/media/drawing_06.jpg": "/static/media/drawing_06.522516e6.jpg",
-    "static/media/drawing_07.jpg": "/static/media/drawing_07.a9656680.jpg",
+    "static/media/drawing_07.jpg": "/static/media/drawing_07.0bbd8a79.jpg",
     "static/media/drawing_08.jpg": "/static/media/drawing_08.4db9a6d2.jpg",
     "static/media/other_drawing.jpg": "/static/media/other_drawing.859b1758.jpg",
     "static/media/other_photography.jpg": "/static/media/other_photography.cd6acfc1.jpg",
@@ -73,8 +75,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
-    "static/js/2.b0d38a0f.chunk.js",
+    "static/js/2.a797b88d.chunk.js",
     "static/css/main.11497b42.chunk.css",
-    "static/js/main.76d0c8f4.chunk.js"
+    "static/js/main.5e25f28c.chunk.js"
   ]
 }

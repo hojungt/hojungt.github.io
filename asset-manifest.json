@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.11497b42.chunk.css",
-    "main.js": "/static/js/main.5e25f28c.chunk.js",
-    "main.js.map": "/static/js/main.5e25f28c.chunk.js.map",
+    "main.css": "/static/css/main.18d8a07a.chunk.css",
+    "main.js": "/static/js/main.09f0c631.chunk.js",
+    "main.js.map": "/static/js/main.09f0c631.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.a797b88d.chunk.js": "/static/js/2.a797b88d.chunk.js",
-    "static/js/2.a797b88d.chunk.js.map": "/static/js/2.a797b88d.chunk.js.map",
+    "static/js/2.bbb29e6d.chunk.js": "/static/js/2.bbb29e6d.chunk.js",
+    "static/js/2.bbb29e6d.chunk.js.map": "/static/js/2.bbb29e6d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.840e6e30943956975e7bbd7d5959b041.js": "/precache-manifest.840e6e30943956975e7bbd7d5959b041.js",
+    "precache-manifest.5b520ab44974afda5609e1fa3413424c.js": "/precache-manifest.5b520ab44974afda5609e1fa3413424c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.11497b42.chunk.css.map": "/static/css/main.11497b42.chunk.css.map",
-    "static/js/2.a797b88d.chunk.js.LICENSE.txt": "/static/js/2.a797b88d.chunk.js.LICENSE.txt",
+    "static/css/main.18d8a07a.chunk.css.map": "/static/css/main.18d8a07a.chunk.css.map",
+    "static/js/2.bbb29e6d.chunk.js.LICENSE.txt": "/static/js/2.bbb29e6d.chunk.js.LICENSE.txt",
     "static/media/125Greenwich_coordination-chart.png": "/static/media/125Greenwich_coordination-chart.a2ca4e8a.png",
     "static/media/125Greenwich_plan-amenity.png": "/static/media/125Greenwich_plan-amenity.04b4678b.png",
     "static/media/125Greenwich_plan-residential.png": "/static/media/125Greenwich_plan-residential.bccd14e2.png",
@@ -62,6 +62,8 @@
     "static/media/project_questgiver.png": "/static/media/project_questgiver.a7e0ffb6.png",
     "static/media/project_something-borrowed.jpg": "/static/media/project_something-borrowed.53c3b9dc.jpg",
     "static/media/project_spafinder.jpg": "/static/media/project_spafinder.c3dedde2.jpg",
+    "static/media/questgiver_main.gif": "/static/media/questgiver_main.5dd96467.gif",
+    "static/media/questgiver_search.gif": "/static/media/questgiver_search.51614161.gif",
     "static/media/rachael-tseng.jpg": "/static/media/rachael-tseng.bce97db2.jpg",
     "static/media/spafinder_floorplan.png": "/static/media/spafinder_floorplan.be9855f2.png",
     "static/media/spafinder_photo-01.jpg": "/static/media/spafinder_photo-01.c0def27f.jpg",
@@ -75,8 +77,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
-    "static/js/2.a797b88d.chunk.js",
-    "static/css/main.11497b42.chunk.css",
-    "static/js/main.5e25f28c.chunk.js"
+    "static/js/2.bbb29e6d.chunk.js",
+    "static/css/main.18d8a07a.chunk.css",
+    "static/js/main.09f0c631.chunk.js"
   ]
 }

@@ -335,7 +335,6 @@ nav::after {
 img.d-block {
   max-height: 294px;
   object-fit: contain;
-  /* object-fit: cover; */
 }
 
 img#drawing {
@@ -344,7 +343,12 @@ img#drawing {
 }
 
 img.frame {
-  border: 1px solid #cccccc;
+  /* border: 1px solid #cccccc; */
+  filter: 
+    drop-shadow(0 1px 0 #cccccc)
+    drop-shadow(0 -1px 0 #cccccc)
+    drop-shadow(-1px 0 0 #cccccc)
+    drop-shadow(1px 0 0 #cccccc)
 }
 
 #carousel-recommendations .carousel-inner {

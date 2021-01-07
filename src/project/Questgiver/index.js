@@ -2,7 +2,8 @@
 import React from "react";
 
 // images
-// import image from "../../videos/vid_gc_test.gif";
+import gifMain from "../../images/questgiver_main.gif";
+import gifSearch from "../../images/questgiver_search.gif";
 
 export default function Questgiver() {
     return (
@@ -27,12 +28,12 @@ export default function Questgiver() {
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={gifMain}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
-                                            <p className="caption">App Demo</p>
+                                                alt="questgiver_main"
+                                            />
+                                            {/* <p className="caption">App Demo</p> */}
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -44,11 +45,11 @@ export default function Questgiver() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={gifSearch}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="questgiver_search"
+                                            />
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">

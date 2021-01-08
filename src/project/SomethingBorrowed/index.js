@@ -2,8 +2,9 @@
 import React from "react";
 
 // images
-import image from "../../images/SomethingBorrowed_wireframe.png";
-import style from "../../images/SomethingBorrowed_styling-standard.png";
+import image from "../../images/something-borrowed_wireframe.png";
+import style from "../../images/something-borrowed_styling-standard.png";
+import gif from "../../images/something-borrowed_demo.gif";
 
 // pdf
 import balsamiq from "../../pdf/SomethingBorrowed.pdf";
@@ -32,12 +33,11 @@ function SomethingBorrowed() {
                                 <div className="carousel-item active h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
-                                                className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
-                                            <p className="caption">App Demo</p>
+                                            <img 
+                                                src={gif}
+                                                className="d-block w-100 frame"
+                                                alt="something-borrowed_demo"
+                                            />
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -54,7 +54,7 @@ function SomethingBorrowed() {
                                                 className="d-block w-100"
                                                 alt="something-borrowed_wireframe"
                                             />
-                                            <p className="caption">Wireframe - generate quick mockup of user interface for internal discussion</p>
+                                            <p className="caption">Wireframe - user interface mockup for internal discussion</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">

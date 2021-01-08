@@ -2,7 +2,13 @@
 import React from "react";
 
 // images
-import image from "../../videos/vid_gc_test.gif";
+import siteMap from "../../images/groundcycle_site-map.png";
+import storySketch from "../../images/groundcycle_story-sketch.PNG";
+import storyFinal from "../../images/groundcycle_story-final.gif";
+import gif from "../../images/groundcycle_main.gif";
+import dashboard from "../../images/groundcycle_dashboard.png";
+// import timelineSketch from "../../images/groundcycle_timeline-sketch.png";
+// import timelineFinal from "../../images/groundcycle_timeline-final-lg.png";
 
 function Groundcycle() {
     return (
@@ -12,8 +18,7 @@ function Groundcycle() {
                     <div className="col-12">
                         <h1 className="detail">Groundcycle</h1>
                         <div className="mb-3" align="center">
-                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://github.com/hchen651/groundcycle"><i className="fas fa-code"></i>&nbsp;code</a>
-                            <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://groundcycle.herokuapp.com/"><i className="fas fa-globe"></i>&nbsp;website</a>
+                            {/* <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://groundcycle.herokuapp.com/"><i className="fas fa-globe"></i>&nbsp;website</a> */}
                             <a className="btn detail" target="_blank" rel="noopener noreferrer" href="https://rkc5yu.axshare.com/#id=sm217u&p=project_cover"><i className="fas fa-palette"></i>&nbsp;wireframe</a>
                         </div>
 
@@ -22,6 +27,7 @@ function Groundcycle() {
                                 <li data-target="#carousel-detail-groundcycle" data-slide-to="0" className="active"></li>
                                 <li data-target="#carousel-detail-groundcycle" data-slide-to="1"></li>
                                 <li data-target="#carousel-detail-groundcycle" data-slide-to="2"></li>
+                                <li data-target="#carousel-detail-groundcycle" data-slide-to="3"></li>
                             </ol>
 
                             <div className="carousel-inner">
@@ -29,11 +35,10 @@ function Groundcycle() {
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
-                                                src={image}
+                                                src={gif}
                                                 className="d-block w-100 frame"
-                                                alt="gc_image-gif"
+                                                alt="groundcycle_main"
                                             />
-                                            <p className="caption">App Demo</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -45,11 +50,12 @@ function Groundcycle() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
-                                                className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                            <img 
+                                                src={dashboard}
+                                                className="d-block w-100 frame"
+                                                alt="groundcycle_dashboard"
+                                            />
+                                            <p className="caption">User dashboard redesign</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -61,11 +67,12 @@ function Groundcycle() {
                                 <div className="carousel-item h-100">
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
-                                            {/* <img 
-                                                src={image}
+                                            <img 
+                                                src={siteMap}
                                                 className="d-block w-100"
-                                                alt="gc_image-gif"
-                                            /> */}
+                                                alt="groundcycle_site-map"
+                                            />
+                                            <p className="caption">Site map - web app structure and user flow</p>
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -77,6 +84,25 @@ function Groundcycle() {
                                                 <li>Outlining the redesign and creating a mockup for the team to follow in AxureRP.</li>
                                             </ul>
                                         </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item h-100">
+                                    <div className="row justify-content-center align-items-center h-100">
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
+                                                src={storyFinal}
+                                                className="d-block w-100 frame"
+                                                alt="groundcycle_story-final"
+                                            />
+                                        </div>
+                                        <div className="col-12 col-sm-10 col-md-6 col-lg-6">
+                                            <img 
+                                                src={storySketch}
+                                                className="d-block w-100"
+                                                alt="groundcycle_story-sketch"
+                                            />
+                                        </div>
+                                        <p className="caption">Groundcycle's story - redesigning information as interactive panels</p>
                                     </div>
                                 </div>
                             </div>

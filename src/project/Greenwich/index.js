@@ -3,11 +3,11 @@ import React from "react";
 
 // images
 import cover from "../../images/project_125greenwich.jpg";
-import chart from "../../images/125Greenwich_coordination-chart.png";
-import renderInt from "../../images/125Greenwich_render-interior.jpg";
-import sketch from "../../images/125Greenwich_scan-section.png";
-import planResidential from "../../images/125Greenwich_plan-residential.png";
-import planAmenity from "../../images/125Greenwich_plan-amenity.png";
+import chart from "../../images/125-greenwich_coordination-chart.png";
+import renderInt from "../../images/125-greenwich_render-interior.jpg";
+import sketch from "../../images/125-greenwich_scan-section.png";
+import planResidential from "../../images/125-greenwich_plan-residential.png";
+import planAmenity from "../../images/125-greenwich_plan-amenity.png";
 
 export default function Greenwich() {
 

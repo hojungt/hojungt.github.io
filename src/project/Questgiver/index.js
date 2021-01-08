@@ -30,10 +30,9 @@ export default function Questgiver() {
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
                                                 src={gifMain}
-                                                className="d-block w-100"
+                                                className="d-block w-100 frame"
                                                 alt="questgiver_main"
                                             />
-                                            {/* <p className="caption">App Demo</p> */}
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
@@ -47,10 +46,11 @@ export default function Questgiver() {
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <img 
                                                 src={gifSearch}
-                                                className="d-block w-100"
+                                                className="d-block w-100 frame"
                                                 alt="questgiver_search"
                                             />
-                                        </div>
+                                            <p className="caption">App Demo - game search process and similar quests diplay</p>
+                                            </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             <p className="detail">
                                                 The main feature of the app allows a user to look up any video game in existence through the search function, and the application will try to look for up to six other titles which have similar gameplay mechanics, concepts, and genres. All the game data and information is aggregated from the giantbomb.com and igdb.com APIs through axios queries and processed through an algorithm which finds the best matches based on the amount of similarities.
@@ -62,9 +62,9 @@ export default function Questgiver() {
                                     <div className="row justify-content-center align-items-center h-100">
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">
                                             {/* <img 
-                                                src={image}
-                                                className="d-block w-100"
-                                                alt="gc_image-gif"
+                                                src={gifMain}
+                                                className="d-block w-100 frame"
+                                                alt="questgiver_main"
                                             /> */}
                                         </div>
                                         <div className="col-12 col-sm-10 col-md-6 col-lg-6">

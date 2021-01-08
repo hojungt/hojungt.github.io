@@ -3,11 +3,11 @@ import React from "react";
 
 // images
 import cover from "../../images/project_531aoa.jpg";
-import gifType from "../../images/Aoa_revit-kitchen-families.gif";
-import gifParam from "../../images/Aoa_revit-kitchen-parameters.gif";
-import render from "../../images/Aoa_render-terrace.jpg";
-import chart from "../../images/Aoa_type-chart.png";
-import moduleK from "../../images/Aoa_module-kitchen.png";
+import gifType from "../../images/531-aoa_revit-kitchen-families.gif";
+import gifParam from "../../images/531-aoa_revit-kitchen-parameters.gif";
+import render from "../../images/531-aoa_render-terrace.jpg";
+import chart from "../../images/531-aoa_type-chart.png";
+import moduleK from "../../images/531-aoa_module-kitchen.png";
 
 export default function AoA() {
     return (

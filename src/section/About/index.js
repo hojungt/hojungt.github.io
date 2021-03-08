@@ -63,7 +63,7 @@ export default function About() {
                                                 <i className="skill devicon-photoshop-line"></i>   
                                             </div>
                                             <div className="col-2">
-                                                <i className="skill fab fa-sketch"></i>
+                                                <i className="skill devicon-materialui-plain"></i>
                                             </div>
                                             <div className="col-2">
                                                 <i className="skill fab fa-figma"></i>

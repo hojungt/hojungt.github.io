@@ -25,46 +25,90 @@ code {
 
 body, html {
   height: 100%;
+  color: #000000;
+}
+
+.container-parent {
+  height: 100%;
+}
+
+#main {
+  height: 100vh;
+}
+
+#work,
+#other,
+#about,
+#contact {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+#work-a,
+#work-b,
+#work-c,
+#work-d,
+#work-e {
+  padding: 4rem;
+  margin-bottom: 1rem;
+}
+
+#work-a {
+  background-color: #cccccc;
+}
+
+#work-b {
+  background-color: #aaaaaa;
+}
+
+#work-c {
+  background-color: #cccccc;
+}
+
+#work-d {
+  background-color: #aaaaaa;
 }
 
 /* text */
 
 h1 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 28px;
-  color: #333333;
-}
-
-h1.detail {
-  text-align: center;
-  color: #555555;
-  font-weight: bold;
-  margin-bottom: 16px;
 }
 
 h1.intro {
-  line-height: 1.6;
+  font-family: 'PT Serif', serif;
+  font-size: 68px;
+  line-height: 1.2;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+h1.main {
+  font-weight: bold;
+  font-size: 120px;
+}
+
+h1.contact {
+  font-weight: bold;
+  font-size: 56px;
 }
 
 h1.footer {
   font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
   margin-bottom: 0px;
-  color: #888888;
 }
 
 h2 {
   font-family: 'PT Serif', serif;
   font-size: 24px;
-  color: #333333;
   margin-bottom: 16px;
 }
 
 h2.main {
-  color: #555555;
-  font-size: 16px;
+  color: #ffffff;
+  font-size: 48px;
 }
 
 h2.about {
@@ -111,10 +155,10 @@ h6 {
 
 p {
   font-family: 'PT Serif', serif;
-  color: #555555;
 }
 
 p.intro {
+  font-size: 20px;
   line-height: 1.6;
 }
 
@@ -122,7 +166,6 @@ p.footer {
   font-family: 'Noto Sans', sans-serif;
   font-size: 11px;
   margin-bottom: 0px;
-  color: #888888;
 }
 
 p.about {
@@ -259,66 +302,51 @@ i.skill {
 
 /* component - navbar */
 
-nav::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: #9cbd6f;
-}
-
 .navbar {
-  background-color: #ffffff99;
-  transition: 0.3s;
+  background-color: #ffffff;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
-.navbar-brand > img {
-  width: 52px;
-  height: 52px;
+.navbar-brand {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 576px) {
   .navbar {
-    background-color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .navbar-toggler {
     background-color: #ffffff;
+    border-color: #ffffff;
   }
   .navbar-brand > img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
 }
 
-.navbar:hover,
-.navbar:focus,
-.navbar:active {
-  background-color: #ffffff;
-}
-
-.nav-link {
-  color: #888888;
+.navbar-nav .nav-link {
   font-size: 16px;
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 3px 0 0px 0;
   margin: 0 10px;
-  border-bottom-style: solid;
   border-width: 3px;
-  border-color: #ffffff00;
+  border-bottom-style: solid;
+  border-color: #ffffff;
 }
 
 .nav-link-active,
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
-  color: #555555;
+  color: #000000;
   border-bottom-style: solid;
   border-width: 3px;
-  border-color: #555555;
+  border-color: #000000;
 }
 
 /* component - carousel */
@@ -424,105 +452,11 @@ img.frame {
 /* component - footer */
 
 footer {
-  color: #888888;
-  background-color: #333333;
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
 
-.footer > a {
-  color: #cccccc;
-}
-
-a.footer:hover,
-a.footer:focus,
-a.footer:active {
-  color: #ffffff;
-}
-
-#footer-name {
-  color: #9cbd6f;
-}
-
-#footer-name:hover,
-#footer-name:focus,
-#footer-name:active {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-#social-link {
-  padding: 4px;
-}
-
-/* background images */
-
-.img-bg-main,
-.img-bg-recent-projects,
-.img-bg-past-projects,
-.img-bg-past-projects-more,
-.img-bg-about,
-.img-bg-contact,
-.img-bg-detail,
-.img-bg-not-found {
-  height: 100vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative
-}
-
-.img-bg-main {
-  background-image: url("images/bg_elena-joland-mjeQon0Mh_Q-unsplash.jpg");
-}
-.img-bg-recent-projects {
-  background-image: url("images/bg_bench-accounting-xxeAftHHq6E-unsplash.jpg");
-}
-.img-bg-past-projects {
-  background-image: url("images/bg_philipp-berndt-5i0GnoTTjSE-unsplash.jpg");
-}
-.img-bg-past-projects-more {
-  background-image: url("images/bg_bench-accounting-nvzvOPQW0gc-unsplash.jpg");
-}
-.img-bg-about {
-  background-image: url("images/bg_scott-webb-zblX5hM9rp8-unsplash.jpg");
-}
-.img-bg-contact {
-  background-image: url("images/bg_samantha-gades-BlIhVfXbi9s-unsplash.jpg");
-}
-.img-bg-detail {
-  background-image: url("images/bg_thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
-}
-.img-bg-not-found {
-  background-image: url("images/bg_isaac-benhesed-onLbXleIkds-unsplash.jpg");
-}
-
-/* opacity adjustment */
-
-.img-bg-main::before,
-.img-bg-recent-projects::before,
-.img-bg-past-projects::before,
-.img-bg-past-projects-more::before,
-.img-bg-about::before,
-.img-bg-contact::before,
-.img-bg-detail::before,
-.img-bg-not-found::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: #ffffff99;
-}
-
-#img-profile {
-  border-radius: 50%;
-  border-style: solid;
-  border-width: 6px;
-  border-color: #ffffff;
-  max-width: 200px;
-}
+/* images */
 
 /* component - card */
 
@@ -664,10 +598,6 @@ html, body {
   scroll-behavior: smooth;
 }
 
-.container-parent {
-  height: 100%;
-}
-
 /* OnLoad Animation */
 
 @keyframes fadeIn { 
@@ -680,37 +610,18 @@ html, body {
   100% { transform: scaleX(1); }
 }
 
-@keyframes slideIn {
-  100% { transform: translateY(0); }
-}
-
-.container-parent { 
-  animation: fadeIn ease 3s forwards; 
+/* .container-parent { 
+  animation: fadeIn ease 2s forwards; 
 } 
 
-.navbar-toggler {
-  animation: fadeIn ease 3s forwards; 
-}
-
-.navbar-brand.custom-animation{
-  animation: fadeIn ease 2.5s forwards; 
-}
-
 .container-parent.custom-animation { 
-  animation: fadeIn ease 3s forwards;
+  animation: fadeIn ease 2s forwards;
 } 
 
 nav.custom-animation::after {
   transform: scaleX(0);
   animation: scaleIn 1.3s ease-in 0.2s forwards;
-}
-
-@media screen and (min-width: 576px) {
-  .collapse.custom-animation > * {
-    transform: translateY(-70px);
-    animation: slideIn 1s ease-in 1s forwards;
-  }
-}
+} */
 
 /* Page Animation - Detail*/
 
@@ -730,3 +641,7 @@ nav.custom-animation::after {
 
 /* TEST ZONE */
 
+a.test {
+  display: inline-flex;
+  padding: 1rem;
+}

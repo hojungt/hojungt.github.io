@@ -32,33 +32,20 @@ export default function NavMain() {
     }, []);
 
     return (
-        <Navbar ref={node} expanded={expanded} fixed="top" expand="sm" className="header custom-animation">
+        <Navbar ref={node} expanded={expanded} fixed="top" expand="sm" className="custom-animation">
             <Navbar.Brand href="/" className="custom-animation">
-                <img 
-                    src="/logo_RT.png"
-                    width="60"
-                    height="60"
-                    alt="logo_RT"
-                />
+                Rachael Tseng
             </Navbar.Brand>
             <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse className="custom-animation" id="nav-main">
             <Nav className="ml-auto custom-animation">
                 <NavHashLink
-                    smooth to="/#recent-projects"
+                    smooth to="/#work"
                     className="nav-link"
                     activeClassName="nav-link-active"
                     onClick={() => setExpanded(false)}
                 >
-                    Recent Projects
-                </NavHashLink>
-                <NavHashLink
-                    smooth to="/#past-projects"
-                    className="nav-link"
-                    activeClassName="nav-link-active"
-                    onClick={() => setExpanded(false)}
-                >
-                    Past Projects
+                    Work
                 </NavHashLink>
                 <NavHashLink
                     smooth to="/#about"
@@ -76,7 +63,6 @@ export default function NavMain() {
                 >
                     Contact
                 </NavHashLink>
-
             </Nav>
             </Navbar.Collapse>
         </Navbar>

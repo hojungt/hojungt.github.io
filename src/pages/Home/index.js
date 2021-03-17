@@ -2,11 +2,11 @@
 import React, { useEffect } from 'react';
 
 // Sections
-import Main from '../../section/Main';
-import Recent from '../../section/RecentProjects';
-import Past from '../../section/PastProjects';
-import About from '../../section/About';
-import Contact from '../../section/Contact';
+import Main from './Main';
+import SelectedWork from './SelectedWork';
+import OtherWork from './/OtherWork';
+import About from './About';
+import Contact from './Contact';
 
 // Components
 import Footer from '../../components/Footer';
@@ -23,8 +23,8 @@ export default function Home() {
     return (
         <div className="container-parent">
             <Main />
-            <Recent />
-            <Past />
+            <SelectedWork />
+            <OtherWork />
             <About />
             <Contact />
             <Footer />                

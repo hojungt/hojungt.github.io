@@ -9,9 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container-page">
-      <PageRouter />
-    </div>
+    <PageRouter />
   );
 }
 
